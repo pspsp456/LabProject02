@@ -2263,3 +2263,117 @@ coat_strap_r_06
 [2017.05.18-13.48.51:681][934]LogWorld: Bringing World /Game/UEDPIE_0_Untitled.Untitled up for play (max tick rate 0) at 2017.05.18-22.48.51
 [2017.05.18-13.48.51:681][934]LogWorld: Bringing up level for play took: 0.000808
 [2017.05.18-13.48.51:683][934]PIE: 정보 /Game/UEDPIE_0_Untitled 에 대한 에디터에서 플레이 시작 시간: 0.703
+[2017.05.18-13.52.31:171][939]LogMaterial: Missing cached shader map for material EnermyMat, compiling. 
+[2017.05.18-13.52.31:172][939]LogTemp:Display: Added material ShaderMap 0x00000187DBEECB80 with Material 0x00000187F13D8400 to ShaderMapsBeingCompiled
+[2017.05.18-13.52.31:187][939]LogTemp:Display: Kicking off shader compilation for EnermyMat, GameThreadShaderMap 0x00000187DBEECB80
+[2017.05.18-13.52.31:281][939]LogMaterial: Missing cached shader map for material EnermyMat, compiling. 
+[2017.05.18-13.52.31:282][939]LogTemp:Display: Added material ShaderMap 0x00000188008AA400 with Material 0x00000187F13D8400 to ShaderMapsBeingCompiled
+[2017.05.18-13.52.31:292][939]LogTemp:Display: Kicking off shader compilation for EnermyMat, GameThreadShaderMap 0x00000188008AA400
+[2017.05.18-13.52.31:293][939]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.18-13.52.33:374][ 68]LogTemp:Display: Finished compile of shader map 0x00000188008AA400
+[2017.05.18-13.52.33:374][ 68]LogTemp:Display: Shader map EnermyMat complete, GameThreadShaderMap 0x00000188008AA400, marking material EnermyMat as finished
+[2017.05.18-13.52.33:374][ 68]LogTemp:Display: Marking material as finished 0x00000187F13D8400
+[2017.05.18-13.52.33:386][ 69]MaterialEditorStats: 정보 Base pass shader with only dynamic lighting: 80 instructions
+[2017.05.18-13.52.33:386][ 69]MaterialEditorStats: 정보 Vertex shader: 29 instructions
+[2017.05.18-13.52.33:386][ 69]MaterialEditorStats: 정보 Texture samplers: 1/16
+[2017.05.18-13.53.04:107][ 39]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Untitled' took 0.020
+[2017.05.18-13.53.04:109][ 39]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Enermy_smRLavy/EnermyBP] ([1] browsable assets)...
+[2017.05.18-13.53.04:139][ 39]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Enermy_smRLavy/EnermyBP.EnermyBP]
+[2017.05.18-13.53.04:139][ 39]OBJ SavePackage: Finished generating thumbnails for package [/Game/Enermy_smRLavy/EnermyBP]
+[2017.05.18-13.53.04:139][ 39]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enermy_smRLavy/EnermyBP" FILE="E:/Unreal Project/LabProject02/Saved/Autosaves/Game/Enermy_smRLavy/EnermyBP_Auto7.uasset" SILENT=false AUTOSAVING=true
+[2017.05.18-13.53.04:159][ 39]LogSavePackage: Save=18.64ms
+[2017.05.18-13.53.04:159][ 39]LogSavePackage: Moving 'E:/Unreal Project/LabProject02/Saved/EnermyBP_Auto7A5CA89A343538D81E535A6B03E0FF8AC.tmp' to 'E:/Unreal Project/LabProject02/Saved/Autosaves/Game/Enermy_smRLavy/EnermyBP_Auto7.uasset'
+[2017.05.18-13.53.04:160][ 39]LogSavePackage:Display: Finished SavePackage E:/Unreal Project/LabProject02/Saved/Autosaves/Game/Enermy_smRLavy/EnermyBP_Auto7.uasset
+[2017.05.18-13.53.04:160][ 39]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Enermy_smRLavy/EnermyMat] ([1] browsable assets)...
+[2017.05.18-13.53.04:176][ 39]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Enermy_smRLavy/EnermyMat.EnermyMat]
+[2017.05.18-13.53.04:176][ 39]OBJ SavePackage: Finished generating thumbnails for package [/Game/Enermy_smRLavy/EnermyMat]
+[2017.05.18-13.53.04:176][ 39]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enermy_smRLavy/EnermyMat" FILE="E:/Unreal Project/LabProject02/Saved/Autosaves/Game/Enermy_smRLavy/EnermyMat_Auto7.uasset" SILENT=false AUTOSAVING=true
+[2017.05.18-13.53.04:188][ 39]LogSavePackage: Save=10.25ms
+[2017.05.18-13.53.04:188][ 39]LogSavePackage: Moving 'E:/Unreal Project/LabProject02/Saved/EnermyMat_Auto78C431BE842DF29E1B401CABF03B5ED23.tmp' to 'E:/Unreal Project/LabProject02/Saved/Autosaves/Game/Enermy_smRLavy/EnermyMat_Auto7.uasset'
+[2017.05.18-13.53.04:189][ 39]LogSavePackage:Display: Finished SavePackage E:/Unreal Project/LabProject02/Saved/Autosaves/Game/Enermy_smRLavy/EnermyMat_Auto7.uasset
+[2017.05.18-13.53.04:189][ 39]LogFileHelpers: Auto-saving content packages took 0.080
+[2017.05.18-13.53.20:870][469]LogTemp:Display: Removed shader map 0x00000187DBEECB80 from material 0x00000187F13D8400
+[2017.05.18-13.53.50:098][682]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.05.18-13.53.50:161][682]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.05.18-13.53.50:238][682]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.05.18-13.53.56:393][280]LogMaterial: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2017.05.18-13.53.56:396][280]LogTemp:Display: Added material ShaderMap 0x00000188007E6E80 with Material 0x0000018800980A00 to ShaderMapsBeingCompiled
+[2017.05.18-13.53.56:469][280]LogTemp:Display: Kicking off shader compilation for M_UE4Man_Body, GameThreadShaderMap 0x00000188007E6E80
+[2017.05.18-13.53.58:051][365]LogMaterial: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2017.05.18-13.53.58:053][365]LogTemp:Display: Added material ShaderMap 0x00000187C05B9980 with Material 0x00000187ED10DF80 to ShaderMapsBeingCompiled
+[2017.05.18-13.53.58:110][365]LogTemp:Display: Kicking off shader compilation for M_UE4Man_Body, GameThreadShaderMap 0x00000187C05B9980
+[2017.05.18-13.53.58:184][365]LogMaterial: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2017.05.18-13.53.58:186][365]LogTemp:Display: Added material ShaderMap 0x0000018743BEF900 with Material 0x00000187ED10DF80 to ShaderMapsBeingCompiled
+[2017.05.18-13.53.58:237][365]LogTemp:Display: Kicking off shader compilation for M_UE4Man_Body, GameThreadShaderMap 0x0000018743BEF900
+[2017.05.18-13.53.58:237][365]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.18-13.53.58:269][365]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2017.05.18-13.53.58:269][365]LogTemp:Display: Added material ShaderMap 0x00000187ED4E8B80 with Material 0x000001879D2CB100 to ShaderMapsBeingCompiled
+[2017.05.18-13.53.58:272][365]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_4, GameThreadShaderMap 0x00000187ED4E8B80
+[2017.05.18-13.53.58:273][365]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2017.05.18-13.53.58:274][365]LogTemp:Display: Added material ShaderMap 0x000001870A3BF200 with Material 0x000001879D2CAB00 to ShaderMapsBeingCompiled
+[2017.05.18-13.53.58:276][365]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_3, GameThreadShaderMap 0x000001870A3BF200
+[2017.05.18-13.53.58:277][365]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2017.05.18-13.53.58:278][365]LogTemp:Display: Added material ShaderMap 0x0000018802922E80 with Material 0x000001879D2C9300 to ShaderMapsBeingCompiled
+[2017.05.18-13.53.58:280][365]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, GameThreadShaderMap 0x0000018802922E80
+[2017.05.18-13.53.58:282][365]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_1, compiling. 
+[2017.05.18-13.53.58:283][365]LogTemp:Display: Added material ShaderMap 0x0000018802922080 with Material 0x00000187ABA6DC00 to ShaderMapsBeingCompiled
+[2017.05.18-13.53.58:285][365]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_1, GameThreadShaderMap 0x0000018802922080
+[2017.05.18-13.54.06:757][902]LogMaterial: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2017.05.18-13.54.06:759][902]LogTemp:Display: Added material ShaderMap 0x000001881CF63200 with Material 0x00000187ED10DF80 to ShaderMapsBeingCompiled
+[2017.05.18-13.54.06:806][902]LogTemp:Display: Kicking off shader compilation for M_UE4Man_Body, GameThreadShaderMap 0x000001881CF63200
+[2017.05.18-13.54.06:806][902]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.18-13.54.06:809][902]LogTemp:Display: Removed shader map 0x000001870A3BF200 from material 0x000001879D2CAB00
+[2017.05.18-13.54.06:831][902]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2017.05.18-13.54.06:832][902]LogTemp:Display: Added material ShaderMap 0x00000187F1234480 with Material 0x00000187BD64EE00 to ShaderMapsBeingCompiled
+[2017.05.18-13.54.06:834][902]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_3, GameThreadShaderMap 0x00000187F1234480
+[2017.05.18-13.54.06:884][905]LogTemp:Display: Finished compile of shader map 0x0000018743BEF900
+[2017.05.18-13.54.06:884][905]LogTemp:Display: Shader map M_UE4Man_Body complete, GameThreadShaderMap 0x0000018743BEF900, marking material M_UE4Man_Body as finished
+[2017.05.18-13.54.06:884][905]LogTemp:Display: Marking material as finished 0x00000187ED10DF80
+[2017.05.18-13.54.07:560][947]LogTemp:Display: Finished compile of shader map 0x00000187ED4E8B80
+[2017.05.18-13.54.07:560][947]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionTextureSample_4 complete, GameThreadShaderMap 0x00000187ED4E8B80, marking material FMatExpressionPreview MaterialExpressionTextureSample_4 as finished
+[2017.05.18-13.54.07:560][947]LogTemp:Display: Marking material as finished 0x000001879D2CB100
+[2017.05.18-13.54.07:866][967]LogTemp:Display: Finished compile of shader map 0x0000018802922E80
+[2017.05.18-13.54.07:866][967]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0 complete, GameThreadShaderMap 0x0000018802922E80, marking material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0 as finished
+[2017.05.18-13.54.07:866][967]LogTemp:Display: Marking material as finished 0x000001879D2C9300
+[2017.05.18-13.54.08:545][ 11]LogTemp:Display: Finished compile of shader map 0x0000018802922080
+[2017.05.18-13.54.08:545][ 11]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_1 complete, GameThreadShaderMap 0x0000018802922080, marking material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_1 as finished
+[2017.05.18-13.54.08:545][ 11]LogTemp:Display: Marking material as finished 0x00000187ABA6DC00
+[2017.05.18-13.54.13:635][202]LogMaterial: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2017.05.18-13.54.13:638][202]LogTemp:Display: Added material ShaderMap 0x000001881D0B4480 with Material 0x00000187ED10DF80 to ShaderMapsBeingCompiled
+[2017.05.18-13.54.13:702][202]LogTemp:Display: Kicking off shader compilation for M_UE4Man_Body, GameThreadShaderMap 0x000001881D0B4480
+[2017.05.18-13.54.13:702][202]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.18-13.54.13:711][202]LogTemp:Display: Removed shader map 0x00000188007E6E80 from material 0x0000018800980A00
+[2017.05.18-13.54.13:725][202]LogMaterial: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2017.05.18-13.54.13:727][202]LogTemp:Display: Added material ShaderMap 0x00000187DB8C9600 with Material 0x00000187B4A37880 to ShaderMapsBeingCompiled
+[2017.05.18-13.54.13:794][202]LogTemp:Display: Kicking off shader compilation for M_UE4Man_Body, GameThreadShaderMap 0x00000187DB8C9600
+[2017.05.18-13.54.13:797][202]LogMaterial: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2017.05.18-13.54.13:799][202]LogTemp:Display: Added material ShaderMap 0x000001880D2A4B80 with Material 0x00000187B4A37880 to ShaderMapsBeingCompiled
+[2017.05.18-13.54.13:860][202]LogTemp:Display: Kicking off shader compilation for M_UE4Man_Body, GameThreadShaderMap 0x000001880D2A4B80
+[2017.05.18-13.54.13:861][202]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.18-13.54.13:884][202]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_UE4Man_Body, compiling. 
+[2017.05.18-13.54.13:886][202]LogTemp:Display: Added material ShaderMap 0x00000188004E2080 with Material 0x0000018800514A00 to ShaderMapsBeingCompiled
+[2017.05.18-13.54.20:411][202]LogTemp:Display: Finished compile of shader map 0x00000188004E2080
+[2017.05.18-13.54.20:411][202]LogTemp:Display: Shader map FDebugViewModeMaterialProxy M_UE4Man_Body complete, GameThreadShaderMap 0x00000188004E2080, marking material FDebugViewModeMaterialProxy M_UE4Man_Body as finished
+[2017.05.18-13.54.20:411][202]LogTemp:Display: Marking material as finished 0x0000018800514A00
+[2017.05.18-13.54.20:415][202]TextureStreamingBuild:Display: Compiling optional shaders took 6.537 seconds.
+[2017.05.18-13.54.20:449][202]LogTemp:Display: Removed shader map 0x00000187F1234480 from material 0x00000187BD64EE00
+[2017.05.18-13.54.20:552][202]LogTemp:Display: Finished compile of shader map 0x00000187F1234480
+[2017.05.18-13.54.20:555][202]LogTemp:Display: Finished compile of shader map 0x000001881D0B4480
+[2017.05.18-13.54.20:555][202]LogTemp:Display: Shader map M_UE4Man_Body complete, GameThreadShaderMap 0x000001881D0B4480, marking material M_UE4Man_Body as finished
+[2017.05.18-13.54.20:555][202]LogTemp:Display: Marking material as finished 0x00000187ED10DF80
+[2017.05.18-13.54.20:563][202]LogTemp:Display: Finished compile of shader map 0x000001881CF63200
+[2017.05.18-13.54.20:563][202]LogTemp:Display: Shader map M_UE4Man_Body complete, GameThreadShaderMap 0x000001881CF63200, marking material M_UE4Man_Body as finished
+[2017.05.18-13.54.20:563][202]LogTemp:Display: Marking material as finished 0x00000187ED10DF80
+[2017.05.18-13.54.34:480][867]LogTemp:Display: Finished compile of shader map 0x00000188007E6E80
+[2017.05.18-13.54.47:187][549]LogTemp:Display: Finished compile of shader map 0x000001880D2A4B80
+[2017.05.18-13.54.47:187][549]LogTemp:Display: Shader map M_UE4Man_Body complete, GameThreadShaderMap 0x000001880D2A4B80, marking material EnermyMat as finished
+[2017.05.18-13.54.47:187][549]LogTemp:Display: Marking material as finished 0x00000187B4A37880
+[2017.05.18-13.54.47:255][549]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enermy_smRLavy/EnermyMat" FILE="E:/Unreal Project/LabProject02/Content/Enermy_smRLavy/EnermyMat.uasset" SILENT=true
+[2017.05.18-13.54.47:272][549]LogSavePackage: Save=16.53ms
+[2017.05.18-13.54.47:272][549]LogSavePackage: Moving 'E:/Unreal Project/LabProject02/Saved/EnermyMat2829B3FC44994EE2A5740B938DDAB6AE.tmp' to 'E:/Unreal Project/LabProject02/Content/Enermy_smRLavy/EnermyMat.uasset'
+[2017.05.18-13.54.47:274][549]LogSavePackage:Display: Finished SavePackage E:/Unreal Project/LabProject02/Content/Enermy_smRLavy/EnermyMat.uasset
+[2017.05.18-13.54.58:527][426]BlueprintLog: New page: EnermyBP 컴파일
+[2017.05.18-13.54.59:404][456]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enermy_smRLavy/EnermyBP" FILE="E:/Unreal Project/LabProject02/Content/Enermy_smRLavy/EnermyBP.uasset" SILENT=true
+[2017.05.18-13.54.59:424][456]LogSavePackage: Save=19.36ms
+[2017.05.18-13.54.59:424][456]LogSavePackage: Moving 'E:/Unreal Project/LabProject02/Saved/EnermyBP17B8F43140192CF655985D82E730ACD3.tmp' to 'E:/Unreal Project/LabProject02/Content/Enermy_smRLavy/EnermyBP.uasset'
+[2017.05.18-13.54.59:426][456]LogSavePackage:Display: Finished SavePackage E:/Unreal Project/LabProject02/Content/Enermy_smRLavy/EnermyBP.uasset
