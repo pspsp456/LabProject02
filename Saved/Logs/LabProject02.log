@@ -2377,3 +2377,326 @@ coat_strap_r_06
 [2017.05.18-13.54.59:424][456]LogSavePackage: Save=19.36ms
 [2017.05.18-13.54.59:424][456]LogSavePackage: Moving 'E:/Unreal Project/LabProject02/Saved/EnermyBP17B8F43140192CF655985D82E730ACD3.tmp' to 'E:/Unreal Project/LabProject02/Content/Enermy_smRLavy/EnermyBP.uasset'
 [2017.05.18-13.54.59:426][456]LogSavePackage:Display: Finished SavePackage E:/Unreal Project/LabProject02/Content/Enermy_smRLavy/EnermyBP.uasset
+[2017.05.18-13.57.53:172][467]BlueprintLog: New page: EnmySpawnArea 컴파일
+[2017.05.18-13.57.54:177][509]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enermy_smRLavy/EnmySpawnArea" FILE="E:/Unreal Project/LabProject02/Content/Enermy_smRLavy/EnmySpawnArea.uasset" SILENT=true
+[2017.05.18-13.57.54:185][509]LogSavePackage: Save=7.30ms
+[2017.05.18-13.57.54:185][509]LogSavePackage: Moving 'E:/Unreal Project/LabProject02/Saved/EnmySpawnArea29255E3A4BE5DE5EB639C5925DEE8AAE.tmp' to 'E:/Unreal Project/LabProject02/Content/Enermy_smRLavy/EnmySpawnArea.uasset'
+[2017.05.18-13.57.54:188][509]LogSavePackage:Display: Finished SavePackage E:/Unreal Project/LabProject02/Content/Enermy_smRLavy/EnmySpawnArea.uasset
+[2017.05.18-13.57.56:360][694]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.05.18-13.58.48:881][454]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enermy_smRLavy/EnermyAI" FILE="E:/Unreal Project/LabProject02/Content/Enermy_smRLavy/EnermyAI.uasset" SILENT=true
+[2017.05.18-13.58.48:889][454]LogSavePackage: Save=6.52ms
+[2017.05.18-13.58.48:889][454]LogSavePackage: Moving 'E:/Unreal Project/LabProject02/Saved/EnermyAI099B690443C33CE907CAC1A313B2E88A.tmp' to 'E:/Unreal Project/LabProject02/Content/Enermy_smRLavy/EnermyAI.uasset'
+[2017.05.18-13.58.48:891][454]LogSavePackage:Display: Finished SavePackage E:/Unreal Project/LabProject02/Content/Enermy_smRLavy/EnermyAI.uasset
+[2017.05.18-14.01.46:124][273]BlueprintLog: New page: EnermyAI 컴파일
+[2017.05.18-14.01.47:046][342]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enermy_smRLavy/EnermyAI" FILE="E:/Unreal Project/LabProject02/Content/Enermy_smRLavy/EnermyAI.uasset" SILENT=true
+[2017.05.18-14.01.47:059][342]LogSavePackage: Save=9.55ms
+[2017.05.18-14.01.47:059][342]LogSavePackage: Moving 'E:/Unreal Project/LabProject02/Saved/EnermyAI699CDD6C4136CBE643E7F99A19F4CD93.tmp' to 'E:/Unreal Project/LabProject02/Content/Enermy_smRLavy/EnermyAI.uasset'
+[2017.05.18-14.01.47:062][342]LogSavePackage:Display: Finished SavePackage E:/Unreal Project/LabProject02/Content/Enermy_smRLavy/EnermyAI.uasset
+[2017.05.18-14.03.04:525][ 18]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Untitled" FILE="E:/Unreal Project/LabProject02/Saved/Autosaves/Game/Untitled_Auto8.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.05.18-14.03.04:556][ 18]LogSavePackage: Save=27.35ms
+[2017.05.18-14.03.04:556][ 18]LogSavePackage: Moving 'E:/Unreal Project/LabProject02/Saved/Untitled_Auto8F5F9802B4F0657FF4678078D5205F652.tmp' to 'E:/Unreal Project/LabProject02/Saved/Autosaves/Game/Untitled_Auto8.umap'
+[2017.05.18-14.03.04:558][ 18]LogSavePackage:Display: Finished SavePackage E:/Unreal Project/LabProject02/Saved/Autosaves/Game/Untitled_Auto8.umap
+[2017.05.18-14.03.04:560][ 18]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Untitled' took 0.061
+[2017.05.18-14.03.04:560][ 18]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.061
+[2017.05.18-14.03.04:566][ 18]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enermy_smRLavy/M_UE4Man_Body" FILE="E:/Unreal Project/LabProject02/Saved/Autosaves/Game/Enermy_smRLavy/M_UE4Man_Body_Auto8.uasset" SILENT=false AUTOSAVING=true
+[2017.05.18-14.03.04:570][ 18]LogSavePackage: Save=2.03ms
+[2017.05.18-14.03.04:570][ 18]LogSavePackage: Moving 'E:/Unreal Project/LabProject02/Saved/M_UE4Man_Body_Auto86445A5E84EF071A943005D87A5542012.tmp' to 'E:/Unreal Project/LabProject02/Saved/Autosaves/Game/Enermy_smRLavy/M_UE4Man_Body_Auto8.uasset'
+[2017.05.18-14.03.04:571][ 18]LogSavePackage:Display: Finished SavePackage E:/Unreal Project/LabProject02/Saved/Autosaves/Game/Enermy_smRLavy/M_UE4Man_Body_Auto8.uasset
+[2017.05.18-14.03.04:572][ 18]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Enermy_smRLavy/EnermyAI] ([1] browsable assets)...
+[2017.05.18-14.03.04:572][ 18]OBJ SavePackage: Finished generating thumbnails for package [/Game/Enermy_smRLavy/EnermyAI]
+[2017.05.18-14.03.04:572][ 18]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enermy_smRLavy/EnermyAI" FILE="E:/Unreal Project/LabProject02/Saved/Autosaves/Game/Enermy_smRLavy/EnermyAI_Auto8.uasset" SILENT=false AUTOSAVING=true
+[2017.05.18-14.03.04:588][ 18]LogSavePackage: Save=15.16ms
+[2017.05.18-14.03.04:588][ 18]LogSavePackage: Moving 'E:/Unreal Project/LabProject02/Saved/EnermyAI_Auto8419B11CD435762085362598F5380DBDA.tmp' to 'E:/Unreal Project/LabProject02/Saved/Autosaves/Game/Enermy_smRLavy/EnermyAI_Auto8.uasset'
+[2017.05.18-14.03.04:590][ 18]LogSavePackage:Display: Finished SavePackage E:/Unreal Project/LabProject02/Saved/Autosaves/Game/Enermy_smRLavy/EnermyAI_Auto8.uasset
+[2017.05.18-14.03.04:590][ 18]LogFileHelpers: Auto-saving content packages took 0.024
+[2017.05.18-14.05.52:653][942]BlueprintLog: New page: EnermyBP 컴파일
+[2017.05.18-14.05.53:407][979]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enermy_smRLavy/EnermyBP" FILE="E:/Unreal Project/LabProject02/Content/Enermy_smRLavy/EnermyBP.uasset" SILENT=true
+[2017.05.18-14.05.53:432][979]LogSavePackage: Save=22.08ms
+[2017.05.18-14.05.53:432][979]LogSavePackage: Moving 'E:/Unreal Project/LabProject02/Saved/EnermyBP0CFFCB1A489DE5374938ECA74D8942E1.tmp' to 'E:/Unreal Project/LabProject02/Content/Enermy_smRLavy/EnermyBP.uasset'
+[2017.05.18-14.05.53:434][979]LogSavePackage:Display: Finished SavePackage E:/Unreal Project/LabProject02/Content/Enermy_smRLavy/EnermyBP.uasset
+[2017.05.18-14.07.48:950][ 59]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.05.18-14.07.56:037][628]BlueprintLog: New page: EnermyBP 컴파일
+[2017.05.18-14.07.57:470][698]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enermy_smRLavy/EnermyBP" FILE="E:/Unreal Project/LabProject02/Content/Enermy_smRLavy/EnermyBP.uasset" SILENT=true
+[2017.05.18-14.07.57:494][698]LogSavePackage: Save=22.05ms
+[2017.05.18-14.07.57:494][698]LogSavePackage: Moving 'E:/Unreal Project/LabProject02/Saved/EnermyBPAB33D74B4FAB752A61B3779399A95683.tmp' to 'E:/Unreal Project/LabProject02/Content/Enermy_smRLavy/EnermyBP.uasset'
+[2017.05.18-14.07.57:496][698]LogSavePackage:Display: Finished SavePackage E:/Unreal Project/LabProject02/Content/Enermy_smRLavy/EnermyBP.uasset
+[2017.05.18-14.08.45:850][685]LogBlueprint:Warning: [EnmySpawnArea] 'GameMode' variable not found. Base class was probably changed.
+[2017.05.18-14.08.45:850][685]LogBlueprint:Warning: [EnmySpawnArea] 'GameMode' variable not found. Base class was probably changed.
+[2017.05.18-14.09.18:001][508]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.05.18-14.11.44:052][822]LogMaterial: Missing cached shader map for material Material_0, compiling. 
+[2017.05.18-14.11.44:053][822]LogTemp:Display: Added material ShaderMap 0x0000018808144B80 with Material 0x00000187B92BA980 to ShaderMapsBeingCompiled
+[2017.05.18-14.11.44:056][822]LogTemp:Display: Kicking off shader compilation for Material_0, GameThreadShaderMap 0x0000018808144B80
+[2017.05.18-14.11.44:153][823]LogMaterial: Missing cached shader map for material Material_1, compiling. 
+[2017.05.18-14.11.44:154][823]LogTemp:Display: Added material ShaderMap 0x00000187BD2F4800 with Material 0x00000187E66B8A00 to ShaderMapsBeingCompiled
+[2017.05.18-14.11.44:157][823]LogTemp:Display: Kicking off shader compilation for Material_1, GameThreadShaderMap 0x00000187BD2F4800
+[2017.05.18-14.11.44:222][824]LogMaterial: Missing cached shader map for material Material_2, compiling. 
+[2017.05.18-14.11.44:223][824]LogTemp:Display: Added material ShaderMap 0x0000018800D7A780 with Material 0x00000187861E8700 to ShaderMapsBeingCompiled
+[2017.05.18-14.11.44:245][824]LogTemp:Display: Kicking off shader compilation for Material_2, GameThreadShaderMap 0x0000018800D7A780
+[2017.05.18-14.11.44:367][825]LogMaterial: Missing cached shader map for material Material_3, compiling. 
+[2017.05.18-14.11.44:369][825]LogTemp:Display: Added material ShaderMap 0x000001883A895D00 with Material 0x00000187879FD300 to ShaderMapsBeingCompiled
+[2017.05.18-14.11.44:392][825]LogTemp:Display: Kicking off shader compilation for Material_3, GameThreadShaderMap 0x000001883A895D00
+[2017.05.18-14.11.44:492][826]LogMaterial: Missing cached shader map for material Material_4, compiling. 
+[2017.05.18-14.11.44:493][826]LogTemp:Display: Added material ShaderMap 0x0000018836C09280 with Material 0x000001877DD6EB00 to ShaderMapsBeingCompiled
+[2017.05.18-14.11.44:518][826]LogTemp:Display: Kicking off shader compilation for Material_4, GameThreadShaderMap 0x0000018836C09280
+[2017.05.18-14.11.44:595][827]LogMaterial: Missing cached shader map for material Material_5, compiling. 
+[2017.05.18-14.11.44:596][827]LogTemp:Display: Added material ShaderMap 0x0000018836AC1280 with Material 0x000001872F635D80 to ShaderMapsBeingCompiled
+[2017.05.18-14.11.44:619][827]LogTemp:Display: Kicking off shader compilation for Material_5, GameThreadShaderMap 0x0000018836AC1280
+[2017.05.18-14.11.44:704][828]LogMaterial: Missing cached shader map for material Material_6, compiling. 
+[2017.05.18-14.11.44:705][828]LogTemp:Display: Added material ShaderMap 0x00000188369D5280 with Material 0x000001872F635300 to ShaderMapsBeingCompiled
+[2017.05.18-14.11.44:732][828]LogTemp:Display: Kicking off shader compilation for Material_6, GameThreadShaderMap 0x00000188369D5280
+[2017.05.18-14.11.44:796][829]LogMaterial: Missing cached shader map for material Material_7, compiling. 
+[2017.05.18-14.11.44:797][829]LogTemp:Display: Added material ShaderMap 0x000001883B02D280 with Material 0x0000018786C61780 to ShaderMapsBeingCompiled
+[2017.05.18-14.11.44:821][829]LogTemp:Display: Kicking off shader compilation for Material_7, GameThreadShaderMap 0x000001883B02D280
+[2017.05.18-14.11.44:880][830]LogMaterial: Missing cached shader map for material Material_8, compiling. 
+[2017.05.18-14.11.44:880][830]LogTemp:Display: Added material ShaderMap 0x0000018836F4C480 with Material 0x00000187BB625600 to ShaderMapsBeingCompiled
+[2017.05.18-14.11.44:905][830]LogTemp:Display: Kicking off shader compilation for Material_8, GameThreadShaderMap 0x0000018836F4C480
+[2017.05.18-14.11.44:958][831]LogMaterial: Missing cached shader map for material Material_9, compiling. 
+[2017.05.18-14.11.44:959][831]LogTemp:Display: Added material ShaderMap 0x000001883AE56E80 with Material 0x00000187BB626980 to ShaderMapsBeingCompiled
+[2017.05.18-14.11.44:982][831]LogTemp:Display: Kicking off shader compilation for Material_9, GameThreadShaderMap 0x000001883AE56E80
+[2017.05.18-14.11.45:795][890]LogTemp:Display: Finished compile of shader map 0x0000018808144B80
+[2017.05.18-14.11.45:795][890]LogTemp:Display: Shader map Material_0 complete, GameThreadShaderMap 0x0000018808144B80, marking material Material_0 as finished
+[2017.05.18-14.11.45:795][890]LogTemp:Display: Marking material as finished 0x00000187B92BA980
+[2017.05.18-14.11.45:953][900]LogTemp:Display: Finished compile of shader map 0x00000187BD2F4800
+[2017.05.18-14.11.45:953][900]LogTemp:Display: Shader map Material_1 complete, GameThreadShaderMap 0x00000187BD2F4800, marking material Material_1 as finished
+[2017.05.18-14.11.45:953][900]LogTemp:Display: Marking material as finished 0x00000187E66B8A00
+[2017.05.18-14.11.52:892][477]LogTemp:Display: Finished compile of shader map 0x0000018800D7A780
+[2017.05.18-14.11.52:892][477]LogTemp:Display: Shader map Material_2 complete, GameThreadShaderMap 0x0000018800D7A780, marking material Material_2 as finished
+[2017.05.18-14.11.52:892][477]LogTemp:Display: Marking material as finished 0x00000187861E8700
+[2017.05.18-14.11.56:621][772]LogTemp:Display: Finished compile of shader map 0x000001883A895D00
+[2017.05.18-14.11.56:621][772]LogTemp:Display: Shader map Material_3 complete, GameThreadShaderMap 0x000001883A895D00, marking material Material_3 as finished
+[2017.05.18-14.11.56:621][772]LogTemp:Display: Marking material as finished 0x00000187879FD300
+[2017.05.18-14.12.00:987][116]LogTemp:Display: Finished compile of shader map 0x0000018836C09280
+[2017.05.18-14.12.00:987][116]LogTemp:Display: Shader map Material_4 complete, GameThreadShaderMap 0x0000018836C09280, marking material Material_4 as finished
+[2017.05.18-14.12.00:987][116]LogTemp:Display: Marking material as finished 0x000001877DD6EB00
+[2017.05.18-14.12.03:760][326]LogTemp:Display: Finished compile of shader map 0x0000018836AC1280
+[2017.05.18-14.12.03:760][326]LogTemp:Display: Shader map Material_5 complete, GameThreadShaderMap 0x0000018836AC1280, marking material Material_5 as finished
+[2017.05.18-14.12.03:760][326]LogTemp:Display: Marking material as finished 0x000001872F635D80
+[2017.05.18-14.12.05:842][391]LogTemp:Display: Finished compile of shader map 0x00000188369D5280
+[2017.05.18-14.12.05:842][391]LogTemp:Display: Shader map Material_6 complete, GameThreadShaderMap 0x00000188369D5280, marking material Material_6 as finished
+[2017.05.18-14.12.05:842][391]LogTemp:Display: Marking material as finished 0x000001872F635300
+[2017.05.18-14.12.07:512][396]LogTemp:Display: Finished compile of shader map 0x000001883B02D280
+[2017.05.18-14.12.07:512][396]LogTemp:Display: Shader map Material_7 complete, GameThreadShaderMap 0x000001883B02D280, marking material Material_7 as finished
+[2017.05.18-14.12.07:512][396]LogTemp:Display: Marking material as finished 0x0000018786C61780
+[2017.05.18-14.12.09:514][402]LogTemp:Display: Finished compile of shader map 0x0000018836F4C480
+[2017.05.18-14.12.09:514][402]LogTemp:Display: Shader map Material_8 complete, GameThreadShaderMap 0x0000018836F4C480, marking material Material_8 as finished
+[2017.05.18-14.12.09:514][402]LogTemp:Display: Marking material as finished 0x00000187BB625600
+[2017.05.18-14.12.11:524][408]LogTemp:Display: Finished compile of shader map 0x000001883AE56E80
+[2017.05.18-14.12.11:524][408]LogTemp:Display: Shader map Material_9 complete, GameThreadShaderMap 0x000001883AE56E80, marking material Material_9 as finished
+[2017.05.18-14.12.11:524][408]LogTemp:Display: Marking material as finished 0x00000187BB626980
+[2017.05.18-14.13.33:075][636]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Untitled" FILE="E:/Unreal Project/LabProject02/Saved/Autosaves/Game/Untitled_Auto9.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.05.18-14.13.33:105][636]LogSavePackage: Save=26.03ms
+[2017.05.18-14.13.33:105][636]LogSavePackage: Moving 'E:/Unreal Project/LabProject02/Saved/Untitled_Auto97B085E6547D8BEF6042770AD0E8A646A.tmp' to 'E:/Unreal Project/LabProject02/Saved/Autosaves/Game/Untitled_Auto9.umap'
+[2017.05.18-14.13.33:106][636]LogSavePackage:Display: Finished SavePackage E:/Unreal Project/LabProject02/Saved/Autosaves/Game/Untitled_Auto9.umap
+[2017.05.18-14.13.33:107][636]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Untitled' took 0.055
+[2017.05.18-14.13.33:107][636]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.055
+[2017.05.18-14.13.33:109][636]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Enermy_smRLavy/EnermyBP] ([1] browsable assets)...
+[2017.05.18-14.13.33:109][636]OBJ SavePackage: Finished generating thumbnails for package [/Game/Enermy_smRLavy/EnermyBP]
+[2017.05.18-14.13.33:109][636]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enermy_smRLavy/EnermyBP" FILE="E:/Unreal Project/LabProject02/Saved/Autosaves/Game/Enermy_smRLavy/EnermyBP_Auto9.uasset" SILENT=false AUTOSAVING=true
+[2017.05.18-14.13.33:130][636]LogSavePackage: Save=17.57ms
+[2017.05.18-14.13.33:130][636]LogSavePackage: Moving 'E:/Unreal Project/LabProject02/Saved/EnermyBP_Auto9211586244555274CEB83D7A7119280AD.tmp' to 'E:/Unreal Project/LabProject02/Saved/Autosaves/Game/Enermy_smRLavy/EnermyBP_Auto9.uasset'
+[2017.05.18-14.13.33:131][636]LogSavePackage:Display: Finished SavePackage E:/Unreal Project/LabProject02/Saved/Autosaves/Game/Enermy_smRLavy/EnermyBP_Auto9.uasset
+[2017.05.18-14.13.33:132][636]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Enermy_smRLavy/EnmySpawnArea] ([1] browsable assets)...
+[2017.05.18-14.13.33:132][636]OBJ SavePackage: Finished generating thumbnails for package [/Game/Enermy_smRLavy/EnmySpawnArea]
+[2017.05.18-14.13.33:132][636]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enermy_smRLavy/EnmySpawnArea" FILE="E:/Unreal Project/LabProject02/Saved/Autosaves/Game/Enermy_smRLavy/EnmySpawnArea_Auto9.uasset" SILENT=false AUTOSAVING=true
+[2017.05.18-14.13.33:150][636]LogSavePackage: Save=12.36ms
+[2017.05.18-14.13.33:150][636]LogSavePackage: Moving 'E:/Unreal Project/LabProject02/Saved/EnmySpawnArea_Auto97BB50ABE4E6406886D83D3A0E0605DA3.tmp' to 'E:/Unreal Project/LabProject02/Saved/Autosaves/Game/Enermy_smRLavy/EnmySpawnArea_Auto9.uasset'
+[2017.05.18-14.13.33:152][636]LogSavePackage:Display: Finished SavePackage E:/Unreal Project/LabProject02/Saved/Autosaves/Game/Enermy_smRLavy/EnmySpawnArea_Auto9.uasset
+[2017.05.18-14.13.33:152][636]LogFileHelpers: Auto-saving content packages took 0.044
+[2017.05.18-14.14.19:743][786]BlueprintLog: New page: EnmySpawnArea 컴파일
+[2017.05.18-14.16.00:604][553]LogEditorTransaction: Undo 노드 추가
+[2017.05.18-14.17.33:648][830]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.05.18-14.20.01:136][519]BlueprintLog: New page: MyGameMode 컴파일
+[2017.05.18-14.20.03:338][669]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyGameMode" FILE="E:/Unreal Project/LabProject02/Content/MyGameMode.uasset" SILENT=true
+[2017.05.18-14.20.03:349][669]LogSavePackage: Save=7.90ms
+[2017.05.18-14.20.03:349][669]LogSavePackage: Moving 'E:/Unreal Project/LabProject02/Saved/MyGameMode3B41877546A7058ABB3C75A74C484B2C.tmp' to 'E:/Unreal Project/LabProject02/Content/MyGameMode.uasset'
+[2017.05.18-14.20.03:351][669]LogSavePackage:Display: Finished SavePackage E:/Unreal Project/LabProject02/Content/MyGameMode.uasset
+[2017.05.18-14.20.57:460][768]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enermy_smRLavy/EnermyAI" FILE="E:/Unreal Project/LabProject02/Content/Enermy_smRLavy/EnermyAI.uasset" SILENT=true
+[2017.05.18-14.20.57:474][768]LogSavePackage: Save=10.33ms
+[2017.05.18-14.20.57:474][768]LogSavePackage: Moving 'E:/Unreal Project/LabProject02/Saved/EnermyAI92CA80C149404255F84813B8DC30C0A8.tmp' to 'E:/Unreal Project/LabProject02/Content/Enermy_smRLavy/EnermyAI.uasset'
+[2017.05.18-14.20.57:477][768]LogSavePackage:Display: Finished SavePackage E:/Unreal Project/LabProject02/Content/Enermy_smRLavy/EnermyAI.uasset
+[2017.05.18-14.20.57:479][768]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enermy_smRLavy/EnermyBP" FILE="E:/Unreal Project/LabProject02/Content/Enermy_smRLavy/EnermyBP.uasset" SILENT=true
+[2017.05.18-14.20.57:496][768]LogSavePackage: Save=14.86ms
+[2017.05.18-14.20.57:496][768]LogSavePackage: Moving 'E:/Unreal Project/LabProject02/Saved/EnermyBP74BA72ED49BFF5E01B94BB86B4E19512.tmp' to 'E:/Unreal Project/LabProject02/Content/Enermy_smRLavy/EnermyBP.uasset'
+[2017.05.18-14.20.57:498][768]LogSavePackage:Display: Finished SavePackage E:/Unreal Project/LabProject02/Content/Enermy_smRLavy/EnermyBP.uasset
+[2017.05.18-14.20.57:501][768]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enermy_smRLavy/EnmySpawnArea" FILE="E:/Unreal Project/LabProject02/Content/Enermy_smRLavy/EnmySpawnArea.uasset" SILENT=true
+[2017.05.18-14.20.57:517][768]LogSavePackage: Save=13.62ms
+[2017.05.18-14.20.57:517][768]LogSavePackage: Moving 'E:/Unreal Project/LabProject02/Saved/EnmySpawnArea01A2B160441EA4DBBCA5CDB304C63630.tmp' to 'E:/Unreal Project/LabProject02/Content/Enermy_smRLavy/EnmySpawnArea.uasset'
+[2017.05.18-14.20.57:519][768]LogSavePackage:Display: Finished SavePackage E:/Unreal Project/LabProject02/Content/Enermy_smRLavy/EnmySpawnArea.uasset
+[2017.05.18-14.24.20:140][317]BlueprintLog: New page: MyGameMode 컴파일
+[2017.05.18-14.24.46:121][ 27]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Untitled" FILE="E:/Unreal Project/LabProject02/Saved/Autosaves/Game/Untitled_Auto0.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.05.18-14.24.46:147][ 27]LogSavePackage: Save=22.78ms
+[2017.05.18-14.24.46:147][ 27]LogSavePackage: Moving 'E:/Unreal Project/LabProject02/Saved/Untitled_Auto071C0D38C4219798B8C370A8F652225D4.tmp' to 'E:/Unreal Project/LabProject02/Saved/Autosaves/Game/Untitled_Auto0.umap'
+[2017.05.18-14.24.46:148][ 27]LogSavePackage:Display: Finished SavePackage E:/Unreal Project/LabProject02/Saved/Autosaves/Game/Untitled_Auto0.umap
+[2017.05.18-14.24.46:151][ 27]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Untitled' took 0.053
+[2017.05.18-14.24.46:151][ 27]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.053
+[2017.05.18-14.24.46:153][ 27]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/MyGameMode] ([1] browsable assets)...
+[2017.05.18-14.24.46:153][ 27]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyGameMode]
+[2017.05.18-14.24.46:153][ 27]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyGameMode" FILE="E:/Unreal Project/LabProject02/Saved/Autosaves/Game/MyGameMode_Auto0.uasset" SILENT=false AUTOSAVING=true
+[2017.05.18-14.24.46:168][ 27]LogSavePackage: Save=12.49ms
+[2017.05.18-14.24.46:168][ 27]LogSavePackage: Moving 'E:/Unreal Project/LabProject02/Saved/MyGameMode_Auto0EE2D97AB4DF453AA116FD18D9145A8F7.tmp' to 'E:/Unreal Project/LabProject02/Saved/Autosaves/Game/MyGameMode_Auto0.uasset'
+[2017.05.18-14.24.46:170][ 27]LogSavePackage:Display: Finished SavePackage E:/Unreal Project/LabProject02/Saved/Autosaves/Game/MyGameMode_Auto0.uasset
+[2017.05.18-14.24.46:170][ 27]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Enermy_smRLavy/EnmySpawnArea] ([1] browsable assets)...
+[2017.05.18-14.24.46:170][ 27]OBJ SavePackage: Finished generating thumbnails for package [/Game/Enermy_smRLavy/EnmySpawnArea]
+[2017.05.18-14.24.46:170][ 27]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enermy_smRLavy/EnmySpawnArea" FILE="E:/Unreal Project/LabProject02/Saved/Autosaves/Game/Enermy_smRLavy/EnmySpawnArea_Auto0.uasset" SILENT=false AUTOSAVING=true
+[2017.05.18-14.24.46:187][ 27]LogSavePackage: Save=14.36ms
+[2017.05.18-14.24.46:187][ 27]LogSavePackage: Moving 'E:/Unreal Project/LabProject02/Saved/EnmySpawnArea_Auto01D36DC07450F7D26CF267CA6A263982C.tmp' to 'E:/Unreal Project/LabProject02/Saved/Autosaves/Game/Enermy_smRLavy/EnmySpawnArea_Auto0.uasset'
+[2017.05.18-14.24.46:188][ 27]LogSavePackage:Display: Finished SavePackage E:/Unreal Project/LabProject02/Saved/Autosaves/Game/Enermy_smRLavy/EnmySpawnArea_Auto0.uasset
+[2017.05.18-14.24.46:188][ 27]LogFileHelpers: Auto-saving content packages took 0.036
+[2017.05.18-14.26.09:683][700]BlueprintLog: New page: MyGameMode 컴파일
+[2017.05.18-14.26.10:319][706]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyGameMode" FILE="E:/Unreal Project/LabProject02/Content/MyGameMode.uasset" SILENT=true
+[2017.05.18-14.26.10:333][706]LogSavePackage: Save=11.31ms
+[2017.05.18-14.26.10:333][706]LogSavePackage: Moving 'E:/Unreal Project/LabProject02/Saved/MyGameModeDD5205FF4753AEEA476D56997419814C.tmp' to 'E:/Unreal Project/LabProject02/Content/MyGameMode.uasset'
+[2017.05.18-14.26.10:336][706]LogSavePackage:Display: Finished SavePackage E:/Unreal Project/LabProject02/Content/MyGameMode.uasset
+[2017.05.18-14.26.55:825][155]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.05.18-14.27.32:837][870]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.05.18-14.27.32:847][870]BlueprintLog: New page: 플레이 전 자동 컴파일
+[2017.05.18-14.27.32:847][870]LogPlayLevel: [PlayLevel] Compiling EnmySpawnArea before play...
+[2017.05.18-14.27.32:940][870]LogPlayLevel: [PlayLevel] Compiling EnermyAI before play...
+[2017.05.18-14.27.33:030][870]LogPlayLevel: PlayLevel: Blueprint regeneration took 182 ms (2 blueprints)
+[2017.05.18-14.27.33:030][870]PIE: New page: PIE 세션: Untitled (2017. 5. 19. 오전 8:27:33)
+[2017.05.18-14.27.33:030][870]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Untitled
+[2017.05.18-14.27.33:033][870]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003146s)
+[2017.05.18-14.27.33:034][870]LogAIModule: Creating AISystem for world Untitled
+[2017.05.18-14.27.33:034][870]LogPlayLevel: PIE: World Init took: (0.001019s)
+[2017.05.18-14.27.33:035][870]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Untitled.Untitled to /Game/UEDPIE_0_Untitled.Untitled (0.004465s)
+[2017.05.18-14.27.33:053][870]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.18-14.27.33:066][870]LogInit: FAudioDevice initialized.
+[2017.05.18-14.27.33:099][870]LogLoad: Game class is 'MyGameMode_C'
+[2017.05.18-14.27.33:102][870]LogWorld: Bringing World /Game/UEDPIE_0_Untitled.Untitled up for play (max tick rate 0) at 2017.05.18-23.27.33
+[2017.05.18-14.27.33:104][870]LogWorld: Bringing up level for play took: 0.002659
+[2017.05.18-14.27.33:106][870]PIE: 정보 /Game/UEDPIE_0_Untitled 에 대한 에디터에서 플레이 시작 시간: 0.127
+[2017.05.18-14.27.34:342][ 14]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=256.523 Y=-87.492 Z=108.000] for [EnermyBP_C]
+[2017.05.18-14.27.35:344][134]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=275.381 Y=-172.448 Z=108.000] for [EnermyBP_C]
+[2017.05.18-14.27.37:843][433]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=259.687 Y=-175.168 Z=108.000] for [EnermyBP_C]
+[2017.05.18-14.27.38:344][493]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=316.466 Y=-54.043 Z=108.000] for [EnermyBP_C]
+[2017.05.18-14.27.51:483][  8]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Untitled" FILE="E:/Unreal Project/LabProject02/Content/Untitled.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.05.18-14.27.51:519][  8]LogSavePackage: Save=20.93ms
+[2017.05.18-14.27.51:519][  8]LogSavePackage: Moving 'E:/Unreal Project/LabProject02/Saved/Untitled7A5A9E9C4D59E4A4416E3E9CE7314328.tmp' to 'E:/Unreal Project/LabProject02/Content/Untitled.umap'
+[2017.05.18-14.27.51:521][  8]LogSavePackage:Display: Finished SavePackage E:/Unreal Project/LabProject02/Content/Untitled.umap
+[2017.05.18-14.27.51:539][  8]LogFileHelpers: Saving map 'Untitled' took 0.128
+[2017.05.18-14.27.51:540][  8]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enermy_smRLavy/M_UE4Man_Body" FILE="E:/Unreal Project/LabProject02/Content/Enermy_smRLavy/M_UE4Man_Body.uasset" SILENT=true
+[2017.05.18-14.27.51:542][  8]LogSavePackage: Save=0.98ms
+[2017.05.18-14.27.51:542][  8]LogSavePackage: Moving 'E:/Unreal Project/LabProject02/Saved/M_UE4Man_Body607407F24DE8E3849961D3B28218A91B.tmp' to 'E:/Unreal Project/LabProject02/Content/Enermy_smRLavy/M_UE4Man_Body.uasset'
+[2017.05.18-14.27.51:544][  8]LogSavePackage:Display: Finished SavePackage E:/Unreal Project/LabProject02/Content/Enermy_smRLavy/M_UE4Man_Body.uasset
+[2017.05.18-14.27.51:546][  8]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enermy_smRLavy/EnmySpawnArea" FILE="E:/Unreal Project/LabProject02/Content/Enermy_smRLavy/EnmySpawnArea.uasset" SILENT=true
+[2017.05.18-14.27.51:563][  8]LogSavePackage: Save=13.96ms
+[2017.05.18-14.27.51:563][  8]LogSavePackage: Moving 'E:/Unreal Project/LabProject02/Saved/EnmySpawnAreaBAB120FD4F74A989741852A3EAE13409.tmp' to 'E:/Unreal Project/LabProject02/Content/Enermy_smRLavy/EnmySpawnArea.uasset'
+[2017.05.18-14.27.51:565][  8]LogSavePackage:Display: Finished SavePackage E:/Unreal Project/LabProject02/Content/Enermy_smRLavy/EnmySpawnArea.uasset
+[2017.05.18-14.30.50:467][723]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.05.18-14.30.50:477][723]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-14.30.50:477][723]PIE: New page: PIE 세션: Untitled (2017. 5. 19. 오전 8:30:50)
+[2017.05.18-14.30.50:477][723]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Untitled
+[2017.05.18-14.30.50:479][723]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001774s)
+[2017.05.18-14.30.50:480][723]LogAIModule: Creating AISystem for world Untitled
+[2017.05.18-14.30.50:480][723]LogPlayLevel: PIE: World Init took: (0.001830s)
+[2017.05.18-14.30.50:481][723]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Untitled.Untitled to /Game/UEDPIE_0_Untitled.Untitled (0.003899s)
+[2017.05.18-14.30.50:512][723]LogTemp:Display: Removed shader map 0x00000187C05B9980 from material 0x00000187ED10DF80
+[2017.05.18-14.30.50:535][723]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.18-14.30.50:545][723]LogInit: FAudioDevice initialized.
+[2017.05.18-14.30.50:580][723]LogLoad: Game class is 'MyGameMode_C'
+[2017.05.18-14.30.50:582][723]LogWorld: Bringing World /Game/UEDPIE_0_Untitled.Untitled up for play (max tick rate 0) at 2017.05.18-23.30.50
+[2017.05.18-14.30.50:582][723]LogWorld: Bringing up level for play took: 0.001051
+[2017.05.18-14.30.50:585][723]PIE: 정보 /Game/UEDPIE_0_Untitled 에 대한 에디터에서 플레이 시작 시간: -0.394
+[2017.05.18-14.30.52:972][  4]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=240.988 Y=-131.463 Z=108.000] for [EnermyBP_C]
+[2017.05.18-14.30.53:472][ 64]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=299.233 Y=-157.935 Z=108.000] for [EnermyBP_C]
+[2017.05.18-14.30.54:472][184]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=193.803 Y=-142.617 Z=108.000] for [EnermyBP_C]
+[2017.05.18-14.31.08:896][ 67]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.05.18-14.31.26:803][348]BlueprintLog: New page: EnermyBP 컴파일
+[2017.05.18-14.31.29:957][613]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.05.18-14.31.29:967][613]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-14.31.29:967][613]PIE: New page: PIE 세션: Untitled (2017. 5. 19. 오전 8:31:29)
+[2017.05.18-14.31.29:967][613]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Untitled
+[2017.05.18-14.31.29:969][613]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001781s)
+[2017.05.18-14.31.29:970][613]LogAIModule: Creating AISystem for world Untitled
+[2017.05.18-14.31.29:970][613]LogPlayLevel: PIE: World Init took: (0.000851s)
+[2017.05.18-14.31.29:970][613]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Untitled.Untitled to /Game/UEDPIE_0_Untitled.Untitled (0.002824s)
+[2017.05.18-14.31.29:988][613]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.18-14.31.29:998][613]LogInit: FAudioDevice initialized.
+[2017.05.18-14.31.30:026][613]LogLoad: Game class is 'MyGameMode_C'
+[2017.05.18-14.31.30:028][613]LogWorld: Bringing World /Game/UEDPIE_0_Untitled.Untitled up for play (max tick rate 0) at 2017.05.18-23.31.30
+[2017.05.18-14.31.30:028][613]LogWorld: Bringing up level for play took: 0.000943
+[2017.05.18-14.31.30:030][613]PIE: 정보 /Game/UEDPIE_0_Untitled 에 대한 에디터에서 플레이 시작 시간: 1.051
+[2017.05.18-14.31.32:966][947]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=229.456 Y=-128.179 Z=108.000] for [EnermyBP_C]
+[2017.05.18-14.31.57:318][296]Cmd: TRANSACTION UNDO
+[2017.05.18-14.31.57:318][296]LogEditorTransaction: Undo 액터 스케일
+[2017.05.18-14.32.11:294][901]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.05.18-14.32.11:305][901]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-14.32.11:305][901]PIE: New page: PIE 세션: Untitled (2017. 5. 19. 오전 8:32:11)
+[2017.05.18-14.32.11:305][901]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Untitled
+[2017.05.18-14.32.11:308][901]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002789s)
+[2017.05.18-14.32.11:308][901]LogAIModule: Creating AISystem for world Untitled
+[2017.05.18-14.32.11:308][901]LogPlayLevel: PIE: World Init took: (0.000856s)
+[2017.05.18-14.32.11:309][901]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Untitled.Untitled to /Game/UEDPIE_0_Untitled.Untitled (0.003948s)
+[2017.05.18-14.32.11:326][901]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.18-14.32.11:336][901]LogInit: FAudioDevice initialized.
+[2017.05.18-14.32.11:367][901]LogLoad: Game class is 'MyGameMode_C'
+[2017.05.18-14.32.11:369][901]LogWorld: Bringing World /Game/UEDPIE_0_Untitled.Untitled up for play (max tick rate 0) at 2017.05.18-23.32.11
+[2017.05.18-14.32.11:369][901]LogWorld: Bringing up level for play took: 0.000920
+[2017.05.18-14.32.11:371][901]PIE: 정보 /Game/UEDPIE_0_Untitled 에 대한 에디터에서 플레이 시작 시간: 0.391
+[2017.05.18-14.32.14:804][296]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=246.251 Y=-125.688 Z=108.000] for [EnermyBP_C]
+[2017.05.18-14.32.41:281][472]LogCharacterMovement: EnermyBP_C_1 is stuck and failed to move! Velocity: X=94.75 Y=-96.95 Z=0.00 Location: X=14.29 Y=-208.01 Z=110.15 Normal: X=-0.77 Y=-0.64 Z=-0.00 PenetrationDepth:14.368 Actor:BulletBP_C_1 Component:Cylinder BoneName:None (0 other events since notify)
+[2017.05.18-14.32.41:439][491]LogCharacterMovement: EnermyBP_C_8 is stuck and failed to move! Velocity: X=153.20 Y=30.62 Z=0.00 Location: X=-73.79 Y=-115.20 Z=110.15 Normal: X=-1.00 Y=-0.09 Z=0.00 PenetrationDepth:0.094 Actor:BulletBP_C_1 Component:Cylinder BoneName:None (0 other events since notify)
+[2017.05.18-14.32.41:447][492]LogCharacterMovement: EnermyBP_C_0 is stuck and failed to move! Velocity: X=432.40 Y=-281.65 Z=0.00 Location: X=19.95 Y=-96.42 Z=110.15 Normal: X=-0.81 Y=0.59 Z=0.00 PenetrationDepth:0.649 Actor:BulletBP_C_2 Component:Cylinder BoneName:None (0 other events since notify)
+[2017.05.18-14.32.42:187][572]LogCharacterMovement: EnermyBP_C_3 is stuck and failed to move! Velocity: X=97.39 Y=325.92 Z=0.00 Location: X=1.56 Y=-25.96 Z=110.18 Normal: X=-0.76 Y=-0.53 Z=-0.38 PenetrationDepth:0.000 Actor:BulletBP_C_10 Component:Cylinder BoneName:None (0 other events since notify)
+[2017.05.18-14.32.42:463][605]LogCharacterMovement: EnermyBP_C_8 is stuck and failed to move! Velocity: X=-9.51 Y=86.57 Z=0.00 Location: X=133.26 Y=6.91 Z=110.00 Normal: X=1.00 Y=-0.00 Z=0.00 PenetrationDepth:29.987 Actor:BulletBP_C_11 Component:Cylinder BoneName:None (15 other events since notify)
+[2017.05.18-14.32.42:504][610]LogCharacterMovement: EnermyBP_C_1 is stuck and failed to move! Velocity: X=-6.54 Y=15.76 Z=0.00 Location: X=135.28 Y=-66.05 Z=110.15 Normal: X=0.25 Y=-0.97 Z=0.00 PenetrationDepth:7.788 Actor:BulletBP_C_11 Component:Cylinder BoneName:None (9 other events since notify)
+[2017.05.18-14.32.42:771][642]LogCharacterMovement: EnermyBP_C_0 is stuck and failed to move! Velocity: X=-497.34 Y=203.15 Z=0.00 Location: X=85.13 Y=170.42 Z=110.15 Normal: X=0.58 Y=-0.82 Z=0.00 PenetrationDepth:2.982 Actor:BulletBP_C_14 Component:Cylinder BoneName:None (11 other events since notify)
+[2017.05.18-14.32.43:146][687]LogCharacterMovement: EnermyBP_C_5 is stuck and failed to move! Velocity: X=-14.58 Y=9.75 Z=0.00 Location: X=-49.67 Y=89.50 Z=110.08 Normal: X=0.93 Y=-0.33 Z=-0.17 PenetrationDepth:14.936 Actor:BulletBP_C_17 Component:Cylinder BoneName:None (0 other events since notify)
+[2017.05.18-14.32.43:204][694]LogCharacterMovement: EnermyBP_C_3 is stuck and failed to move! Velocity: X=-16.88 Y=2.53 Z=0.00 Location: X=-86.88 Y=161.68 Z=108.93 Normal: X=0.59 Y=0.81 Z=0.00 PenetrationDepth:5.411 Actor:BulletBP_C_17 Component:Cylinder BoneName:None (11 other events since notify)
+[2017.05.18-14.32.43:904][778]LogCharacterMovement: EnermyBP_C_0 is stuck and failed to move! Velocity: X=-159.30 Y=-276.56 Z=0.00 Location: X=-135.18 Y=189.89 Z=110.02 Normal: X=0.46 Y=0.89 Z=0.00 PenetrationDepth:1.617 Actor:BulletBP_C_22 Component:Cylinder BoneName:None (1 other events since notify)
+[2017.05.18-14.32.44:606][862]LogCharacterMovement: EnermyBP_C_10 is stuck and failed to move! Velocity: X=314.08 Y=-266.92 Z=0.00 Location: X=-14.10 Y=-214.39 Z=110.16 Normal: X=-0.60 Y=0.80 Z=0.00 PenetrationDepth:5.724 Actor:BulletBP_C_31 Component:Cylinder BoneName:None (0 other events since notify)
+[2017.05.18-14.32.45:113][923]LogCharacterMovement: EnermyBP_C_2 is stuck and failed to move! Velocity: X=431.42 Y=416.98 Z=0.00 Location: X=180.21 Y=-248.08 Z=110.15 Normal: X=-0.83 Y=-0.56 Z=-0.01 PenetrationDepth:22.745 Actor:BulletBP_C_36 Component:Cylinder BoneName:None (0 other events since notify)
+[2017.05.18-14.32.45:580][979]LogCharacterMovement: EnermyBP_C_7 is stuck and failed to move! Velocity: X=-3.59 Y=16.69 Z=0.00 Location: X=217.39 Y=-169.29 Z=110.15 Normal: X=-0.01 Y=-1.00 Z=-0.01 PenetrationDepth:3.633 Actor:BulletBP_C_40 Component:Cylinder BoneName:None (0 other events since notify)
+[2017.05.18-14.32.45:655][988]LogCharacterMovement: EnermyBP_C_8 is stuck and failed to move! Velocity: X=-3.66 Y=16.80 Z=0.00 Location: X=167.10 Y=-97.65 Z=110.28 Normal: X=0.12 Y=-0.99 Z=0.00 PenetrationDepth:12.487 Actor:BulletBP_C_41 Component:Cylinder BoneName:None (9 other events since notify)
+[2017.05.18-14.32.45:763][  1]LogCharacterMovement: EnermyBP_C_10 is stuck and failed to move! Velocity: X=-61.17 Y=32.48 Z=0.00 Location: X=144.82 Y=-162.10 Z=110.16 Normal: X=-0.24 Y=-0.97 Z=0.00 PenetrationDepth:12.548 Actor:BulletBP_C_41 Component:Cylinder BoneName:None (2 other events since notify)
+[2017.05.18-14.32.45:797][  5]LogCharacterMovement: EnermyBP_C_4 is stuck and failed to move! Velocity: X=21.42 Y=599.62 Z=0.00 Location: X=59.67 Y=-5.83 Z=110.01 Normal: X=-0.24 Y=-0.79 Z=-0.56 PenetrationDepth:0.000 Actor:BulletBP_C_42 Component:Cylinder BoneName:None (0 other events since notify)
+[2017.05.18-14.32.46:373][ 74]LogCharacterMovement: EnermyBP_C_1 is stuck and failed to move! Velocity: X=-467.24 Y=247.54 Z=0.00 Location: X=-46.45 Y=257.85 Z=110.15 Normal: X=0.94 Y=0.35 Z=-0.00 PenetrationDepth:0.749 Actor:BulletBP_C_46 Component:Cylinder BoneName:None (8 other events since notify)
+[2017.05.18-14.32.46:690][112]LogCharacterMovement: EnermyBP_C_9 is stuck and failed to move! Velocity: X=-390.60 Y=108.24 Z=0.00 Location: X=-52.14 Y=109.09 Z=110.13 Normal: X=0.71 Y=-0.71 Z=-0.00 PenetrationDepth:3.553 Actor:BulletBP_C_47 Component:Cylinder BoneName:None (0 other events since notify)
+[2017.05.18-14.32.46:724][116]LogCharacterMovement: EnermyBP_C_5 is stuck and failed to move! Velocity: X=-496.29 Y=274.53 Z=0.00 Location: X=77.37 Y=55.64 Z=109.83 Normal: X=0.65 Y=-0.76 Z=0.00 PenetrationDepth:1.361 Actor:BulletBP_C_46 Component:Cylinder BoneName:None (11 other events since notify)
+[2017.05.18-14.32.46:882][135]LogCharacterMovement: EnermyBP_C_10 is stuck and failed to move! Velocity: X=-571.70 Y=182.10 Z=0.00 Location: X=-110.48 Y=54.75 Z=110.03 Normal: X=0.88 Y=-0.47 Z=-0.05 PenetrationDepth:2.415 Actor:BulletBP_C_49 Component:Cylinder BoneName:None (1 other events since notify)
+[2017.05.18-14.32.47:098][161]LogCharacterMovement: EnermyBP_C_7 is stuck and failed to move! Velocity: X=-162.48 Y=-54.70 Z=0.00 Location: X=-15.64 Y=-19.15 Z=110.01 Normal: X=0.57 Y=0.45 Z=-0.69 PenetrationDepth:4.222 Actor:BulletBP_C_49 Component:Cylinder BoneName:None (2 other events since notify)
+[2017.05.18-14.32.47:148][167]LogCharacterMovement: EnermyBP_C_4 is stuck and failed to move! Velocity: X=-114.63 Y=-588.95 Z=0.00 Location: X=-316.44 Y=89.61 Z=110.15 Normal: X=0.99 Y=-0.12 Z=0.00 PenetrationDepth:11.256 Actor:BulletBP_C_53 Component:Cylinder BoneName:None (0 other events since notify)
+[2017.05.18-14.32.47:499][209]LogCharacterMovement: EnermyBP_C_1 is stuck and failed to move! Velocity: X=-108.97 Y=-590.02 Z=0.00 Location: X=-288.97 Y=0.61 Z=110.15 Normal: X=0.57 Y=0.82 Z=0.00 PenetrationDepth:5.727 Actor:BulletBP_C_56 Component:Cylinder BoneName:None (0 other events since notify)
+[2017.05.18-14.32.47:823][248]LogCharacterMovement: EnermyBP_C_2 is stuck and failed to move! Velocity: X=13.59 Y=-10.35 Z=0.00 Location: X=-303.23 Y=-209.60 Z=110.15 Normal: X=0.93 Y=0.37 Z=0.00 PenetrationDepth:6.028 Actor:BulletBP_C_59 Component:Cylinder BoneName:None (7 other events since notify)
+[2017.05.18-14.32.47:973][266]LogCharacterMovement: EnermyBP_C_0 is stuck and failed to move! Velocity: X=21.02 Y=-12.23 Z=0.00 Location: X=-176.57 Y=-256.34 Z=110.15 Normal: X=0.45 Y=0.89 Z=0.00 PenetrationDepth:0.030 Actor:BulletBP_C_61 Component:Cylinder BoneName:None (0 other events since notify)
+[2017.05.18-14.32.48:049][275]LogCharacterMovement: EnermyBP_C_5 is stuck and failed to move! Velocity: X=40.72 Y=-6.52 Z=0.00 Location: X=-127.41 Y=-156.18 Z=110.11 Normal: X=-0.32 Y=0.95 Z=-0.01 PenetrationDepth:15.093 Actor:BulletBP_C_62 Component:Cylinder BoneName:None (4 other events since notify)
+[2017.05.18-14.32.48:107][282]LogCharacterMovement: EnermyBP_C_7 is stuck and failed to move! Velocity: X=13.84 Y=-11.18 Z=0.00 Location: X=-112.20 Y=-229.11 Z=110.15 Normal: X=-0.94 Y=-0.34 Z=0.00 PenetrationDepth:27.897 Actor:BulletBP_C_62 Component:Cylinder BoneName:None (10 other events since notify)
+[2017.05.18-14.32.48:291][304]LogCharacterMovement: EnermyBP_C_9 is stuck and failed to move! Velocity: X=113.15 Y=-76.36 Z=0.00 Location: X=-194.96 Y=-103.66 Z=110.10 Normal: X=-0.63 Y=0.78 Z=0.00 PenetrationDepth:1.177 Actor:BulletBP_C_63 Component:Cylinder BoneName:None (4 other events since notify)
+[2017.05.18-14.32.49:117][403]LogCharacterMovement: EnermyBP_C_7 is stuck and failed to move! Velocity: X=-16.15 Y=575.98 Z=0.00 Location: X=155.53 Y=6.53 Z=110.15 Normal: X=-1.00 Y=-0.09 Z=0.00 PenetrationDepth:8.087 Actor:BulletBP_C_73 Component:Cylinder BoneName:None (7 other events since notify)
+[2017.05.18-14.32.49:333][429]LogCharacterMovement: EnermyBP_C_0 is stuck and failed to move! Velocity: X=-2.79 Y=17.13 Z=0.00 Location: X=133.56 Y=-47.61 Z=110.15 Normal: X=-0.00 Y=-1.00 Z=0.00 PenetrationDepth:19.123 Actor:BulletBP_C_74 Component:Cylinder BoneName:None (0 other events since notify)
+[2017.05.18-14.32.49:601][461]LogCharacterMovement: EnermyBP_C_9 is stuck and failed to move! Velocity: X=-1.85 Y=16.97 Z=0.00 Location: X=22.56 Y=167.90 Z=110.15 Normal: X=0.03 Y=-1.00 Z=0.00 PenetrationDepth:4.814 Actor:BulletBP_C_78 Component:Cylinder BoneName:None (3 other events since notify)
+[2017.05.18-14.32.49:725][476]LogCharacterMovement: EnermyBP_C_1 is stuck and failed to move! Velocity: X=-71.01 Y=167.09 Z=0.00 Location: X=13.21 Y=91.73 Z=110.15 Normal: X=-0.04 Y=-1.00 Z=0.00 PenetrationDepth:3.322 Actor:BulletBP_C_78 Component:Cylinder BoneName:None (0 other events since notify)
+[2017.05.18-14.32.49:843][490]LogCharacterMovement: EnermyBP_C_4 is stuck and failed to move! Velocity: X=-134.35 Y=326.76 Z=0.00 Location: X=-67.04 Y=144.13 Z=110.09 Normal: X=0.08 Y=-1.00 Z=-0.00 PenetrationDepth:1.937 Actor:BulletBP_C_80 Component:Cylinder BoneName:None (0 other events since notify)
+[2017.05.18-14.32.50:693][592]LogCharacterMovement: EnermyBP_C_9 is stuck and failed to move! Velocity: X=-233.24 Y=-213.39 Z=0.00 Location: X=-270.71 Y=121.22 Z=110.15 Normal: X=0.94 Y=0.33 Z=0.00 PenetrationDepth:7.301 Actor:BulletBP_C_87 Component:Cylinder BoneName:None (9 other events since notify)
+[2017.05.18-14.32.50:859][612]LogCharacterMovement: EnermyBP_C_1 is stuck and failed to move! Velocity: X=-344.05 Y=-491.16 Z=0.00 Location: X=-300.26 Y=5.91 Z=110.15 Normal: X=0.89 Y=-0.46 Z=0.00 PenetrationDepth:8.054 Actor:BulletBP_C_89 Component:Cylinder BoneName:None (16 other events since notify)
+[2017.05.18-14.32.51:184][651]LogCharacterMovement: EnermyBP_C_2 is stuck and failed to move! Velocity: X=48.49 Y=-173.13 Z=0.00 Location: X=-185.49 Y=59.28 Z=110.15 Normal: X=0.90 Y=0.43 Z=0.00 PenetrationDepth:0.344 Actor:BulletBP_C_92 Component:Cylinder BoneName:None (2 other events since notify)
+[2017.05.18-14.32.51:226][656]LogCharacterMovement: EnermyBP_C_8 is stuck and failed to move! Velocity: X=17.86 Y=-29.08 Z=0.00 Location: X=-254.41 Y=1.83 Z=110.15 Normal: X=-1.00 Y=0.01 Z=0.00 PenetrationDepth:17.824 Actor:BulletBP_C_92 Component:Cylinder BoneName:None (1 other events since notify)
+[2017.05.18-14.32.51:451][683]LogCharacterMovement: EnermyBP_C_4 is stuck and failed to move! Velocity: X=15.64 Y=-6.86 Z=0.00 Location: X=-317.30 Y=-5.52 Z=110.15 Normal: X=0.03 Y=1.00 Z=0.00 PenetrationDepth:21.139 Actor:BulletBP_C_93 Component:Cylinder BoneName:None (15 other events since notify)
+[2017.05.18-14.32.53:402][837]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Untitled" FILE="E:/Unreal Project/LabProject02/Content/Untitled.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.05.18-14.32.53:443][837]LogSavePackage: Save=23.17ms
+[2017.05.18-14.32.53:443][837]LogSavePackage: Moving 'E:/Unreal Project/LabProject02/Saved/Untitled247B344C44647B355EF3CEAAB62C2F75.tmp' to 'E:/Unreal Project/LabProject02/Content/Untitled.umap'
+[2017.05.18-14.32.53:445][837]LogSavePackage:Display: Finished SavePackage E:/Unreal Project/LabProject02/Content/Untitled.umap
+[2017.05.18-14.33.23:194][388]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.05.18-14.33.24:245][439]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.05.18-14.33.30:582][167]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.05.18-14.33.30:593][167]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-14.33.30:593][167]PIE: New page: PIE 세션: Untitled (2017. 5. 19. 오전 8:33:30)
+[2017.05.18-14.33.30:593][167]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Untitled
+[2017.05.18-14.33.30:595][167]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002560s)
+[2017.05.18-14.33.30:596][167]LogAIModule: Creating AISystem for world Untitled
+[2017.05.18-14.33.30:596][167]LogPlayLevel: PIE: World Init took: (0.000655s)
+[2017.05.18-14.33.30:596][167]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Untitled.Untitled to /Game/UEDPIE_0_Untitled.Untitled (0.003505s)
+[2017.05.18-14.33.30:614][167]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.18-14.33.30:624][167]LogInit: FAudioDevice initialized.
+[2017.05.18-14.33.30:653][167]LogLoad: Game class is 'MyGameMode_C'
+[2017.05.18-14.33.30:654][167]LogWorld: Bringing World /Game/UEDPIE_0_Untitled.Untitled up for play (max tick rate 0) at 2017.05.18-23.33.30
+[2017.05.18-14.33.30:655][167]LogWorld: Bringing up level for play took: 0.000827
+[2017.05.18-14.33.30:656][167]PIE: 정보 /Game/UEDPIE_0_Untitled 에 대한 에디터에서 플레이 시작 시간: -0.323
+[2017.05.18-14.33.33:373][487]LogCharacterMovement: EnermyBP_C_1 is stuck and failed to move! Velocity: X=-594.99 Y=-77.38 Z=0.00 Location: X=-91.08 Y=49.78 Z=110.15 Normal: X=0.30 Y=0.95 Z=-0.00 PenetrationDepth:3.759 Actor:BulletBP_C_7 Component:Cylinder BoneName:None (0 other events since notify)
+[2017.05.18-14.33.33:868][545]LogCharacterMovement: EnermyBP_C_2 is stuck and failed to move! Velocity: X=-508.64 Y=-216.48 Z=0.00 Location: X=83.86 Y=-136.13 Z=109.99 Normal: X=1.00 Y=-0.00 Z=-0.00 PenetrationDepth:0.933 Actor:BulletBP_C_10 Component:Cylinder BoneName:None (0 other events since notify)
+[2017.05.18-14.33.34:910][670]LogCharacterMovement: EnermyBP_C_2 is stuck and failed to move! Velocity: X=16.77 Y=3.15 Z=0.00 Location: X=34.75 Y=-219.34 Z=110.15 Normal: X=-0.15 Y=-0.99 Z=-0.01 PenetrationDepth:6.305 Actor:BulletBP_C_17 Component:Cylinder BoneName:None (4 other events since notify)
+[2017.05.18-14.33.39:467][216]LogCharacterMovement: EnermyBP_C_10 is stuck and failed to move! Velocity: X=16.95 Y=6.82 Z=0.00 Location: X=49.98 Y=-182.10 Z=110.15 Normal: X=-0.25 Y=-0.97 Z=0.00 PenetrationDepth:19.402 Actor:BulletBP_C_53 Component:Cylinder BoneName:None (0 other events since notify)
+[2017.05.18-14.33.43:639][611]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Untitled" FILE="E:/Unreal Project/LabProject02/Content/Untitled.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.05.18-14.33.43:678][611]LogSavePackage: Save=22.82ms
+[2017.05.18-14.33.43:678][611]LogSavePackage: Moving 'E:/Unreal Project/LabProject02/Saved/Untitled56C2995E4888271BCE5433AB474834B7.tmp' to 'E:/Unreal Project/LabProject02/Content/Untitled.umap'
+[2017.05.18-14.33.43:680][611]LogSavePackage:Display: Finished SavePackage E:/Unreal Project/LabProject02/Content/Untitled.umap
