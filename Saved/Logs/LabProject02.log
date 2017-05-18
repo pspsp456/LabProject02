@@ -1822,3 +1822,404 @@ coat_strap_r_06
 [2017.05.18-13.30.55:670][319]LogSavePackage: Save=20.12ms
 [2017.05.18-13.30.55:670][319]LogSavePackage: Moving 'E:/Unreal Project/LabProject02/Saved/GunBPB0DB477242E5840E41FB46BA570DA7E6.tmp' to 'E:/Unreal Project/LabProject02/Content/Player/GunBP.uasset'
 [2017.05.18-13.30.55:672][319]LogSavePackage:Display: Finished SavePackage E:/Unreal Project/LabProject02/Content/Player/GunBP.uasset
+[2017.05.18-13.36.29:026][631]LogMaterial: Missing cached shader map for material BulletMat, compiling. 
+[2017.05.18-13.36.29:031][631]LogTemp:Display: Added material ShaderMap 0x00000187C80B9D00 with Material 0x000001875DABC180 to ShaderMapsBeingCompiled
+[2017.05.18-13.36.29:055][631]LogTemp:Display: Kicking off shader compilation for BulletMat, GameThreadShaderMap 0x00000187C80B9D00
+[2017.05.18-13.36.29:149][631]LogMaterial: Missing cached shader map for material BulletMat, compiling. 
+[2017.05.18-13.36.29:149][631]LogTemp:Display: Added material ShaderMap 0x00000187D158A780 with Material 0x000001875DABC180 to ShaderMapsBeingCompiled
+[2017.05.18-13.36.29:159][631]LogTemp:Display: Kicking off shader compilation for BulletMat, GameThreadShaderMap 0x00000187D158A780
+[2017.05.18-13.36.29:159][631]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.18-13.36.31:658][799]LogTemp:Display: Finished compile of shader map 0x00000187D158A780
+[2017.05.18-13.36.31:658][799]LogTemp:Display: Shader map BulletMat complete, GameThreadShaderMap 0x00000187D158A780, marking material BulletMat as finished
+[2017.05.18-13.36.31:658][799]LogTemp:Display: Marking material as finished 0x000001875DABC180
+[2017.05.18-13.36.31:673][800]MaterialEditorStats: 정보 Base pass shader with only dynamic lighting: 80 instructions
+[2017.05.18-13.36.31:673][800]MaterialEditorStats: 정보 Vertex shader: 29 instructions
+[2017.05.18-13.36.31:673][800]MaterialEditorStats: 정보 Texture samplers: 1/16
+[2017.05.18-13.36.39:636][520]LogMaterial: Missing cached shader map for material BulletMat, compiling. 
+[2017.05.18-13.36.39:637][520]LogTemp:Display: Added material ShaderMap 0x0000018808719980 with Material 0x000001875DABC180 to ShaderMapsBeingCompiled
+[2017.05.18-13.36.39:655][520]LogTemp:Display: Kicking off shader compilation for BulletMat, GameThreadShaderMap 0x0000018808719980
+[2017.05.18-13.36.39:660][520]LogMaterial: Missing cached shader map for material BulletMat, compiling. 
+[2017.05.18-13.36.39:661][520]LogTemp:Display: Added material ShaderMap 0x000001880CC0F200 with Material 0x000001875DABC180 to ShaderMapsBeingCompiled
+[2017.05.18-13.36.39:671][520]LogTemp:Display: Kicking off shader compilation for BulletMat, GameThreadShaderMap 0x000001880CC0F200
+[2017.05.18-13.36.39:672][520]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.18-13.36.40:007][543]LogTemp:Display: Finished compile of shader map 0x0000018808719980
+[2017.05.18-13.36.40:007][543]LogTemp:Display: Shader map BulletMat complete, GameThreadShaderMap 0x0000018808719980, marking material BulletMat as finished
+[2017.05.18-13.36.40:007][543]LogTemp:Display: Marking material as finished 0x000001875DABC180
+[2017.05.18-13.36.41:503][653]LogMaterial: Missing cached shader map for material BulletMat, compiling. 
+[2017.05.18-13.36.41:504][653]LogTemp:Display: Added material ShaderMap 0x000001880CAC6400 with Material 0x000001875DABC180 to ShaderMapsBeingCompiled
+[2017.05.18-13.36.41:509][653]LogTemp:Display: Kicking off shader compilation for BulletMat, GameThreadShaderMap 0x000001880CAC6400
+[2017.05.18-13.36.41:524][653]LogMaterial: Missing cached shader map for material BulletMat, compiling. 
+[2017.05.18-13.36.41:525][653]LogTemp:Display: Added material ShaderMap 0x000001880CAF3200 with Material 0x000001875DABC180 to ShaderMapsBeingCompiled
+[2017.05.18-13.36.41:531][653]LogTemp:Display: Kicking off shader compilation for BulletMat, GameThreadShaderMap 0x000001880CAF3200
+[2017.05.18-13.36.41:532][653]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.18-13.36.42:685][740]LogTemp:Display: Finished compile of shader map 0x000001880CC0F200
+[2017.05.18-13.36.42:685][740]LogTemp:Display: Shader map BulletMat complete, GameThreadShaderMap 0x000001880CC0F200, marking material BulletMat as finished
+[2017.05.18-13.36.42:685][740]LogTemp:Display: Marking material as finished 0x000001875DABC180
+[2017.05.18-13.36.43:279][788]LogTemp:Display: Finished compile of shader map 0x000001880CAF3200
+[2017.05.18-13.36.43:279][788]LogTemp:Display: Shader map BulletMat complete, GameThreadShaderMap 0x000001880CAF3200, marking material BulletMat as finished
+[2017.05.18-13.36.43:279][788]LogTemp:Display: Marking material as finished 0x000001875DABC180
+[2017.05.18-13.36.43:290][789]MaterialEditorStats: 정보 Base pass shader without light map: 24 instructions
+[2017.05.18-13.36.43:290][789]MaterialEditorStats: 정보 Vertex shader: 81 instructions
+[2017.05.18-13.36.43:290][789]MaterialEditorStats: 정보 Texture samplers: 3/16
+[2017.05.18-13.36.48:873][302]LogMaterial: Missing cached shader map for material BulletMat, compiling. 
+[2017.05.18-13.36.48:873][302]LogTemp:Display: Added material ShaderMap 0x0000018808630100 with Material 0x000001875DABC180 to ShaderMapsBeingCompiled
+[2017.05.18-13.36.48:878][302]LogTemp:Display: Kicking off shader compilation for BulletMat, GameThreadShaderMap 0x0000018808630100
+[2017.05.18-13.36.48:878][302]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.18-13.36.48:879][302]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.05.18-13.36.48:880][302]LogTemp:Display: Added material ShaderMap 0x0000018808CB8100 with Material 0x000001880CAA3A00 to ShaderMapsBeingCompiled
+[2017.05.18-13.36.48:881][302]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionConstant3Vector_0, GameThreadShaderMap 0x0000018808CB8100
+[2017.05.18-13.36.50:081][387]LogTemp:Display: Finished compile of shader map 0x0000018808CB8100
+[2017.05.18-13.36.50:081][387]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionConstant3Vector_0 complete, GameThreadShaderMap 0x0000018808CB8100, marking material FMatExpressionPreview MaterialExpressionConstant3Vector_0 as finished
+[2017.05.18-13.36.50:081][387]LogTemp:Display: Marking material as finished 0x000001880CAA3A00
+[2017.05.18-13.36.50:170][394]LogTemp:Display: Finished compile of shader map 0x0000018808630100
+[2017.05.18-13.36.50:170][394]LogTemp:Display: Shader map BulletMat complete, GameThreadShaderMap 0x0000018808630100, marking material BulletMat as finished
+[2017.05.18-13.36.50:170][394]LogTemp:Display: Marking material as finished 0x000001875DABC180
+[2017.05.18-13.36.50:181][395]MaterialEditorStats: 정보 Base pass shader without light map: 24 instructions
+[2017.05.18-13.36.50:181][395]MaterialEditorStats: 정보 Vertex shader: 81 instructions
+[2017.05.18-13.36.50:181][395]MaterialEditorStats: 정보 Texture samplers: 3/16
+[2017.05.18-13.36.51:575][522]LogMaterial: Missing cached shader map for material BulletMat, compiling. 
+[2017.05.18-13.36.51:576][522]LogTemp:Display: Added material ShaderMap 0x0000018808CDAB00 with Material 0x000001875DABC180 to ShaderMapsBeingCompiled
+[2017.05.18-13.36.51:580][522]LogTemp:Display: Kicking off shader compilation for BulletMat, GameThreadShaderMap 0x0000018808CDAB00
+[2017.05.18-13.36.51:580][522]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.18-13.36.51:608][522]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.05.18-13.36.51:608][522]LogTemp:Display: Added material ShaderMap 0x0000018808CBB200 with Material 0x00000188086C4400 to ShaderMapsBeingCompiled
+[2017.05.18-13.36.51:610][522]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionConstant3Vector_0, GameThreadShaderMap 0x0000018808CBB200
+[2017.05.18-13.36.52:836][613]LogTemp:Display: Finished compile of shader map 0x0000018808CBB200
+[2017.05.18-13.36.52:836][613]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionConstant3Vector_0 complete, GameThreadShaderMap 0x0000018808CBB200, marking material FMatExpressionPreview MaterialExpressionConstant3Vector_0 as finished
+[2017.05.18-13.36.52:836][613]LogTemp:Display: Marking material as finished 0x00000188086C4400
+[2017.05.18-13.36.52:991][627]LogTemp:Display: Finished compile of shader map 0x0000018808CDAB00
+[2017.05.18-13.36.52:991][627]LogTemp:Display: Shader map BulletMat complete, GameThreadShaderMap 0x0000018808CDAB00, marking material BulletMat as finished
+[2017.05.18-13.36.52:991][627]LogTemp:Display: Marking material as finished 0x000001875DABC180
+[2017.05.18-13.36.53:002][628]MaterialEditorStats: 정보 Base pass shader without light map: 24 instructions
+[2017.05.18-13.36.53:002][628]MaterialEditorStats: 정보 Vertex shader: 81 instructions
+[2017.05.18-13.36.53:002][628]MaterialEditorStats: 정보 Texture samplers: 3/16
+[2017.05.18-13.36.53:035][631]LogMaterial: Missing cached shader map for material BulletMat, compiling. 
+[2017.05.18-13.36.53:036][631]LogTemp:Display: Added material ShaderMap 0x00000188086D0100 with Material 0x000001875DABC180 to ShaderMapsBeingCompiled
+[2017.05.18-13.36.53:040][631]LogTemp:Display: Kicking off shader compilation for BulletMat, GameThreadShaderMap 0x00000188086D0100
+[2017.05.18-13.36.53:040][631]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.18-13.36.53:064][631]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.05.18-13.36.53:065][631]LogTemp:Display: Added material ShaderMap 0x0000018808CDBC80 with Material 0x00000188086C4400 to ShaderMapsBeingCompiled
+[2017.05.18-13.36.53:067][631]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionConstant3Vector_0, GameThreadShaderMap 0x0000018808CDBC80
+[2017.05.18-13.36.54:247][720]LogTemp:Display: Finished compile of shader map 0x0000018808CDBC80
+[2017.05.18-13.36.54:247][720]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionConstant3Vector_0 complete, GameThreadShaderMap 0x0000018808CDBC80, marking material FMatExpressionPreview MaterialExpressionConstant3Vector_0 as finished
+[2017.05.18-13.36.54:247][720]LogTemp:Display: Marking material as finished 0x00000188086C4400
+[2017.05.18-13.36.54:326][727]LogTemp:Display: Finished compile of shader map 0x00000188086D0100
+[2017.05.18-13.36.54:326][727]LogTemp:Display: Shader map BulletMat complete, GameThreadShaderMap 0x00000188086D0100, marking material BulletMat as finished
+[2017.05.18-13.36.54:326][727]LogTemp:Display: Marking material as finished 0x000001875DABC180
+[2017.05.18-13.36.54:337][728]MaterialEditorStats: 정보 Base pass shader without light map: 24 instructions
+[2017.05.18-13.36.54:337][728]MaterialEditorStats: 정보 Vertex shader: 81 instructions
+[2017.05.18-13.36.54:337][728]MaterialEditorStats: 정보 Texture samplers: 3/16
+[2017.05.18-13.36.56:469][929]LogMaterial: Missing cached shader map for material BulletMat, compiling. 
+[2017.05.18-13.36.56:470][929]LogTemp:Display: Added material ShaderMap 0x000001880878A080 with Material 0x000001875DABC180 to ShaderMapsBeingCompiled
+[2017.05.18-13.36.56:474][929]LogTemp:Display: Kicking off shader compilation for BulletMat, GameThreadShaderMap 0x000001880878A080
+[2017.05.18-13.36.56:475][929]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.18-13.36.57:577][ 13]LogTemp:Display: Finished compile of shader map 0x000001880878A080
+[2017.05.18-13.36.57:577][ 13]LogTemp:Display: Shader map BulletMat complete, GameThreadShaderMap 0x000001880878A080, marking material BulletMat as finished
+[2017.05.18-13.36.57:577][ 13]LogTemp:Display: Marking material as finished 0x000001875DABC180
+[2017.05.18-13.36.57:588][ 14]MaterialEditorStats: 정보 Base pass shader without light map: 24 instructions
+[2017.05.18-13.36.57:588][ 14]MaterialEditorStats: 정보 Vertex shader: 81 instructions
+[2017.05.18-13.36.57:588][ 14]MaterialEditorStats: 정보 Texture samplers: 3/16
+[2017.05.18-13.36.59:911][227]LogMaterial: Missing cached shader map for material BulletMat, compiling. 
+[2017.05.18-13.36.59:912][227]LogTemp:Display: Added material ShaderMap 0x0000018797A27580 with Material 0x000001875DABC180 to ShaderMapsBeingCompiled
+[2017.05.18-13.36.59:916][227]LogTemp:Display: Kicking off shader compilation for BulletMat, GameThreadShaderMap 0x0000018797A27580
+[2017.05.18-13.36.59:916][227]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.18-13.37.01:017][314]LogTemp:Display: Finished compile of shader map 0x0000018797A27580
+[2017.05.18-13.37.01:017][314]LogTemp:Display: Shader map BulletMat complete, GameThreadShaderMap 0x0000018797A27580, marking material BulletMat as finished
+[2017.05.18-13.37.01:017][314]LogTemp:Display: Marking material as finished 0x000001875DABC180
+[2017.05.18-13.37.01:029][315]MaterialEditorStats: 정보 Base pass shader without light map: 24 instructions
+[2017.05.18-13.37.01:029][315]MaterialEditorStats: 정보 Vertex shader: 81 instructions
+[2017.05.18-13.37.01:029][315]MaterialEditorStats: 정보 Texture samplers: 3/16
+[2017.05.18-13.37.02:930][480]LogMaterial: Missing cached shader map for material BulletMat, compiling. 
+[2017.05.18-13.37.02:931][480]LogTemp:Display: Added material ShaderMap 0x000001880CAC7900 with Material 0x000001875DABC180 to ShaderMapsBeingCompiled
+[2017.05.18-13.37.02:935][480]LogTemp:Display: Kicking off shader compilation for BulletMat, GameThreadShaderMap 0x000001880CAC7900
+[2017.05.18-13.37.02:935][480]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.18-13.37.04:105][570]LogTemp:Display: Finished compile of shader map 0x000001880CAC7900
+[2017.05.18-13.37.04:105][570]LogTemp:Display: Shader map BulletMat complete, GameThreadShaderMap 0x000001880CAC7900, marking material BulletMat as finished
+[2017.05.18-13.37.04:105][570]LogTemp:Display: Marking material as finished 0x000001875DABC180
+[2017.05.18-13.37.04:116][571]MaterialEditorStats: 정보 Base pass shader without light map: 24 instructions
+[2017.05.18-13.37.04:116][571]MaterialEditorStats: 정보 Vertex shader: 81 instructions
+[2017.05.18-13.37.04:116][571]MaterialEditorStats: 정보 Texture samplers: 3/16
+[2017.05.18-13.37.05:554][706]LogMaterial: Missing cached shader map for material BulletMat, compiling. 
+[2017.05.18-13.37.05:554][706]LogTemp:Display: Added material ShaderMap 0x00000187C80D1600 with Material 0x000001875DABC180 to ShaderMapsBeingCompiled
+[2017.05.18-13.37.05:559][706]LogTemp:Display: Kicking off shader compilation for BulletMat, GameThreadShaderMap 0x00000187C80D1600
+[2017.05.18-13.37.05:559][706]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.18-13.37.05:587][706]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.05.18-13.37.05:587][706]LogTemp:Display: Added material ShaderMap 0x0000018808718800 with Material 0x000001880CAA3700 to ShaderMapsBeingCompiled
+[2017.05.18-13.37.05:589][706]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionConstant3Vector_0, GameThreadShaderMap 0x0000018808718800
+[2017.05.18-13.37.06:852][799]LogTemp:Display: Finished compile of shader map 0x0000018808718800
+[2017.05.18-13.37.06:852][799]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionConstant3Vector_0 complete, GameThreadShaderMap 0x0000018808718800, marking material FMatExpressionPreview MaterialExpressionConstant3Vector_0 as finished
+[2017.05.18-13.37.06:852][799]LogTemp:Display: Marking material as finished 0x000001880CAA3700
+[2017.05.18-13.37.06:938][806]LogTemp:Display: Finished compile of shader map 0x00000187C80D1600
+[2017.05.18-13.37.06:938][806]LogTemp:Display: Shader map BulletMat complete, GameThreadShaderMap 0x00000187C80D1600, marking material BulletMat as finished
+[2017.05.18-13.37.06:938][806]LogTemp:Display: Marking material as finished 0x000001875DABC180
+[2017.05.18-13.37.06:949][807]MaterialEditorStats: 정보 Base pass shader without light map: 24 instructions
+[2017.05.18-13.37.06:949][807]MaterialEditorStats: 정보 Vertex shader: 81 instructions
+[2017.05.18-13.37.06:949][807]MaterialEditorStats: 정보 Texture samplers: 3/16
+[2017.05.18-13.37.07:171][828]LogMaterial: Missing cached shader map for material BulletMat, compiling. 
+[2017.05.18-13.37.07:171][828]LogTemp:Display: Added material ShaderMap 0x00000187C80D0B80 with Material 0x000001875DABC180 to ShaderMapsBeingCompiled
+[2017.05.18-13.37.07:176][828]LogTemp:Display: Kicking off shader compilation for BulletMat, GameThreadShaderMap 0x00000187C80D0B80
+[2017.05.18-13.37.07:176][828]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.18-13.37.08:367][918]LogTemp:Display: Finished compile of shader map 0x00000187C80D0B80
+[2017.05.18-13.37.08:367][918]LogTemp:Display: Shader map BulletMat complete, GameThreadShaderMap 0x00000187C80D0B80, marking material BulletMat as finished
+[2017.05.18-13.37.08:367][918]LogTemp:Display: Marking material as finished 0x000001875DABC180
+[2017.05.18-13.37.08:379][919]MaterialEditorStats: 정보 Base pass shader without light map: 24 instructions
+[2017.05.18-13.37.08:379][919]MaterialEditorStats: 정보 Vertex shader: 81 instructions
+[2017.05.18-13.37.08:379][919]MaterialEditorStats: 정보 Texture samplers: 3/16
+[2017.05.18-13.37.10:805][143]LogMaterial: Missing cached shader map for material BulletMat, compiling. 
+[2017.05.18-13.37.10:806][143]LogTemp:Display: Added material ShaderMap 0x000001880CAC4100 with Material 0x000001875DABC180 to ShaderMapsBeingCompiled
+[2017.05.18-13.37.10:810][143]LogTemp:Display: Kicking off shader compilation for BulletMat, GameThreadShaderMap 0x000001880CAC4100
+[2017.05.18-13.37.10:811][143]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.18-13.37.12:006][237]LogTemp:Display: Finished compile of shader map 0x000001880CAC4100
+[2017.05.18-13.37.12:006][237]LogTemp:Display: Shader map BulletMat complete, GameThreadShaderMap 0x000001880CAC4100, marking material BulletMat as finished
+[2017.05.18-13.37.12:006][237]LogTemp:Display: Marking material as finished 0x000001875DABC180
+[2017.05.18-13.37.12:017][238]MaterialEditorStats: 정보 Base pass shader without light map: 24 instructions
+[2017.05.18-13.37.12:017][238]MaterialEditorStats: 정보 Vertex shader: 81 instructions
+[2017.05.18-13.37.12:017][238]MaterialEditorStats: 정보 Texture samplers: 3/16
+[2017.05.18-13.37.13:200][347]LogMaterial: Missing cached shader map for material BulletMat, compiling. 
+[2017.05.18-13.37.13:201][347]LogTemp:Display: Added material ShaderMap 0x0000018808ED5D00 with Material 0x000001875DABC180 to ShaderMapsBeingCompiled
+[2017.05.18-13.37.13:205][347]LogTemp:Display: Kicking off shader compilation for BulletMat, GameThreadShaderMap 0x0000018808ED5D00
+[2017.05.18-13.37.13:205][347]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.18-13.37.14:325][431]LogTemp:Display: Finished compile of shader map 0x0000018808ED5D00
+[2017.05.18-13.37.14:325][431]LogTemp:Display: Shader map BulletMat complete, GameThreadShaderMap 0x0000018808ED5D00, marking material BulletMat as finished
+[2017.05.18-13.37.14:325][431]LogTemp:Display: Marking material as finished 0x000001875DABC180
+[2017.05.18-13.37.14:337][432]MaterialEditorStats: 정보 Base pass shader without light map: 24 instructions
+[2017.05.18-13.37.14:337][432]MaterialEditorStats: 정보 Vertex shader: 81 instructions
+[2017.05.18-13.37.14:337][432]MaterialEditorStats: 정보 Texture samplers: 3/16
+[2017.05.18-13.37.14:950][487]LogMaterial: Missing cached shader map for material BulletMat, compiling. 
+[2017.05.18-13.37.14:951][487]LogTemp:Display: Added material ShaderMap 0x00000188113AD980 with Material 0x000001875DABC180 to ShaderMapsBeingCompiled
+[2017.05.18-13.37.14:955][487]LogTemp:Display: Kicking off shader compilation for BulletMat, GameThreadShaderMap 0x00000188113AD980
+[2017.05.18-13.37.14:955][487]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.18-13.37.16:145][573]LogTemp:Display: Finished compile of shader map 0x00000188113AD980
+[2017.05.18-13.37.16:145][573]LogTemp:Display: Shader map BulletMat complete, GameThreadShaderMap 0x00000188113AD980, marking material BulletMat as finished
+[2017.05.18-13.37.16:145][573]LogTemp:Display: Marking material as finished 0x000001875DABC180
+[2017.05.18-13.37.16:157][574]MaterialEditorStats: 정보 Base pass shader without light map: 24 instructions
+[2017.05.18-13.37.16:157][574]MaterialEditorStats: 정보 Vertex shader: 81 instructions
+[2017.05.18-13.37.16:157][574]MaterialEditorStats: 정보 Texture samplers: 3/16
+[2017.05.18-13.37.17:043][653]LogMaterialEditor: Saving and Compiling material BulletMat
+[2017.05.18-13.37.17:840][653]LogMaterial: Missing cached shader map for material BulletMat, compiling. 
+[2017.05.18-13.37.17:840][653]LogTemp:Display: Added material ShaderMap 0x000001880871AE80 with Material 0x000001875DABC180 to ShaderMapsBeingCompiled
+[2017.05.18-13.37.17:849][653]LogTemp:Display: Kicking off shader compilation for BulletMat, GameThreadShaderMap 0x000001880871AE80
+[2017.05.18-13.37.17:849][653]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.18-13.37.17:876][653]LogMaterial: Missing cached shader map for material BulletMat, compiling. 
+[2017.05.18-13.37.17:876][653]LogTemp:Display: Added material ShaderMap 0x000001874F21D600 with Material 0x00000187E69F7400 to ShaderMapsBeingCompiled
+[2017.05.18-13.37.17:884][653]LogTemp:Display: Kicking off shader compilation for BulletMat, GameThreadShaderMap 0x000001874F21D600
+[2017.05.18-13.37.17:885][653]LogMaterial: Missing cached shader map for material BulletMat, compiling. 
+[2017.05.18-13.37.17:886][653]LogTemp:Display: Added material ShaderMap 0x000001880CC0D600 with Material 0x00000187E69F7400 to ShaderMapsBeingCompiled
+[2017.05.18-13.37.17:892][653]LogTemp:Display: Kicking off shader compilation for BulletMat, GameThreadShaderMap 0x000001880CC0D600
+[2017.05.18-13.37.17:893][653]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.18-13.37.17:915][653]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy BulletMat, compiling. 
+[2017.05.18-13.37.17:915][653]LogTemp:Display: Added material ShaderMap 0x0000018777073C80 with Material 0x00000188086C6200 to ShaderMapsBeingCompiled
+[2017.05.18-13.37.18:313][653]LogTemp:Display: Finished compile of shader map 0x0000018777073C80
+[2017.05.18-13.37.18:313][653]LogTemp:Display: Shader map FDebugViewModeMaterialProxy BulletMat complete, GameThreadShaderMap 0x0000018777073C80, marking material FDebugViewModeMaterialProxy BulletMat as finished
+[2017.05.18-13.37.18:313][653]LogTemp:Display: Marking material as finished 0x00000188086C6200
+[2017.05.18-13.37.18:317][653]TextureStreamingBuild:Display: Compiling optional shaders took 0.406 seconds.
+[2017.05.18-13.37.19:334][653]LogTemp:Display: Finished compile of shader map 0x000001880CC0D600
+[2017.05.18-13.37.19:334][653]LogTemp:Display: Shader map BulletMat complete, GameThreadShaderMap 0x000001880CC0D600, marking material BulletMat as finished
+[2017.05.18-13.37.19:334][653]LogTemp:Display: Marking material as finished 0x00000187E69F7400
+[2017.05.18-13.37.19:339][653]LogTemp:Display: Finished compile of shader map 0x000001880871AE80
+[2017.05.18-13.37.19:339][653]LogTemp:Display: Shader map BulletMat complete, GameThreadShaderMap 0x000001880871AE80, marking material BulletMat as finished
+[2017.05.18-13.37.19:339][653]LogTemp:Display: Marking material as finished 0x000001875DABC180
+[2017.05.18-13.37.19:498][653]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/BulletMat" FILE="E:/Unreal Project/LabProject02/Content/Player/BulletMat.uasset" SILENT=true
+[2017.05.18-13.37.19:520][653]LogSavePackage: Save=17.42ms
+[2017.05.18-13.37.19:520][653]LogSavePackage: Moving 'E:/Unreal Project/LabProject02/Saved/BulletMatA50C017A4E9618E20A186D947C4F8BD7.tmp' to 'E:/Unreal Project/LabProject02/Content/Player/BulletMat.uasset'
+[2017.05.18-13.37.19:524][653]LogSavePackage:Display: Finished SavePackage E:/Unreal Project/LabProject02/Content/Player/BulletMat.uasset
+[2017.05.18-13.37.26:417][257]LogMaterial: Missing cached shader map for material BulletMat, compiling. 
+[2017.05.18-13.37.26:418][257]LogTemp:Display: Added material ShaderMap 0x00000188113DB200 with Material 0x000001875DABC180 to ShaderMapsBeingCompiled
+[2017.05.18-13.37.26:422][257]LogTemp:Display: Kicking off shader compilation for BulletMat, GameThreadShaderMap 0x00000188113DB200
+[2017.05.18-13.37.26:422][257]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.18-13.37.26:448][257]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.05.18-13.37.26:448][257]LogTemp:Display: Added material ShaderMap 0x000001880869EB00 with Material 0x00000187BEBED300 to ShaderMapsBeingCompiled
+[2017.05.18-13.37.26:450][257]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionConstant3Vector_0, GameThreadShaderMap 0x000001880869EB00
+[2017.05.18-13.37.27:814][354]LogTemp:Display: Finished compile of shader map 0x000001880869EB00
+[2017.05.18-13.37.27:814][354]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionConstant3Vector_0 complete, GameThreadShaderMap 0x000001880869EB00, marking material FMatExpressionPreview MaterialExpressionConstant3Vector_0 as finished
+[2017.05.18-13.37.27:814][354]LogTemp:Display: Marking material as finished 0x00000187BEBED300
+[2017.05.18-13.37.27:965][366]LogTemp:Display: Finished compile of shader map 0x00000188113DB200
+[2017.05.18-13.37.27:965][366]LogTemp:Display: Shader map BulletMat complete, GameThreadShaderMap 0x00000188113DB200, marking material BulletMat as finished
+[2017.05.18-13.37.27:965][366]LogTemp:Display: Marking material as finished 0x000001875DABC180
+[2017.05.18-13.37.27:977][367]MaterialEditorStats: 정보 Base pass shader without light map: 24 instructions
+[2017.05.18-13.37.27:977][367]MaterialEditorStats: 정보 Vertex shader: 81 instructions
+[2017.05.18-13.37.27:977][367]MaterialEditorStats: 정보 Texture samplers: 3/16
+[2017.05.18-13.37.32:296][744]LogMaterial: Missing cached shader map for material BulletMat, compiling. 
+[2017.05.18-13.37.32:297][744]LogTemp:Display: Added material ShaderMap 0x000001880CA02400 with Material 0x000001875DABC180 to ShaderMapsBeingCompiled
+[2017.05.18-13.37.32:301][744]LogTemp:Display: Kicking off shader compilation for BulletMat, GameThreadShaderMap 0x000001880CA02400
+[2017.05.18-13.37.32:301][744]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.18-13.37.33:391][825]LogTemp:Display: Finished compile of shader map 0x000001880CA02400
+[2017.05.18-13.37.33:391][825]LogTemp:Display: Shader map BulletMat complete, GameThreadShaderMap 0x000001880CA02400, marking material BulletMat as finished
+[2017.05.18-13.37.33:391][825]LogTemp:Display: Marking material as finished 0x000001875DABC180
+[2017.05.18-13.37.33:403][826]MaterialEditorStats: 정보 Base pass shader without light map: 24 instructions
+[2017.05.18-13.37.33:403][826]MaterialEditorStats: 정보 Vertex shader: 81 instructions
+[2017.05.18-13.37.33:403][826]MaterialEditorStats: 정보 Texture samplers: 3/16
+[2017.05.18-13.37.34:975][960]LogMaterial: Missing cached shader map for material BulletMat, compiling. 
+[2017.05.18-13.37.34:976][960]LogTemp:Display: Added material ShaderMap 0x000001880CA34800 with Material 0x000001875DABC180 to ShaderMapsBeingCompiled
+[2017.05.18-13.37.34:981][960]LogTemp:Display: Kicking off shader compilation for BulletMat, GameThreadShaderMap 0x000001880CA34800
+[2017.05.18-13.37.34:981][960]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.18-13.37.36:056][ 38]LogMaterial: Missing cached shader map for material BulletMat, compiling. 
+[2017.05.18-13.37.36:056][ 38]LogTemp:Display: Added material ShaderMap 0x000001880C9B7900 with Material 0x000001875DABC180 to ShaderMapsBeingCompiled
+[2017.05.18-13.37.36:061][ 38]LogTemp:Display: Kicking off shader compilation for BulletMat, GameThreadShaderMap 0x000001880C9B7900
+[2017.05.18-13.37.36:061][ 38]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.18-13.37.36:112][ 39]LogTemp:Display: Finished compile of shader map 0x000001880CA34800
+[2017.05.18-13.37.36:112][ 39]LogTemp:Display: Shader map BulletMat complete, GameThreadShaderMap 0x000001880CA34800, marking material BulletMat as finished
+[2017.05.18-13.37.36:112][ 39]LogTemp:Display: Marking material as finished 0x000001875DABC180
+[2017.05.18-13.37.37:151][120]LogTemp:Display: Finished compile of shader map 0x000001880C9B7900
+[2017.05.18-13.37.37:151][120]LogTemp:Display: Shader map BulletMat complete, GameThreadShaderMap 0x000001880C9B7900, marking material BulletMat as finished
+[2017.05.18-13.37.37:151][120]LogTemp:Display: Marking material as finished 0x000001875DABC180
+[2017.05.18-13.37.37:162][121]MaterialEditorStats: 정보 Base pass shader without light map: 24 instructions
+[2017.05.18-13.37.37:162][121]MaterialEditorStats: 정보 Vertex shader: 81 instructions
+[2017.05.18-13.37.37:162][121]MaterialEditorStats: 정보 Texture samplers: 3/16
+[2017.05.18-13.37.37:902][187]LogMaterial: Missing cached shader map for material BulletMat, compiling. 
+[2017.05.18-13.37.37:903][187]LogTemp:Display: Added material ShaderMap 0x0000018808EDE400 with Material 0x000001875DABC180 to ShaderMapsBeingCompiled
+[2017.05.18-13.37.37:908][187]LogTemp:Display: Kicking off shader compilation for BulletMat, GameThreadShaderMap 0x0000018808EDE400
+[2017.05.18-13.37.37:908][187]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.18-13.37.37:935][187]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.05.18-13.37.37:936][187]LogTemp:Display: Added material ShaderMap 0x000001880C9B7900 with Material 0x0000018808785600 to ShaderMapsBeingCompiled
+[2017.05.18-13.37.37:938][187]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionConstant3Vector_0, GameThreadShaderMap 0x000001880C9B7900
+[2017.05.18-13.37.39:165][278]LogMaterial: Missing cached shader map for material BulletMat, compiling. 
+[2017.05.18-13.37.39:166][278]LogTemp:Display: Added material ShaderMap 0x0000018808EDDD00 with Material 0x000001875DABC180 to ShaderMapsBeingCompiled
+[2017.05.18-13.37.39:170][278]LogTemp:Display: Kicking off shader compilation for BulletMat, GameThreadShaderMap 0x0000018808EDDD00
+[2017.05.18-13.37.39:171][278]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.18-13.37.39:201][280]LogTemp:Display: Finished compile of shader map 0x000001880C9B7900
+[2017.05.18-13.37.39:201][280]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionConstant3Vector_0 complete, GameThreadShaderMap 0x000001880C9B7900, marking material FMatExpressionPreview MaterialExpressionConstant3Vector_0 as finished
+[2017.05.18-13.37.39:201][280]LogTemp:Display: Marking material as finished 0x0000018808785600
+[2017.05.18-13.37.39:484][301]LogTemp:Display: Finished compile of shader map 0x0000018808EDE400
+[2017.05.18-13.37.39:484][301]LogTemp:Display: Shader map BulletMat complete, GameThreadShaderMap 0x0000018808EDE400, marking material BulletMat as finished
+[2017.05.18-13.37.39:484][301]LogTemp:Display: Marking material as finished 0x000001875DABC180
+[2017.05.18-13.37.40:438][374]LogTemp:Display: Finished compile of shader map 0x0000018808EDDD00
+[2017.05.18-13.37.40:438][374]LogTemp:Display: Shader map BulletMat complete, GameThreadShaderMap 0x0000018808EDDD00, marking material BulletMat as finished
+[2017.05.18-13.37.40:438][374]LogTemp:Display: Marking material as finished 0x000001875DABC180
+[2017.05.18-13.37.40:449][375]MaterialEditorStats: 정보 Base pass shader without light map: 24 instructions
+[2017.05.18-13.37.40:449][375]MaterialEditorStats: 정보 Vertex shader: 81 instructions
+[2017.05.18-13.37.40:449][375]MaterialEditorStats: 정보 Texture samplers: 3/16
+[2017.05.18-13.37.41:472][472]LogMaterial: Missing cached shader map for material BulletMat, compiling. 
+[2017.05.18-13.37.41:473][472]LogTemp:Display: Added material ShaderMap 0x000001880C9B6780 with Material 0x000001875DABC180 to ShaderMapsBeingCompiled
+[2017.05.18-13.37.41:478][472]LogTemp:Display: Kicking off shader compilation for BulletMat, GameThreadShaderMap 0x000001880C9B6780
+[2017.05.18-13.37.41:478][472]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.18-13.37.42:622][562]LogTemp:Display: Finished compile of shader map 0x000001880C9B6780
+[2017.05.18-13.37.42:622][562]LogTemp:Display: Shader map BulletMat complete, GameThreadShaderMap 0x000001880C9B6780, marking material BulletMat as finished
+[2017.05.18-13.37.42:622][562]LogTemp:Display: Marking material as finished 0x000001875DABC180
+[2017.05.18-13.37.42:634][563]MaterialEditorStats: 정보 Base pass shader without light map: 24 instructions
+[2017.05.18-13.37.42:634][563]MaterialEditorStats: 정보 Vertex shader: 81 instructions
+[2017.05.18-13.37.42:634][563]MaterialEditorStats: 정보 Texture samplers: 3/16
+[2017.05.18-13.37.45:684][846]LogMaterial: Missing cached shader map for material BulletMat, compiling. 
+[2017.05.18-13.37.45:685][846]LogTemp:Display: Added material ShaderMap 0x000001880869F900 with Material 0x000001875DABC180 to ShaderMapsBeingCompiled
+[2017.05.18-13.37.45:689][846]LogTemp:Display: Kicking off shader compilation for BulletMat, GameThreadShaderMap 0x000001880869F900
+[2017.05.18-13.37.45:689][846]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.18-13.37.46:922][936]LogTemp:Display: Finished compile of shader map 0x000001880869F900
+[2017.05.18-13.37.46:922][936]LogTemp:Display: Shader map BulletMat complete, GameThreadShaderMap 0x000001880869F900, marking material BulletMat as finished
+[2017.05.18-13.37.46:922][936]LogTemp:Display: Marking material as finished 0x000001875DABC180
+[2017.05.18-13.37.46:935][937]MaterialEditorStats: 정보 Base pass shader without light map: 24 instructions
+[2017.05.18-13.37.46:935][937]MaterialEditorStats: 정보 Vertex shader: 81 instructions
+[2017.05.18-13.37.46:935][937]MaterialEditorStats: 정보 Texture samplers: 3/16
+[2017.05.18-13.37.47:151][956]LogMaterial: Missing cached shader map for material BulletMat, compiling. 
+[2017.05.18-13.37.47:151][956]LogTemp:Display: Added material ShaderMap 0x000001880CA01980 with Material 0x000001875DABC180 to ShaderMapsBeingCompiled
+[2017.05.18-13.37.47:156][956]LogTemp:Display: Kicking off shader compilation for BulletMat, GameThreadShaderMap 0x000001880CA01980
+[2017.05.18-13.37.47:156][956]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.18-13.37.48:450][ 53]LogTemp:Display: Finished compile of shader map 0x000001880CA01980
+[2017.05.18-13.37.48:450][ 53]LogTemp:Display: Shader map BulletMat complete, GameThreadShaderMap 0x000001880CA01980, marking material BulletMat as finished
+[2017.05.18-13.37.48:450][ 53]LogTemp:Display: Marking material as finished 0x000001875DABC180
+[2017.05.18-13.37.48:462][ 54]MaterialEditorStats: 정보 Base pass shader without light map: 24 instructions
+[2017.05.18-13.37.48:462][ 54]MaterialEditorStats: 정보 Vertex shader: 81 instructions
+[2017.05.18-13.37.48:462][ 54]MaterialEditorStats: 정보 Texture samplers: 3/16
+[2017.05.18-13.37.49:728][164]LogMaterialEditor: Saving and Compiling material BulletMat
+[2017.05.18-13.37.50:306][164]LogMaterial: Missing cached shader map for material BulletMat, compiling. 
+[2017.05.18-13.37.50:307][164]LogTemp:Display: Added material ShaderMap 0x000001880869CF00 with Material 0x000001875DABC180 to ShaderMapsBeingCompiled
+[2017.05.18-13.37.50:316][164]LogTemp:Display: Kicking off shader compilation for BulletMat, GameThreadShaderMap 0x000001880869CF00
+[2017.05.18-13.37.50:316][164]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.18-13.37.50:324][164]LogTemp:Display: Removed shader map 0x000001874F21D600 from material 0x00000187E69F7400
+[2017.05.18-13.37.50:329][164]LogMaterial: Missing cached shader map for material BulletMat, compiling. 
+[2017.05.18-13.37.50:330][164]LogTemp:Display: Added material ShaderMap 0x000001880CAC7200 with Material 0x00000187E69F7E80 to ShaderMapsBeingCompiled
+[2017.05.18-13.37.50:338][164]LogTemp:Display: Kicking off shader compilation for BulletMat, GameThreadShaderMap 0x000001880CAC7200
+[2017.05.18-13.37.50:340][164]LogMaterial: Missing cached shader map for material BulletMat, compiling. 
+[2017.05.18-13.37.50:340][164]LogTemp:Display: Added material ShaderMap 0x00000188112FF580 with Material 0x00000187E69F7E80 to ShaderMapsBeingCompiled
+[2017.05.18-13.37.50:347][164]LogTemp:Display: Kicking off shader compilation for BulletMat, GameThreadShaderMap 0x00000188112FF580
+[2017.05.18-13.37.50:348][164]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.18-13.37.50:369][164]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy BulletMat, compiling. 
+[2017.05.18-13.37.50:369][164]LogTemp:Display: Added material ShaderMap 0x00000188112B9D00 with Material 0x00000188086C4700 to ShaderMapsBeingCompiled
+[2017.05.18-13.37.50:763][164]LogTemp:Display: Finished compile of shader map 0x00000188112B9D00
+[2017.05.18-13.37.50:763][164]LogTemp:Display: Shader map FDebugViewModeMaterialProxy BulletMat complete, GameThreadShaderMap 0x00000188112B9D00, marking material FDebugViewModeMaterialProxy BulletMat as finished
+[2017.05.18-13.37.50:763][164]LogTemp:Display: Marking material as finished 0x00000188086C4700
+[2017.05.18-13.37.50:765][164]TextureStreamingBuild:Display: Compiling optional shaders took 0.400 seconds.
+[2017.05.18-13.37.51:792][164]LogTemp:Display: Finished compile of shader map 0x00000188112FF580
+[2017.05.18-13.37.51:792][164]LogTemp:Display: Shader map BulletMat complete, GameThreadShaderMap 0x00000188112FF580, marking material BulletMat as finished
+[2017.05.18-13.37.51:792][164]LogTemp:Display: Marking material as finished 0x00000187E69F7E80
+[2017.05.18-13.37.51:797][164]LogTemp:Display: Finished compile of shader map 0x000001880869CF00
+[2017.05.18-13.37.51:797][164]LogTemp:Display: Shader map BulletMat complete, GameThreadShaderMap 0x000001880869CF00, marking material BulletMat as finished
+[2017.05.18-13.37.51:797][164]LogTemp:Display: Marking material as finished 0x000001875DABC180
+[2017.05.18-13.37.51:827][164]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/BulletMat" FILE="E:/Unreal Project/LabProject02/Content/Player/BulletMat.uasset" SILENT=true
+[2017.05.18-13.37.51:836][164]LogSavePackage: Save=6.86ms
+[2017.05.18-13.37.51:836][164]LogSavePackage: Moving 'E:/Unreal Project/LabProject02/Saved/BulletMat4BCFD12849ED3E2D47E1399D5D7C04D4.tmp' to 'E:/Unreal Project/LabProject02/Content/Player/BulletMat.uasset'
+[2017.05.18-13.37.51:838][164]LogSavePackage:Display: Finished SavePackage E:/Unreal Project/LabProject02/Content/Player/BulletMat.uasset
+[2017.05.18-13.38.01:699][811]BlueprintLog: New page: BulletBP 컴파일
+[2017.05.18-13.38.02:341][843]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/BulletBP" FILE="E:/Unreal Project/LabProject02/Content/Player/BulletBP.uasset" SILENT=true
+[2017.05.18-13.38.02:358][843]LogSavePackage: Save=14.03ms
+[2017.05.18-13.38.02:358][843]LogSavePackage: Moving 'E:/Unreal Project/LabProject02/Saved/BulletBP8C8D4A394F4C652D42903B88FD709546.tmp' to 'E:/Unreal Project/LabProject02/Content/Player/BulletBP.uasset'
+[2017.05.18-13.38.02:360][843]LogSavePackage:Display: Finished SavePackage E:/Unreal Project/LabProject02/Content/Player/BulletBP.uasset
+[2017.05.18-13.38.05:038][ 68]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.05.18-13.38.49:623][380]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.05.18-13.40.41:642][111]BlueprintLog: New page: HeroBP 컴파일
+[2017.05.18-13.40.44:482][349]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.05.18-13.40.44:492][349]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-13.40.44:492][349]PIE: New page: PIE 세션: Untitled_1 (2017. 5. 19. 오전 7:40:44)
+[2017.05.18-13.40.44:492][349]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2017.05.18-13.40.44:496][349]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004398s)
+[2017.05.18-13.40.44:497][349]LogAIModule: Creating AISystem for world Untitled_1
+[2017.05.18-13.40.44:497][349]LogPlayLevel: PIE: World Init took: (0.001197s)
+[2017.05.18-13.40.44:498][349]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.005915s)
+[2017.05.18-13.40.44:522][349]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.18-13.40.44:533][349]LogInit: FAudioDevice initialized.
+[2017.05.18-13.40.44:561][349]LogLoad: Game class is 'MyGameMode_C'
+[2017.05.18-13.40.44:563][349]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2017.05.18-22.40.44
+[2017.05.18-13.40.44:563][349]LogWorld: Bringing up level for play took: 0.000833
+[2017.05.18-13.40.44:566][349]PIE: 정보 /Temp/UEDPIE_0_Untitled_1 에 대한 에디터에서 플레이 시작 시간: -0.414
+[2017.05.18-13.41.30:536][489]BlueprintLog: New page: HeroBP 컴파일
+[2017.05.18-13.41.31:133][529]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/HeroBP" FILE="E:/Unreal Project/LabProject02/Content/Player/HeroBP.uasset" SILENT=true
+[2017.05.18-13.41.31:168][529]LogSavePackage: Save=32.38ms
+[2017.05.18-13.41.31:168][529]LogSavePackage: Moving 'E:/Unreal Project/LabProject02/Saved/HeroBP1EF822E04488BE8DDAF4C09F85536BC6.tmp' to 'E:/Unreal Project/LabProject02/Content/Player/HeroBP.uasset'
+[2017.05.18-13.41.31:170][529]LogSavePackage:Display: Finished SavePackage E:/Unreal Project/LabProject02/Content/Player/HeroBP.uasset
+[2017.05.18-13.41.33:795][801]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.05.18-13.41.33:805][801]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-13.41.33:805][801]PIE: New page: PIE 세션: Untitled_1 (2017. 5. 19. 오전 7:41:33)
+[2017.05.18-13.41.33:805][801]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2017.05.18-13.41.33:807][801]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001565s)
+[2017.05.18-13.41.33:808][801]LogAIModule: Creating AISystem for world Untitled_1
+[2017.05.18-13.41.33:808][801]LogPlayLevel: PIE: World Init took: (0.000815s)
+[2017.05.18-13.41.33:808][801]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.002608s)
+[2017.05.18-13.41.33:827][801]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.18-13.41.33:838][801]LogInit: FAudioDevice initialized.
+[2017.05.18-13.41.33:868][801]LogLoad: Game class is 'MyGameMode_C'
+[2017.05.18-13.41.33:870][801]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2017.05.18-22.41.33
+[2017.05.18-13.41.33:870][801]LogWorld: Bringing up level for play took: 0.000943
+[2017.05.18-13.41.33:872][801]PIE: 정보 /Temp/UEDPIE_0_Untitled_1 에 대한 에디터에서 플레이 시작 시간: 0.893
+[2017.05.18-13.41.52:696][594]BlueprintLog: New page: HeroBP 컴파일
+[2017.05.18-13.42.00:717][224]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_32:PersistentLevel.Actor_4.DebugSkelMeshComponent_8) Already registered. Aborting.
+[2017.05.18-13.42.00:760][224]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_32:PersistentLevel.Actor_4.DebugSkelMeshComponent_8) - call TermArticulated first.
+[2017.05.18-13.42.01:010][225]LogRenderer: Reallocating scene render targets to support 1224x888 NumSamples 1 (Frame:251116).
+[2017.05.18-13.42.07:132][559]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.05.18-13.42.07:143][559]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-13.42.07:143][559]PIE: New page: PIE 세션: Untitled_1 (2017. 5. 19. 오전 7:42:07)
+[2017.05.18-13.42.07:143][559]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2017.05.18-13.42.07:145][559]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002007s)
+[2017.05.18-13.42.07:146][559]LogAIModule: Creating AISystem for world Untitled_1
+[2017.05.18-13.42.07:146][559]LogPlayLevel: PIE: World Init took: (0.000857s)
+[2017.05.18-13.42.07:146][559]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.003146s)
+[2017.05.18-13.42.07:166][559]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.18-13.42.07:177][559]LogInit: FAudioDevice initialized.
+[2017.05.18-13.42.07:208][559]LogLoad: Game class is 'MyGameMode_C'
+[2017.05.18-13.42.07:211][559]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2017.05.18-22.42.07
+[2017.05.18-13.42.07:211][559]LogWorld: Bringing up level for play took: 0.001493
+[2017.05.18-13.42.07:215][559]PIE: 정보 /Temp/UEDPIE_0_Untitled_1 에 대한 에디터에서 플레이 시작 시간: 0.235
+[2017.05.18-13.42.18:263][498]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Untitled" FILE="E:/Unreal Project/LabProject02/Content/Untitled.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.05.18-13.42.18:300][498]LogSavePackage: Save=21.82ms
+[2017.05.18-13.42.18:300][498]LogSavePackage: Moving 'E:/Unreal Project/LabProject02/Saved/UntitledAD3FCB45425150310AEA91981FFA87C4.tmp' to 'E:/Unreal Project/LabProject02/Content/Untitled.umap'
+[2017.05.18-13.42.18:302][498]LogSavePackage:Display: Finished SavePackage E:/Unreal Project/LabProject02/Content/Untitled.umap
+[2017.05.18-13.42.18:316][498]LogFileHelpers: Saving map 'Untitled' took 0.957
+[2017.05.18-13.42.18:354][498]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/HeroBP" FILE="E:/Unreal Project/LabProject02/Content/Player/HeroBP.uasset" SILENT=true
+[2017.05.18-13.42.18:389][498]LogSavePackage: Save=32.39ms
+[2017.05.18-13.42.18:389][498]LogSavePackage: Moving 'E:/Unreal Project/LabProject02/Saved/HeroBP52C1313548E8B38B1E0428A7415E40A4.tmp' to 'E:/Unreal Project/LabProject02/Content/Player/HeroBP.uasset'
+[2017.05.18-13.42.18:391][498]LogSavePackage:Display: Finished SavePackage E:/Unreal Project/LabProject02/Content/Player/HeroBP.uasset
+[2017.05.18-13.42.18:394][498]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/NewBlendSpace" FILE="E:/Unreal Project/LabProject02/Content/Player/NewBlendSpace.uasset" SILENT=true
+[2017.05.18-13.42.18:396][498]LogSavePackage: Save=0.99ms
+[2017.05.18-13.42.18:396][498]LogSavePackage: Moving 'E:/Unreal Project/LabProject02/Saved/NewBlendSpaceB4D2041543068138114D0DB67E78E767.tmp' to 'E:/Unreal Project/LabProject02/Content/Player/NewBlendSpace.uasset'
+[2017.05.18-13.42.18:397][498]LogSavePackage:Display: Finished SavePackage E:/Unreal Project/LabProject02/Content/Player/NewBlendSpace.uasset
+[2017.05.18-13.42.18:410][498]LogSavePackage: Save=2.31ms
+[2017.05.18-13.42.18:410][498]LogSavePackage: Moving 'E:/Unreal Project/LabProject02/Saved/UE4_Mannequin_SkeletonA3C2A8B1458B394889B674A9BB3A2EF3.tmp' to 'E:/Unreal Project/LabProject02/Content/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.uasset'
+[2017.05.18-13.42.18:412][498]LogSavePackage:Display: Finished SavePackage E:/Unreal Project/LabProject02/Content/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.uasset
