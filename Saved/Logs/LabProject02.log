@@ -2223,3 +2223,43 @@ coat_strap_r_06
 [2017.05.18-13.42.18:410][498]LogSavePackage: Save=2.31ms
 [2017.05.18-13.42.18:410][498]LogSavePackage: Moving 'E:/Unreal Project/LabProject02/Saved/UE4_Mannequin_SkeletonA3C2A8B1458B394889B674A9BB3A2EF3.tmp' to 'E:/Unreal Project/LabProject02/Content/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.uasset'
 [2017.05.18-13.42.18:412][498]LogSavePackage:Display: Finished SavePackage E:/Unreal Project/LabProject02/Content/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.uasset
+[2017.05.18-13.47.14:594][783]BlueprintLog: New page: HeroBP 컴파일
+[2017.05.18-13.47.14:775][783]LogTemp:Display: Removed shader map 0x000001880CAC6400 from material 0x000001875DABC180
+[2017.05.18-13.47.14:775][783]LogTemp:Display: Removed shader map 0x00000187C80B9D00 from material 0x000001875DABC180
+[2017.05.18-13.47.15:700][829]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/HeroBP" FILE="E:/Unreal Project/LabProject02/Content/Player/HeroBP.uasset" SILENT=true
+[2017.05.18-13.47.15:734][829]LogSavePackage: Save=31.41ms
+[2017.05.18-13.47.15:734][829]LogSavePackage: Moving 'E:/Unreal Project/LabProject02/Saved/HeroBPA6DEE4C94288597C479A8A9962D2CFB7.tmp' to 'E:/Unreal Project/LabProject02/Content/Player/HeroBP.uasset'
+[2017.05.18-13.47.15:736][829]LogSavePackage:Display: Finished SavePackage E:/Unreal Project/LabProject02/Content/Player/HeroBP.uasset
+[2017.05.18-13.47.17:746][ 29]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.05.18-13.47.17:758][ 29]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-13.47.17:758][ 29]PIE: New page: PIE 세션: Untitled (2017. 5. 19. 오전 7:47:17)
+[2017.05.18-13.47.17:758][ 29]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Untitled
+[2017.05.18-13.47.17:760][ 29]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001428s)
+[2017.05.18-13.47.17:761][ 29]LogAIModule: Creating AISystem for world Untitled
+[2017.05.18-13.47.17:761][ 29]LogPlayLevel: PIE: World Init took: (0.001033s)
+[2017.05.18-13.47.17:761][ 29]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Untitled.Untitled to /Game/UEDPIE_0_Untitled.Untitled (0.002672s)
+[2017.05.18-13.47.17:787][ 29]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.18-13.47.17:799][ 29]LogInit: FAudioDevice initialized.
+[2017.05.18-13.47.17:834][ 29]LogLoad: Game class is 'MyGameMode_C'
+[2017.05.18-13.47.17:836][ 29]LogWorld: Bringing World /Game/UEDPIE_0_Untitled.Untitled up for play (max tick rate 0) at 2017.05.18-22.47.17
+[2017.05.18-13.47.17:836][ 29]LogWorld: Bringing up level for play took: 0.000919
+[2017.05.18-13.47.17:838][ 29]PIE: 정보 /Game/UEDPIE_0_Untitled 에 대한 에디터에서 플레이 시작 시간: 0.858
+[2017.05.18-13.48.49:212][718]BlueprintLog: New page: BulletBP 컴파일
+[2017.05.18-13.48.50:030][761]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/BulletBP" FILE="E:/Unreal Project/LabProject02/Content/Player/BulletBP.uasset" SILENT=true
+[2017.05.18-13.48.50:047][761]LogSavePackage: Save=14.60ms
+[2017.05.18-13.48.50:047][761]LogSavePackage: Moving 'E:/Unreal Project/LabProject02/Saved/BulletBP1F172FCD4BF1343CA6EBB39CDFED4D66.tmp' to 'E:/Unreal Project/LabProject02/Content/Player/BulletBP.uasset'
+[2017.05.18-13.48.50:049][761]LogSavePackage:Display: Finished SavePackage E:/Unreal Project/LabProject02/Content/Player/BulletBP.uasset
+[2017.05.18-13.48.51:601][934]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.05.18-13.48.51:614][934]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-13.48.51:614][934]PIE: New page: PIE 세션: Untitled (2017. 5. 19. 오전 7:48:51)
+[2017.05.18-13.48.51:614][934]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Untitled
+[2017.05.18-13.48.51:616][934]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001568s)
+[2017.05.18-13.48.51:616][934]LogAIModule: Creating AISystem for world Untitled
+[2017.05.18-13.48.51:617][934]LogPlayLevel: PIE: World Init took: (0.000809s)
+[2017.05.18-13.48.51:617][934]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Untitled.Untitled to /Game/UEDPIE_0_Untitled.Untitled (0.002622s)
+[2017.05.18-13.48.51:636][934]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.18-13.48.51:647][934]LogInit: FAudioDevice initialized.
+[2017.05.18-13.48.51:679][934]LogLoad: Game class is 'MyGameMode_C'
+[2017.05.18-13.48.51:681][934]LogWorld: Bringing World /Game/UEDPIE_0_Untitled.Untitled up for play (max tick rate 0) at 2017.05.18-22.48.51
+[2017.05.18-13.48.51:681][934]LogWorld: Bringing up level for play took: 0.000808
+[2017.05.18-13.48.51:683][934]PIE: 정보 /Game/UEDPIE_0_Untitled 에 대한 에디터에서 플레이 시작 시간: 0.703
