@@ -1,0 +1,1824 @@
+﻿Log file open, 05/18/17 19:41:01
+LogInit:Display: Running engine for game: LabProject02
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1962628414) SRandInit(-1962628414).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.081066
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3299760
+LogInit: Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): Feb 14 2017 02:04:14
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.05.18-10.41.02:197][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.18-10.41.02:197][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.05.18-10.41.02:206][  0]LogInit: Computer: 송해솔
+[2017.05.18-10.41.02:206][  0]LogInit: User: 13720900
+[2017.05.18-10.41.02:206][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.05.18-10.41.02:206][  0]LogInit: High frequency timer resolution =3.414016 MHz
+[2017.05.18-10.41.02:206][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2017.05.18-10.41.02:206][  0]LogMemory: Platform Memory Stats for Windows
+[2017.05.18-10.41.02:206][  0]LogMemory: Process Physical Memory: 263.85 MB used, 263.85 MB peak
+[2017.05.18-10.41.02:206][  0]LogMemory: Process Virtual Memory: 262.45 MB used, 262.45 MB peak
+[2017.05.18-10.41.02:206][  0]LogMemory: Physical Memory: 3121.37 MB used,  5026.21 MB free, 8147.57 MB total
+[2017.05.18-10.41.02:206][  0]LogMemory: Virtual Memory: 643.34 MB used,  5026.21 MB free, 134217728.00 MB total
+[2017.05.18-10.41.02:341][  0]LogTextLocalizationManager: No specific translations for ('ko-KR') exist, so ('ko') translations will be used.
+[2017.05.18-10.41.02:374][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:KismetSchema, Key:Default):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (940523119) Localized String: (디폴트)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (940523119) Localized String: (기본)
+[2017.05.18-10.41.02:374][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:InternalTimeAccumulator):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (502993589) Localized String: (이 노드에서 애셋을 레퍼런싱하는 데 사용되는 누적 시간입니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (502993589) Localized String: (이 노드에서 애셋을 레퍼런싱하는 데 사용된 누적 시간입니다.)
+[2017.05.18-10.41.02:374][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:bIgnoreForRelevancyTest):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (319969718) Localized String: (True 면, 스테이트에서 최고 가중치 애니메이션을 찾는 "Relevant anim" 노드는 이 노드를 무시합니다.
+ )
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (319969718) Localized String: (True 면 스테이트 내 최고 웨이팅된 애니메이션을 찾는 "Relevant anim" 노드가 무시됩니다.
+ )
+[2017.05.18-10.41.02:374][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:BlendWeight):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (-1232800293) Localized String: (이 노드에 마지막 걸린 블렌드웨이트 입니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (-1232800293) Localized String: (이 노드에 대해 마지막 접한 블렌드 웨이트)
+[2017.05.18-10.41.02:754][  0]LogD3D11RHI: D3D11 adapters:
+[2017.05.18-10.41.03:322][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 950' (Feature Level 11_0)
+[2017.05.18-10.41.03:322][  0]LogD3D11RHI:       2017/0/4073 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.05.18-10.41.03:323][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.05.18-10.41.03:323][  0]LogD3D11RHI:       0/0/4073 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.05.18-10.41.03:323][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.05.18-10.41.03:327][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.05.18-10.41.03:327][  0]LogD3D11RHI:     GPU DeviceId: 0x1402 (for the marketing name, search the web for "GPU Device Id")
+[2017.05.18-10.41.03:327][  0]LogWindows: EnumDisplayDevices:
+[2017.05.18-10.41.03:327][  0]LogWindows:    0. 'NVIDIA GeForce GTX 950' (P:1 D:1)
+[2017.05.18-10.41.03:327][  0]LogWindows:    1. 'NVIDIA GeForce GTX 950' (P:0 D:0)
+[2017.05.18-10.41.03:327][  0]LogWindows:    2. 'NVIDIA GeForce GTX 950' (P:0 D:0)
+[2017.05.18-10.41.03:328][  0]LogWindows:    3. 'NVIDIA GeForce GTX 950' (P:0 D:0)
+[2017.05.18-10.41.03:328][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.05.18-10.41.03:328][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 950
+[2017.05.18-10.41.03:328][  0]LogD3D11RHI:   Driver Version: 381.89 (internal:22.21.13.8189, unified:381.89)
+[2017.05.18-10.41.03:328][  0]LogD3D11RHI:      Driver Date: 4-19-2017
+[2017.05.18-10.41.03:328][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.05.18-10.41.03:825][  0]LogD3D11RHI: Async texture creation enabled
+[2017.05.18-10.41.03:861][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.05.18-10.41.03:910][  0]LogShaderCompilers: Guid format shader working directory is 20 characters bigger than the processId version (E:/Unreal Project/LabProject02/Intermediate/Shaders/WorkingDirectory/7248/).
+[2017.05.18-10.41.03:910][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/13-720900/AppData/Local/Temp/UnrealShaderWorkingDir/52DAE50F4A1DF0B17044719DE4C9D059/'.
+[2017.05.18-10.41.03:910][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.05.18-10.41.05:002][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.05.18-10.41.05:083][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.05.18-10.41.05:162][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.05.18-10.41.05:243][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.05.18-10.41.05:323][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.05.18-10.41.05:403][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.05.18-10.41.05:484][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.05.18-10.41.05:564][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.05.18-10.41.05:639][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.05.18-10.41.05:721][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.05.18-10.41.05:798][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.05.18-10.41.05:876][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.05.18-10.41.05:958][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.05.18-10.41.06:039][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.05.18-10.41.06:120][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.05.18-10.41.06:284][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.05.18-10.41.06:284][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.05.18-10.41.06:349][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.05.18-10.41.06:491][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.05.18-10.41.06:541][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.05.18-10.41.06:625][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.05.18-10.41.06:707][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.05.18-10.41.06:787][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.05.18-10.41.06:869][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.05.18-10.41.06:869][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.05.18-10.41.07:618][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.05.18-10.41.07:679][  0]LogDerivedDataCache: Loaded boot cache 0.06s 50MB C:/Users/13-720900/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.05.18-10.41.07:679][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/13-720900/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.05.18-10.41.07:679][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/Unreal Project/LabProject02/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.05.18-10.41.07:679][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.05.18-10.41.07:679][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/Unreal Project/LabProject02/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.05.18-10.41.07:679][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.05.18-10.41.07:697][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.05.18-10.41.07:710][  0]LogDerivedDataCache: Using Local data cache path C:/Users/13-720900/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.05.18-10.41.07:718][  0]LogSlate: Using Freetype 2.6.0
+[2017.05.18-10.41.07:719][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.18-10.41.07:719][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.18-10.41.07:974][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.18-10.41.07:976][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.05.18-10.41.08:247][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.05.18-10.41.08:325][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.05.18-10.41.08:404][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.05.18-10.41.08:404][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.05.18-10.41.08:404][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.05.18-10.41.09:040][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: labproject02, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 3429302696
+[2017.05.18-10.41.09:101][  0]LogAssetRegistry: FAssetRegistry took 0.0219 seconds to start up
+[2017.05.18-10.41.09:160][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.020061 seconds
+[2017.05.18-10.41.09:165][  0]LogUObjectArray: 32475 objects as part of root set at end of initial load.
+[2017.05.18-10.41.09:165][  0]LogUObjectAllocator: 7073368 out of 0 bytes used by permanent object pool.
+[2017.05.18-10.41.09:165][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.05.18-10.41.09:275][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.05.18-10.41.11:608][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.05.18-10.41.11:669][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.05.18-10.41.12:369][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.05.18-10.41.12:948][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.05.18-10.41.12:949][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.05.18-10.41.13:029][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.05.18-10.41.13:106][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.05.18-10.41.15:172][  0]LogEngine: Initializing Engine...
+[2017.05.18-10.41.15:172][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.05.18-10.41.15:482][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.05.18-10.41.15:489][  0]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.18-10.41.15:503][  0]LogInit: FAudioDevice initialized.
+[2017.05.18-10.41.15:534][  0]LogDerivedDataCache: Saved boot cache 0.03s 50MB C:/Users/13-720900/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.05.18-10.41.15:540][  0]LogInit: Texture streaming: Enabled
+[2017.05.18-10.41.15:707][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.05.18-10.41.15:850][  0]LogInit: Transaction tracking system initialized
+[2017.05.18-10.41.16:439][  0]BlueprintLog: New page: 에디터 로드
+[2017.05.18-10.41.17:957][  0]LocalizationService: 정보 현지화 서비스가 비활성화되었습니다.
+[2017.05.18-10.41.19:240][  0]LogConsoleResponse:Display: 
+[2017.05.18-10.41.19:404][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.05.18-10.41.19:404][  0]LogCook:Display: Mobile HDR setting 1
+[2017.05.18-10.41.20:175][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal Project/LabProject02/Content/' took 0.01s
+[2017.05.18-10.41.21:350][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.05.18-10.41.21:350][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.18-10.41.21:354][  0]LightingResults: New page: 라이팅 빌드
+[2017.05.18-10.41.21:446][  0]MapCheck: New page: 맵 체크
+[2017.05.18-10.41.21:446][  0]LightingResults: New page: 라이팅 빌드
+[2017.05.18-10.41.21:659][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2017.05.18-10.41.21:659][  0]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-10.41.21:664][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.18-10.41.21:670][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.18-10.41.21:736][  0]MapCheck: 정보 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 66.086ms.
+[2017.05.18-10.41.21:736][  0]LogFileHelpers: Loading map 'Template_Default' took 0.386
+[2017.05.18-10.41.21:783][  0]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft 입력기).
+[2017.05.18-10.41.21:903][  0]LogCollectionManager: Loaded 0 collections in 0.001460 seconds
+[2017.05.18-10.41.22:040][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal Project/LabProject02/Saved/Collections/' took 0.01s
+[2017.05.18-10.41.22:040][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal Project/LabProject02/Content/Developers/13720900/Collections/' took 0.01s
+[2017.05.18-10.41.22:040][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal Project/LabProject02/Content/Collections/' took 0.01s
+[2017.05.18-10.41.22:040][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.05.18-10.41.22:048][  0]LogContentBrowser: Native class hierarchy populated in 0.0080 seconds. Added 2244 classes and 450 folders.
+[2017.05.18-10.41.22:051][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.05.18-10.41.22:051][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.05.18-10.41.22:153][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.05.18-10.41.22:197][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.05.18-10.41.22:265][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.05.18-10.41.22:380][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.05.18-10.41.22:387][  0]LogUObjectGlobals:Warning: 'Class 없음.' 오브젝트를 찾는 데 실패했습니다.
+[2017.05.18-10.41.22:478][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.05.18-10.41.22:478][  0]LogLoad: (Engine Initialization) Total time: 22.22 seconds
+[2017.05.18-10.41.22:478][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.12 seconds
+[2017.05.18-10.41.22:478][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.05.18-10.41.22:478][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.05.18-10.41.22:489][  0]LogOcInput: OculusInput pre-init called
+[2017.05.18-10.41.22:504][  0]LogAssetRegistry: Asset discovery search completed in 13.4250 seconds
+[2017.05.18-10.41.22:504][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000004 seconds (found 0 objects)
+[2017.05.18-10.41.22:504][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000014 seconds (updated 0 objects)
+[2017.05.18-10.41.22:509][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.05.18-10.41.22:516][  0]LogSlate: Took 0.000288 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.05.18-10.41.22:521][  0]LogSlate: Took 0.002996 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2017.05.18-10.41.22:523][  0]LogSlate: Took 0.000226 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.05.18-10.41.22:528][  0]LogSlate: Took 0.000230 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.05.18-10.41.22:679][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:2).
+[2017.05.18-10.41.31:932][100]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2017.05.18-11.39.17:277][231]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.05.18-11.40.33:367][552]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.05.18-11.40.47:371][214]Cmd: EDIT COPY
+[2017.05.18-11.40.47:738][255]Cmd: EDIT PASTE
+[2017.05.18-11.40.53:112][886]Cmd: TRANSACTION UNDO
+[2017.05.18-11.40.53:112][886]LogEditorTransaction: Undo 액터 스케일
+[2017.05.18-11.40.53:120][886]LogSlate: Took 0.000332 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.18-11.42.35:721][265]LogSlate: Took 0.000309 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.18-11.42.35:781][265]Cmd: OBJ SAVEPACKAGE PACKAGE="/Temp/Untitled_1" FILE="E:/Unreal Project/LabProject02/Saved/Autosaves/Temp/Untitled_1_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.05.18-11.42.35:812][265]LogSavePackage: Save=30.62ms
+[2017.05.18-11.42.35:812][265]LogSavePackage: Moving 'E:/Unreal Project/LabProject02/Saved/Untitled_1_Auto18B58D7804C4DA6D4E1F331979F53C7D3.tmp' to 'E:/Unreal Project/LabProject02/Saved/Autosaves/Temp/Untitled_1_Auto1.umap'
+[2017.05.18-11.42.35:813][265]LogSavePackage:Display: Finished SavePackage E:/Unreal Project/LabProject02/Saved/Autosaves/Temp/Untitled_1_Auto1.umap
+[2017.05.18-11.42.35:815][265]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.056
+[2017.05.18-11.42.35:815][265]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.056
+[2017.05.18-11.44.50:276][732]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2017.05.18-11.44.50:876][803]Cmd: DELETE
+[2017.05.18-11.44.50:876][803]Cmd: ACTOR DELETE
+[2017.05.18-11.44.50:877][803]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.18-11.44.50:884][803]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2017.05.18-11.45.06:502][230]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/13-720900/Desktop/2017-Game-Engine-master/Labs/Resources/AnimationProject/SK_Mannequin.FBX)
+[2017.05.18-11.45.06:540][230]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.05.18-11.45.06:540][230]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.05.18-11.45.06:540][230]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.05.18-11.45.06:540][230]LogFbx: ItemName: Model, ItemCount : 70
+[2017.05.18-11.45.06:540][230]LogFbx: ItemName: NodeAttribute, ItemCount : 68
+[2017.05.18-11.45.06:540][230]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.05.18-11.45.06:540][230]LogFbx: ItemName: Material, ItemCount : 2
+[2017.05.18-11.45.06:540][230]LogFbx: ItemName: Deformer, ItemCount : 69
+[2017.05.18-11.45.06:540][230]LogFbx: ItemName: Pose, ItemCount : 1
+[2017.05.18-11.45.06:549][230]LogFbx: Loading FBX Scene from ../../../../../../Users/13-720900/Desktop/2017-Game-Engine-master/Labs/Resources/AnimationProject/SK_Mannequin.FBX
+[2017.05.18-11.45.06:585][230]LogFbx: FBX Scene Loaded Succesfully
+[2017.05.18-11.45.09:955][230]LogFbx: Loading FBX Scene from ../../../../../../Users/13-720900/Desktop/2017-Game-Engine-master/Labs/Resources/AnimationProject/SK_Mannequin.FBX
+[2017.05.18-11.45.09:985][230]LogFbx: FBX Scene Loaded Succesfully
+[2017.05.18-11.45.09:987][230]LogFbx: =================================================
+[2017.05.18-11.45.09:987][230]LogFbx: Dumping Node START [SK_Mannequin] 
+[2017.05.18-11.45.09:987][230]LogFbx: 	Total Deformer Count 1204275936.
+[2017.05.18-11.45.09:987][230]LogFbx: 		[Node 1]  (Type Skin).
+[2017.05.18-11.45.09:987][230]LogFbx: =================================================
+[2017.05.18-11.45.09:987][230]LogFbx: 	Attribute (SK_Mannequin) Type (4).
+[2017.05.18-11.45.09:987][230]LogFbx: 		[Node Attribute Child 1] SK_Mannequin (Type Mesh).
+[2017.05.18-11.45.09:987][230]LogFbx: Dumping Node END [SK_Mannequin]
+[2017.05.18-11.45.09:987][230]LogFbx: =================================================
+[2017.05.18-11.45.09:987][230]LogFbx: Dumping Node START [SK_Mannequin] 
+[2017.05.18-11.45.09:987][230]LogFbx: 	Total Deformer Count 1204275936.
+[2017.05.18-11.45.09:987][230]LogFbx: 		[Node 1]  (Type Skin).
+[2017.05.18-11.45.09:988][230]LogFbx: =================================================
+[2017.05.18-11.45.09:988][230]LogFbx: 	Attribute (SK_Mannequin) Type (4).
+[2017.05.18-11.45.09:988][230]LogFbx: 		[Node Attribute Child 1] SK_Mannequin (Type Mesh).
+[2017.05.18-11.45.09:988][230]LogFbx: Dumping Node END [SK_Mannequin]
+[2017.05.18-11.45.09:989][230]LogFbx: =================================================
+[2017.05.18-11.45.09:989][230]LogFbx: Dumping Node START [SK_Mannequin] 
+[2017.05.18-11.45.09:989][230]LogFbx: 	Total Deformer Count 1204282256.
+[2017.05.18-11.45.09:989][230]LogFbx: 		[Node 1]  (Type Skin).
+[2017.05.18-11.45.09:989][230]LogFbx: =================================================
+[2017.05.18-11.45.09:989][230]LogFbx: 	Attribute (SK_Mannequin) Type (4).
+[2017.05.18-11.45.09:989][230]LogFbx: 		[Node Attribute Child 1] SK_Mannequin (Type Mesh).
+[2017.05.18-11.45.09:989][230]LogFbx: Dumping Node END [SK_Mannequin]
+[2017.05.18-11.45.09:991][230]LogFbx: Valid bind pose for Pose (SK_Mannequin) - SK_Mannequin
+[2017.05.18-11.45.09:996][230]LogLinker: '/Game/M_UE4Man_Body' 파일을 찾을 수 없습니다.
+[2017.05.18-11.45.09:996][230]LogLinker: '/Game/M_UE4Man_Body' 파일을 찾을 수 없습니다.
+[2017.05.18-11.45.09:996][230]LogMaterial:Warning: Material /Game/M_UE4Man_Body.M_UE4Man_Body needed to have new flag set bUsedWithSkeletalMesh !
+[2017.05.18-11.45.09:998][230]LogMaterial: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2017.05.18-11.45.09:999][230]LogTemp:Display: Added material ShaderMap 0x0000018700858100 with Material 0x0000018747C57700 to ShaderMapsBeingCompiled
+[2017.05.18-11.45.10:038][230]LogTemp:Display: Kicking off shader compilation for M_UE4Man_Body, GameThreadShaderMap 0x0000018700858100
+[2017.05.18-11.45.10:040][230]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.18-11.45.10:041][230]LogMaterial: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2017.05.18-11.45.10:042][230]LogTemp:Display: Added material ShaderMap 0x0000018702B3BC80 with Material 0x0000018747C57700 to ShaderMapsBeingCompiled
+[2017.05.18-11.45.10:068][230]LogTemp:Display: Kicking off shader compilation for M_UE4Man_Body, GameThreadShaderMap 0x0000018702B3BC80
+[2017.05.18-11.45.10:069][230]LogLinker: '/Game/Fbx_Default_Material_1' 파일을 찾을 수 없습니다.
+[2017.05.18-11.45.10:069][230]LogLinker: '/Game/Fbx_Default_Material_1' 파일을 찾을 수 없습니다.
+[2017.05.18-11.45.10:070][230]LogMaterial:Warning: Material /Game/Fbx_Default_Material_1.Fbx_Default_Material_1 needed to have new flag set bUsedWithSkeletalMesh !
+[2017.05.18-11.45.10:071][230]LogMaterial: Missing cached shader map for material Fbx_Default_Material_1, compiling. 
+[2017.05.18-11.45.10:072][230]LogTemp:Display: Added material ShaderMap 0x000001870263A080 with Material 0x0000018747ED9480 to ShaderMapsBeingCompiled
+[2017.05.18-11.45.10:099][230]LogTemp:Display: Kicking off shader compilation for Fbx_Default_Material_1, GameThreadShaderMap 0x000001870263A080
+[2017.05.18-11.45.10:100][230]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.18-11.45.10:102][230]LogMaterial: Missing cached shader map for material Fbx_Default_Material_1, compiling. 
+[2017.05.18-11.45.10:103][230]LogTemp:Display: Added material ShaderMap 0x0000018702E98800 with Material 0x0000018747ED9480 to ShaderMapsBeingCompiled
+[2017.05.18-11.45.10:130][230]LogTemp:Display: Kicking off shader compilation for Fbx_Default_Material_1, GameThreadShaderMap 0x0000018702E98800
+[2017.05.18-11.45.10:191][230]LogFbx:Warning: Bones digested - 68  Depth of hierarchy - 12
+[2017.05.18-11.45.11:085][230]LogSlate: Took 0.000339 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.05.18-11.45.11:096][230]LogSkeletalMesh: Section 0: 23274 vertices, 60 active bones
+[2017.05.18-11.45.11:096][230]LogSkeletalMesh: Section 1: 35 vertices, 4 active bones
+[2017.05.18-11.45.11:162][230]LogSkeletalMesh: Section 0: Material=0, 41004 triangles
+[2017.05.18-11.45.11:162][230]LogSkeletalMesh: Section 1: Material=1, 48 triangles
+[2017.05.18-11.45.11:176][230]LogLinker: '/Game/SK_Mannequin_PhysicsAsset' 파일을 찾을 수 없습니다.
+[2017.05.18-11.45.11:177][230]LogLinker: '/Game/SK_Mannequin_PhysicsAsset' 파일을 찾을 수 없습니다.
+[2017.05.18-11.45.11:182][230]LogLinker: '/Game/SK_Mannequin_Skeleton' 파일을 찾을 수 없습니다.
+[2017.05.18-11.45.11:182][230]LogLinker: '/Game/SK_Mannequin_Skeleton' 파일을 찾을 수 없습니다.
+[2017.05.18-11.45.11:192][230]FBXImport:Warning: 경고 이 FBX 씬에 스무딩 그룹 정보가 없습니다. FBX 익스포트 플러그인에서 파일을 익스포트하기 전, 'Export Smoothing Groups' (스무딩 그룹 익스포트)를 켰는지 확인해 주시기 바랍니다. 스무딩 그룹을 지원하지 않는 툴의 경우에도, 임포트시 버텍스 노멀을 제대로 유추할 수 있도록 FBX 익스포터가 익스포트시 적합한 스무딩 데이터를 생성해 줍니다. 
+[2017.05.18-11.45.11:214][230]LogSlate: Took 0.000355 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.18-11.45.19:689][301]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/13-720900/Desktop/2017-Game-Engine-master/Labs/Resources/AnimationProject/MontageExample_End_1.FBX)
+[2017.05.18-11.45.19:704][301]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.05.18-11.45.19:704][301]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.05.18-11.45.19:704][301]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.05.18-11.45.19:704][301]LogFbx: ItemName: Model, ItemCount : 88
+[2017.05.18-11.45.19:704][301]LogFbx: ItemName: NodeAttribute, ItemCount : 87
+[2017.05.18-11.45.19:704][301]LogFbx: ItemName: AnimationCurveNode, ItemCount : 174
+[2017.05.18-11.45.19:704][301]LogFbx: ItemName: AnimationCurve, ItemCount : 522
+[2017.05.18-11.45.19:708][301]LogFbx: Loading FBX Scene from ../../../../../../Users/13-720900/Desktop/2017-Game-Engine-master/Labs/Resources/AnimationProject/MontageExample_End_1.FBX
+[2017.05.18-11.45.19:736][301]LogFbx: FBX Scene Loaded Succesfully
+[2017.05.18-11.45.31:038][301]LogFbx: Loading FBX Scene from ../../../../../../Users/13-720900/Desktop/2017-Game-Engine-master/Labs/Resources/AnimationProject/MontageExample_End_1.FBX
+[2017.05.18-11.45.31:066][301]LogFbx: FBX Scene Loaded Succesfully
+[2017.05.18-11.45.31:069][301]LogFbx: SortedLinks :(0) Root
+[2017.05.18-11.45.31:069][301]LogFbx: SortedLinks :(1) pelvis
+[2017.05.18-11.45.31:069][301]LogFbx: SortedLinks :(2) spine_01
+[2017.05.18-11.45.31:069][301]LogFbx: SortedLinks :(3) coat_l_01
+[2017.05.18-11.45.31:069][301]LogFbx: SortedLinks :(4) coat_l_02
+[2017.05.18-11.45.31:069][301]LogFbx: SortedLinks :(5) coat_l_03
+[2017.05.18-11.45.31:069][301]LogFbx: SortedLinks :(6) coat_l_04
+[2017.05.18-11.45.31:069][301]LogFbx: SortedLinks :(7) coat_l_05
+[2017.05.18-11.45.31:069][301]LogFbx: SortedLinks :(8) coat_l_06
+[2017.05.18-11.45.31:069][301]LogFbx: SortedLinks :(9) coat_l_07
+[2017.05.18-11.45.31:069][301]LogFbx: SortedLinks :(10) coat_r_01
+[2017.05.18-11.45.31:069][301]LogFbx: SortedLinks :(11) coat_r_02
+[2017.05.18-11.45.31:069][301]LogFbx: SortedLinks :(12) coat_r_03
+[2017.05.18-11.45.31:069][301]LogFbx: SortedLinks :(13) coat_r_04
+[2017.05.18-11.45.31:069][301]LogFbx: SortedLinks :(14) coat_r_05
+[2017.05.18-11.45.31:069][301]LogFbx: SortedLinks :(15) coat_r_06
+[2017.05.18-11.45.31:069][301]LogFbx: SortedLinks :(16) coat_r_07
+[2017.05.18-11.45.31:069][301]LogFbx: SortedLinks :(17) coat_strap_l_01
+[2017.05.18-11.45.31:069][301]LogFbx: SortedLinks :(18) coat_strap_l_02
+[2017.05.18-11.45.31:069][301]LogFbx: SortedLinks :(19) coat_strap_l_03
+[2017.05.18-11.45.31:069][301]LogFbx: SortedLinks :(20) coat_strap_l_04
+[2017.05.18-11.45.31:069][301]LogFbx: SortedLinks :(21) coat_strap_l_05
+[2017.05.18-11.45.31:069][301]LogFbx: SortedLinks :(22) coat_strap_l_06
+[2017.05.18-11.45.31:069][301]LogFbx: SortedLinks :(23) coat_strap_r_01
+[2017.05.18-11.45.31:069][301]LogFbx: SortedLinks :(24) coat_strap_r_02
+[2017.05.18-11.45.31:070][301]LogFbx: SortedLinks :(25) coat_strap_r_03
+[2017.05.18-11.45.31:070][301]LogFbx: SortedLinks :(26) coat_strap_r_04
+[2017.05.18-11.45.31:070][301]LogFbx: SortedLinks :(27) coat_strap_r_05
+[2017.05.18-11.45.31:070][301]LogFbx: SortedLinks :(28) coat_strap_r_06
+[2017.05.18-11.45.31:070][301]LogFbx: SortedLinks :(29) spine_02
+[2017.05.18-11.45.31:070][301]LogFbx: SortedLinks :(30) spine_03
+[2017.05.18-11.45.31:070][301]LogFbx: SortedLinks :(31) clavicle_l
+[2017.05.18-11.45.31:070][301]LogFbx: SortedLinks :(32) upperarm_l
+[2017.05.18-11.45.31:070][301]LogFbx: SortedLinks :(33) lowerarm_l
+[2017.05.18-11.45.31:070][301]LogFbx: SortedLinks :(34) hand_l
+[2017.05.18-11.45.31:070][301]LogFbx: SortedLinks :(35) index_01_l
+[2017.05.18-11.45.31:070][301]LogFbx: SortedLinks :(36) index_02_l
+[2017.05.18-11.45.31:070][301]LogFbx: SortedLinks :(37) index_03_l
+[2017.05.18-11.45.31:070][301]LogFbx: SortedLinks :(38) middle_01_l
+[2017.05.18-11.45.31:070][301]LogFbx: SortedLinks :(39) middle_02_l
+[2017.05.18-11.45.31:070][301]LogFbx: SortedLinks :(40) middle_03_l
+[2017.05.18-11.45.31:070][301]LogFbx: SortedLinks :(41) pinky_01_l
+[2017.05.18-11.45.31:070][301]LogFbx: SortedLinks :(42) pinky_02_l
+[2017.05.18-11.45.31:070][301]LogFbx: SortedLinks :(43) pinky_03_l
+[2017.05.18-11.45.31:070][301]LogFbx: SortedLinks :(44) ring_01_l
+[2017.05.18-11.45.31:070][301]LogFbx: SortedLinks :(45) ring_02_l
+[2017.05.18-11.45.31:070][301]LogFbx: SortedLinks :(46) ring_03_l
+[2017.05.18-11.45.31:070][301]LogFbx: SortedLinks :(47) thumb_01_l
+[2017.05.18-11.45.31:070][301]LogFbx: SortedLinks :(48) thumb_02_l
+[2017.05.18-11.45.31:070][301]LogFbx: SortedLinks :(49) thumb_03_l
+[2017.05.18-11.45.31:070][301]LogFbx: SortedLinks :(50) lowerarm_twist_01_l
+[2017.05.18-11.45.31:070][301]LogFbx: SortedLinks :(51) upperarm_twist_01_l
+[2017.05.18-11.45.31:070][301]LogFbx: SortedLinks :(52) clavicle_r
+[2017.05.18-11.45.31:070][301]LogFbx: SortedLinks :(53) upperarm_r
+[2017.05.18-11.45.31:070][301]LogFbx: SortedLinks :(54) lowerarm_r
+[2017.05.18-11.45.31:070][301]LogFbx: SortedLinks :(55) hand_r
+[2017.05.18-11.45.31:070][301]LogFbx: SortedLinks :(56) index_01_r
+[2017.05.18-11.45.31:070][301]LogFbx: SortedLinks :(57) index_02_r
+[2017.05.18-11.45.31:070][301]LogFbx: SortedLinks :(58) index_03_r
+[2017.05.18-11.45.31:070][301]LogFbx: SortedLinks :(59) middle_01_r
+[2017.05.18-11.45.31:070][301]LogFbx: SortedLinks :(60) middle_02_r
+[2017.05.18-11.45.31:070][301]LogFbx: SortedLinks :(61) middle_03_r
+[2017.05.18-11.45.31:070][301]LogFbx: SortedLinks :(62) pinky_01_r
+[2017.05.18-11.45.31:070][301]LogFbx: SortedLinks :(63) pinky_02_r
+[2017.05.18-11.45.31:070][301]LogFbx: SortedLinks :(64) pinky_03_r
+[2017.05.18-11.45.31:070][301]LogFbx: SortedLinks :(65) ring_01_r
+[2017.05.18-11.45.31:070][301]LogFbx: SortedLinks :(66) ring_02_r
+[2017.05.18-11.45.31:070][301]LogFbx: SortedLinks :(67) ring_03_r
+[2017.05.18-11.45.31:070][301]LogFbx: SortedLinks :(68) thumb_01_r
+[2017.05.18-11.45.31:070][301]LogFbx: SortedLinks :(69) thumb_02_r
+[2017.05.18-11.45.31:070][301]LogFbx: SortedLinks :(70) thumb_03_r
+[2017.05.18-11.45.31:070][301]LogFbx: SortedLinks :(71) lowerarm_twist_01_r
+[2017.05.18-11.45.31:070][301]LogFbx: SortedLinks :(72) upperarm_twist_01_r
+[2017.05.18-11.45.31:070][301]LogFbx: SortedLinks :(73) neck_01
+[2017.05.18-11.45.31:070][301]LogFbx: SortedLinks :(74) head
+[2017.05.18-11.45.31:070][301]LogFbx: SortedLinks :(75) thigh_l
+[2017.05.18-11.45.31:070][301]LogFbx: SortedLinks :(76) calf_l
+[2017.05.18-11.45.31:070][301]LogFbx: SortedLinks :(77) foot_l
+[2017.05.18-11.45.31:070][301]LogFbx: SortedLinks :(78) ball_l
+[2017.05.18-11.45.31:070][301]LogFbx: SortedLinks :(79) calf_twist_01_l
+[2017.05.18-11.45.31:070][301]LogFbx: SortedLinks :(80) thigh_twist_01_l
+[2017.05.18-11.45.31:070][301]LogFbx: SortedLinks :(81) thigh_r
+[2017.05.18-11.45.31:070][301]LogFbx: SortedLinks :(82) calf_r
+[2017.05.18-11.45.31:070][301]LogFbx: SortedLinks :(83) foot_r
+[2017.05.18-11.45.31:070][301]LogFbx: SortedLinks :(84) ball_r
+[2017.05.18-11.45.31:070][301]LogFbx: SortedLinks :(85) calf_twist_01_r
+[2017.05.18-11.45.31:070][301]LogFbx: SortedLinks :(86) thigh_twist_01_r
+[2017.05.18-11.45.31:071][301]LogFbx: Parsing AnimStack Unreal Matinee Take
+[2017.05.18-11.45.31:075][301]LogLinker: '/Game/MontageExample_End_1' 파일을 찾을 수 없습니다.
+[2017.05.18-11.45.31:075][301]LogLinker: '/Game/MontageExample_End_1' 파일을 찾을 수 없습니다.
+[2017.05.18-11.45.31:166][301]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MontageExample_End_1.MontageExample_End_1
+[2017.05.18-11.45.31:173][301]FBXImport:Warning: 경고 임포트된 애니메이션에는 있으나 SK_Mannequin_Skeleton 스켈레톤 애셋에는 없는 본은 다음과 같습니다. 이 본의 애니메이션은 임포트되지 않습니다: 
+
+ coat_l_01  
+coat_l_02  
+coat_l_03  
+coat_l_04  
+coat_l_05  
+coat_l_06  
+coat_l_07  
+coat_r_01  
+coat_r_02  
+coat_r_03  
+coat_r_04  
+coat_r_05  
+coat_r_06  
+coat_r_07  
+coat_strap_l_01  
+coat_strap_l_02  
+coat_strap_l_03  
+coat_strap_l_04  
+coat_strap_l_05  
+coat_strap_l_06  
+coat_strap_r_01  
+coat_strap_r_02  
+coat_strap_r_03  
+coat_strap_r_04  
+coat_strap_r_05  
+coat_strap_r_06  
+ 
+[2017.05.18-11.45.31:180][301]LogFactory: FactoryCreateFile: AnimSequence with FbxFactory (0 0 ../../../../../../Users/13-720900/Desktop/2017-Game-Engine-master/Labs/Resources/AnimationProject/MontageExample_End_2.FBX)
+[2017.05.18-11.45.31:191][301]LogFbx: Loading FBX Scene from ../../../../../../Users/13-720900/Desktop/2017-Game-Engine-master/Labs/Resources/AnimationProject/MontageExample_End_2.FBX
+[2017.05.18-11.45.31:218][301]LogFbx: FBX Scene Loaded Succesfully
+[2017.05.18-11.45.31:223][301]LogFbx: SortedLinks :(0) Root
+[2017.05.18-11.45.31:223][301]LogFbx: SortedLinks :(1) pelvis
+[2017.05.18-11.45.31:223][301]LogFbx: SortedLinks :(2) spine_01
+[2017.05.18-11.45.31:223][301]LogFbx: SortedLinks :(3) coat_l_01
+[2017.05.18-11.45.31:223][301]LogFbx: SortedLinks :(4) coat_l_02
+[2017.05.18-11.45.31:223][301]LogFbx: SortedLinks :(5) coat_l_03
+[2017.05.18-11.45.31:223][301]LogFbx: SortedLinks :(6) coat_l_04
+[2017.05.18-11.45.31:223][301]LogFbx: SortedLinks :(7) coat_l_05
+[2017.05.18-11.45.31:223][301]LogFbx: SortedLinks :(8) coat_l_06
+[2017.05.18-11.45.31:223][301]LogFbx: SortedLinks :(9) coat_l_07
+[2017.05.18-11.45.31:223][301]LogFbx: SortedLinks :(10) coat_r_01
+[2017.05.18-11.45.31:223][301]LogFbx: SortedLinks :(11) coat_r_02
+[2017.05.18-11.45.31:223][301]LogFbx: SortedLinks :(12) coat_r_03
+[2017.05.18-11.45.31:223][301]LogFbx: SortedLinks :(13) coat_r_04
+[2017.05.18-11.45.31:223][301]LogFbx: SortedLinks :(14) coat_r_05
+[2017.05.18-11.45.31:223][301]LogFbx: SortedLinks :(15) coat_r_06
+[2017.05.18-11.45.31:223][301]LogFbx: SortedLinks :(16) coat_r_07
+[2017.05.18-11.45.31:223][301]LogFbx: SortedLinks :(17) coat_strap_l_01
+[2017.05.18-11.45.31:223][301]LogFbx: SortedLinks :(18) coat_strap_l_02
+[2017.05.18-11.45.31:223][301]LogFbx: SortedLinks :(19) coat_strap_l_03
+[2017.05.18-11.45.31:223][301]LogFbx: SortedLinks :(20) coat_strap_l_04
+[2017.05.18-11.45.31:223][301]LogFbx: SortedLinks :(21) coat_strap_l_05
+[2017.05.18-11.45.31:223][301]LogFbx: SortedLinks :(22) coat_strap_l_06
+[2017.05.18-11.45.31:223][301]LogFbx: SortedLinks :(23) coat_strap_r_01
+[2017.05.18-11.45.31:223][301]LogFbx: SortedLinks :(24) coat_strap_r_02
+[2017.05.18-11.45.31:223][301]LogFbx: SortedLinks :(25) coat_strap_r_03
+[2017.05.18-11.45.31:223][301]LogFbx: SortedLinks :(26) coat_strap_r_04
+[2017.05.18-11.45.31:223][301]LogFbx: SortedLinks :(27) coat_strap_r_05
+[2017.05.18-11.45.31:223][301]LogFbx: SortedLinks :(28) coat_strap_r_06
+[2017.05.18-11.45.31:223][301]LogFbx: SortedLinks :(29) spine_02
+[2017.05.18-11.45.31:223][301]LogFbx: SortedLinks :(30) spine_03
+[2017.05.18-11.45.31:223][301]LogFbx: SortedLinks :(31) clavicle_l
+[2017.05.18-11.45.31:223][301]LogFbx: SortedLinks :(32) upperarm_l
+[2017.05.18-11.45.31:223][301]LogFbx: SortedLinks :(33) lowerarm_l
+[2017.05.18-11.45.31:223][301]LogFbx: SortedLinks :(34) hand_l
+[2017.05.18-11.45.31:223][301]LogFbx: SortedLinks :(35) index_01_l
+[2017.05.18-11.45.31:223][301]LogFbx: SortedLinks :(36) index_02_l
+[2017.05.18-11.45.31:223][301]LogFbx: SortedLinks :(37) index_03_l
+[2017.05.18-11.45.31:223][301]LogFbx: SortedLinks :(38) middle_01_l
+[2017.05.18-11.45.31:223][301]LogFbx: SortedLinks :(39) middle_02_l
+[2017.05.18-11.45.31:223][301]LogFbx: SortedLinks :(40) middle_03_l
+[2017.05.18-11.45.31:223][301]LogFbx: SortedLinks :(41) pinky_01_l
+[2017.05.18-11.45.31:223][301]LogFbx: SortedLinks :(42) pinky_02_l
+[2017.05.18-11.45.31:223][301]LogFbx: SortedLinks :(43) pinky_03_l
+[2017.05.18-11.45.31:223][301]LogFbx: SortedLinks :(44) ring_01_l
+[2017.05.18-11.45.31:223][301]LogFbx: SortedLinks :(45) ring_02_l
+[2017.05.18-11.45.31:223][301]LogFbx: SortedLinks :(46) ring_03_l
+[2017.05.18-11.45.31:223][301]LogFbx: SortedLinks :(47) thumb_01_l
+[2017.05.18-11.45.31:223][301]LogFbx: SortedLinks :(48) thumb_02_l
+[2017.05.18-11.45.31:223][301]LogFbx: SortedLinks :(49) thumb_03_l
+[2017.05.18-11.45.31:223][301]LogFbx: SortedLinks :(50) lowerarm_twist_01_l
+[2017.05.18-11.45.31:223][301]LogFbx: SortedLinks :(51) upperarm_twist_01_l
+[2017.05.18-11.45.31:223][301]LogFbx: SortedLinks :(52) clavicle_r
+[2017.05.18-11.45.31:223][301]LogFbx: SortedLinks :(53) upperarm_r
+[2017.05.18-11.45.31:223][301]LogFbx: SortedLinks :(54) lowerarm_r
+[2017.05.18-11.45.31:223][301]LogFbx: SortedLinks :(55) hand_r
+[2017.05.18-11.45.31:223][301]LogFbx: SortedLinks :(56) index_01_r
+[2017.05.18-11.45.31:223][301]LogFbx: SortedLinks :(57) index_02_r
+[2017.05.18-11.45.31:223][301]LogFbx: SortedLinks :(58) index_03_r
+[2017.05.18-11.45.31:223][301]LogFbx: SortedLinks :(59) middle_01_r
+[2017.05.18-11.45.31:223][301]LogFbx: SortedLinks :(60) middle_02_r
+[2017.05.18-11.45.31:223][301]LogFbx: SortedLinks :(61) middle_03_r
+[2017.05.18-11.45.31:223][301]LogFbx: SortedLinks :(62) pinky_01_r
+[2017.05.18-11.45.31:223][301]LogFbx: SortedLinks :(63) pinky_02_r
+[2017.05.18-11.45.31:223][301]LogFbx: SortedLinks :(64) pinky_03_r
+[2017.05.18-11.45.31:223][301]LogFbx: SortedLinks :(65) ring_01_r
+[2017.05.18-11.45.31:223][301]LogFbx: SortedLinks :(66) ring_02_r
+[2017.05.18-11.45.31:223][301]LogFbx: SortedLinks :(67) ring_03_r
+[2017.05.18-11.45.31:223][301]LogFbx: SortedLinks :(68) thumb_01_r
+[2017.05.18-11.45.31:223][301]LogFbx: SortedLinks :(69) thumb_02_r
+[2017.05.18-11.45.31:223][301]LogFbx: SortedLinks :(70) thumb_03_r
+[2017.05.18-11.45.31:223][301]LogFbx: SortedLinks :(71) lowerarm_twist_01_r
+[2017.05.18-11.45.31:223][301]LogFbx: SortedLinks :(72) upperarm_twist_01_r
+[2017.05.18-11.45.31:223][301]LogFbx: SortedLinks :(73) neck_01
+[2017.05.18-11.45.31:223][301]LogFbx: SortedLinks :(74) head
+[2017.05.18-11.45.31:223][301]LogFbx: SortedLinks :(75) thigh_l
+[2017.05.18-11.45.31:223][301]LogFbx: SortedLinks :(76) calf_l
+[2017.05.18-11.45.31:223][301]LogFbx: SortedLinks :(77) foot_l
+[2017.05.18-11.45.31:223][301]LogFbx: SortedLinks :(78) ball_l
+[2017.05.18-11.45.31:223][301]LogFbx: SortedLinks :(79) calf_twist_01_l
+[2017.05.18-11.45.31:223][301]LogFbx: SortedLinks :(80) thigh_twist_01_l
+[2017.05.18-11.45.31:223][301]LogFbx: SortedLinks :(81) thigh_r
+[2017.05.18-11.45.31:223][301]LogFbx: SortedLinks :(82) calf_r
+[2017.05.18-11.45.31:223][301]LogFbx: SortedLinks :(83) foot_r
+[2017.05.18-11.45.31:223][301]LogFbx: SortedLinks :(84) ball_r
+[2017.05.18-11.45.31:223][301]LogFbx: SortedLinks :(85) calf_twist_01_r
+[2017.05.18-11.45.31:223][301]LogFbx: SortedLinks :(86) thigh_twist_01_r
+[2017.05.18-11.45.31:224][301]LogFbx: Parsing AnimStack Unreal Matinee Take
+[2017.05.18-11.45.31:226][301]LogLinker: '/Game/MontageExample_End_2' 파일을 찾을 수 없습니다.
+[2017.05.18-11.45.31:226][301]LogLinker: '/Game/MontageExample_End_2' 파일을 찾을 수 없습니다.
+[2017.05.18-11.45.31:308][301]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MontageExample_End_2.MontageExample_End_2
+[2017.05.18-11.45.31:314][301]FBXImport:Warning: 경고 임포트된 애니메이션에는 있으나 SK_Mannequin_Skeleton 스켈레톤 애셋에는 없는 본은 다음과 같습니다. 이 본의 애니메이션은 임포트되지 않습니다: 
+
+ coat_l_01  
+coat_l_02  
+coat_l_03  
+coat_l_04  
+coat_l_05  
+coat_l_06  
+coat_l_07  
+coat_r_01  
+coat_r_02  
+coat_r_03  
+coat_r_04  
+coat_r_05  
+coat_r_06  
+coat_r_07  
+coat_strap_l_01  
+coat_strap_l_02  
+coat_strap_l_03  
+coat_strap_l_04  
+coat_strap_l_05  
+coat_strap_l_06  
+coat_strap_r_01  
+coat_strap_r_02  
+coat_strap_r_03  
+coat_strap_r_04  
+coat_strap_r_05  
+coat_strap_r_06  
+ 
+[2017.05.18-11.45.31:323][301]LogFactory: FactoryCreateFile: AnimSequence with FbxFactory (0 0 ../../../../../../Users/13-720900/Desktop/2017-Game-Engine-master/Labs/Resources/AnimationProject/MontageExample_Punch_1.FBX)
+[2017.05.18-11.45.31:332][301]LogFbx: Loading FBX Scene from ../../../../../../Users/13-720900/Desktop/2017-Game-Engine-master/Labs/Resources/AnimationProject/MontageExample_Punch_1.FBX
+[2017.05.18-11.45.31:360][301]LogFbx: FBX Scene Loaded Succesfully
+[2017.05.18-11.45.31:364][301]LogFbx: SortedLinks :(0) Root
+[2017.05.18-11.45.31:364][301]LogFbx: SortedLinks :(1) pelvis
+[2017.05.18-11.45.31:364][301]LogFbx: SortedLinks :(2) spine_01
+[2017.05.18-11.45.31:364][301]LogFbx: SortedLinks :(3) coat_l_01
+[2017.05.18-11.45.31:364][301]LogFbx: SortedLinks :(4) coat_l_02
+[2017.05.18-11.45.31:364][301]LogFbx: SortedLinks :(5) coat_l_03
+[2017.05.18-11.45.31:364][301]LogFbx: SortedLinks :(6) coat_l_04
+[2017.05.18-11.45.31:364][301]LogFbx: SortedLinks :(7) coat_l_05
+[2017.05.18-11.45.31:364][301]LogFbx: SortedLinks :(8) coat_l_06
+[2017.05.18-11.45.31:364][301]LogFbx: SortedLinks :(9) coat_l_07
+[2017.05.18-11.45.31:364][301]LogFbx: SortedLinks :(10) coat_r_01
+[2017.05.18-11.45.31:364][301]LogFbx: SortedLinks :(11) coat_r_02
+[2017.05.18-11.45.31:364][301]LogFbx: SortedLinks :(12) coat_r_03
+[2017.05.18-11.45.31:364][301]LogFbx: SortedLinks :(13) coat_r_04
+[2017.05.18-11.45.31:364][301]LogFbx: SortedLinks :(14) coat_r_05
+[2017.05.18-11.45.31:364][301]LogFbx: SortedLinks :(15) coat_r_06
+[2017.05.18-11.45.31:364][301]LogFbx: SortedLinks :(16) coat_r_07
+[2017.05.18-11.45.31:364][301]LogFbx: SortedLinks :(17) coat_strap_l_01
+[2017.05.18-11.45.31:364][301]LogFbx: SortedLinks :(18) coat_strap_l_02
+[2017.05.18-11.45.31:364][301]LogFbx: SortedLinks :(19) coat_strap_l_03
+[2017.05.18-11.45.31:364][301]LogFbx: SortedLinks :(20) coat_strap_l_04
+[2017.05.18-11.45.31:364][301]LogFbx: SortedLinks :(21) coat_strap_l_05
+[2017.05.18-11.45.31:364][301]LogFbx: SortedLinks :(22) coat_strap_l_06
+[2017.05.18-11.45.31:364][301]LogFbx: SortedLinks :(23) coat_strap_r_01
+[2017.05.18-11.45.31:364][301]LogFbx: SortedLinks :(24) coat_strap_r_02
+[2017.05.18-11.45.31:364][301]LogFbx: SortedLinks :(25) coat_strap_r_03
+[2017.05.18-11.45.31:364][301]LogFbx: SortedLinks :(26) coat_strap_r_04
+[2017.05.18-11.45.31:364][301]LogFbx: SortedLinks :(27) coat_strap_r_05
+[2017.05.18-11.45.31:364][301]LogFbx: SortedLinks :(28) coat_strap_r_06
+[2017.05.18-11.45.31:364][301]LogFbx: SortedLinks :(29) spine_02
+[2017.05.18-11.45.31:364][301]LogFbx: SortedLinks :(30) spine_03
+[2017.05.18-11.45.31:364][301]LogFbx: SortedLinks :(31) clavicle_l
+[2017.05.18-11.45.31:364][301]LogFbx: SortedLinks :(32) upperarm_l
+[2017.05.18-11.45.31:364][301]LogFbx: SortedLinks :(33) lowerarm_l
+[2017.05.18-11.45.31:364][301]LogFbx: SortedLinks :(34) hand_l
+[2017.05.18-11.45.31:364][301]LogFbx: SortedLinks :(35) index_01_l
+[2017.05.18-11.45.31:364][301]LogFbx: SortedLinks :(36) index_02_l
+[2017.05.18-11.45.31:364][301]LogFbx: SortedLinks :(37) index_03_l
+[2017.05.18-11.45.31:364][301]LogFbx: SortedLinks :(38) middle_01_l
+[2017.05.18-11.45.31:364][301]LogFbx: SortedLinks :(39) middle_02_l
+[2017.05.18-11.45.31:364][301]LogFbx: SortedLinks :(40) middle_03_l
+[2017.05.18-11.45.31:364][301]LogFbx: SortedLinks :(41) pinky_01_l
+[2017.05.18-11.45.31:364][301]LogFbx: SortedLinks :(42) pinky_02_l
+[2017.05.18-11.45.31:364][301]LogFbx: SortedLinks :(43) pinky_03_l
+[2017.05.18-11.45.31:364][301]LogFbx: SortedLinks :(44) ring_01_l
+[2017.05.18-11.45.31:364][301]LogFbx: SortedLinks :(45) ring_02_l
+[2017.05.18-11.45.31:364][301]LogFbx: SortedLinks :(46) ring_03_l
+[2017.05.18-11.45.31:364][301]LogFbx: SortedLinks :(47) thumb_01_l
+[2017.05.18-11.45.31:364][301]LogFbx: SortedLinks :(48) thumb_02_l
+[2017.05.18-11.45.31:364][301]LogFbx: SortedLinks :(49) thumb_03_l
+[2017.05.18-11.45.31:364][301]LogFbx: SortedLinks :(50) lowerarm_twist_01_l
+[2017.05.18-11.45.31:364][301]LogFbx: SortedLinks :(51) upperarm_twist_01_l
+[2017.05.18-11.45.31:364][301]LogFbx: SortedLinks :(52) clavicle_r
+[2017.05.18-11.45.31:364][301]LogFbx: SortedLinks :(53) upperarm_r
+[2017.05.18-11.45.31:364][301]LogFbx: SortedLinks :(54) lowerarm_r
+[2017.05.18-11.45.31:364][301]LogFbx: SortedLinks :(55) hand_r
+[2017.05.18-11.45.31:364][301]LogFbx: SortedLinks :(56) index_01_r
+[2017.05.18-11.45.31:364][301]LogFbx: SortedLinks :(57) index_02_r
+[2017.05.18-11.45.31:364][301]LogFbx: SortedLinks :(58) index_03_r
+[2017.05.18-11.45.31:364][301]LogFbx: SortedLinks :(59) middle_01_r
+[2017.05.18-11.45.31:364][301]LogFbx: SortedLinks :(60) middle_02_r
+[2017.05.18-11.45.31:364][301]LogFbx: SortedLinks :(61) middle_03_r
+[2017.05.18-11.45.31:364][301]LogFbx: SortedLinks :(62) pinky_01_r
+[2017.05.18-11.45.31:364][301]LogFbx: SortedLinks :(63) pinky_02_r
+[2017.05.18-11.45.31:364][301]LogFbx: SortedLinks :(64) pinky_03_r
+[2017.05.18-11.45.31:364][301]LogFbx: SortedLinks :(65) ring_01_r
+[2017.05.18-11.45.31:364][301]LogFbx: SortedLinks :(66) ring_02_r
+[2017.05.18-11.45.31:364][301]LogFbx: SortedLinks :(67) ring_03_r
+[2017.05.18-11.45.31:364][301]LogFbx: SortedLinks :(68) thumb_01_r
+[2017.05.18-11.45.31:364][301]LogFbx: SortedLinks :(69) thumb_02_r
+[2017.05.18-11.45.31:364][301]LogFbx: SortedLinks :(70) thumb_03_r
+[2017.05.18-11.45.31:364][301]LogFbx: SortedLinks :(71) lowerarm_twist_01_r
+[2017.05.18-11.45.31:364][301]LogFbx: SortedLinks :(72) upperarm_twist_01_r
+[2017.05.18-11.45.31:364][301]LogFbx: SortedLinks :(73) neck_01
+[2017.05.18-11.45.31:364][301]LogFbx: SortedLinks :(74) head
+[2017.05.18-11.45.31:364][301]LogFbx: SortedLinks :(75) thigh_l
+[2017.05.18-11.45.31:364][301]LogFbx: SortedLinks :(76) calf_l
+[2017.05.18-11.45.31:364][301]LogFbx: SortedLinks :(77) foot_l
+[2017.05.18-11.45.31:364][301]LogFbx: SortedLinks :(78) ball_l
+[2017.05.18-11.45.31:364][301]LogFbx: SortedLinks :(79) calf_twist_01_l
+[2017.05.18-11.45.31:364][301]LogFbx: SortedLinks :(80) thigh_twist_01_l
+[2017.05.18-11.45.31:364][301]LogFbx: SortedLinks :(81) thigh_r
+[2017.05.18-11.45.31:364][301]LogFbx: SortedLinks :(82) calf_r
+[2017.05.18-11.45.31:364][301]LogFbx: SortedLinks :(83) foot_r
+[2017.05.18-11.45.31:364][301]LogFbx: SortedLinks :(84) ball_r
+[2017.05.18-11.45.31:364][301]LogFbx: SortedLinks :(85) calf_twist_01_r
+[2017.05.18-11.45.31:364][301]LogFbx: SortedLinks :(86) thigh_twist_01_r
+[2017.05.18-11.45.31:365][301]LogFbx: Parsing AnimStack Unreal Matinee Take
+[2017.05.18-11.45.31:367][301]LogLinker: '/Game/MontageExample_Punch_1' 파일을 찾을 수 없습니다.
+[2017.05.18-11.45.31:367][301]LogLinker: '/Game/MontageExample_Punch_1' 파일을 찾을 수 없습니다.
+[2017.05.18-11.45.31:463][301]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MontageExample_Punch_1.MontageExample_Punch_1
+[2017.05.18-11.45.31:470][301]FBXImport:Warning: 경고 임포트된 애니메이션에는 있으나 SK_Mannequin_Skeleton 스켈레톤 애셋에는 없는 본은 다음과 같습니다. 이 본의 애니메이션은 임포트되지 않습니다: 
+
+ coat_l_01  
+coat_l_02  
+coat_l_03  
+coat_l_04  
+coat_l_05  
+coat_l_06  
+coat_l_07  
+coat_r_01  
+coat_r_02  
+coat_r_03  
+coat_r_04  
+coat_r_05  
+coat_r_06  
+coat_r_07  
+coat_strap_l_01  
+coat_strap_l_02  
+coat_strap_l_03  
+coat_strap_l_04  
+coat_strap_l_05  
+coat_strap_l_06  
+coat_strap_r_01  
+coat_strap_r_02  
+coat_strap_r_03  
+coat_strap_r_04  
+coat_strap_r_05  
+coat_strap_r_06  
+ 
+[2017.05.18-11.45.31:477][301]LogFactory: FactoryCreateFile: AnimSequence with FbxFactory (0 0 ../../../../../../Users/13-720900/Desktop/2017-Game-Engine-master/Labs/Resources/AnimationProject/MontageExample_Punch_2.FBX)
+[2017.05.18-11.45.31:487][301]LogFbx: Loading FBX Scene from ../../../../../../Users/13-720900/Desktop/2017-Game-Engine-master/Labs/Resources/AnimationProject/MontageExample_Punch_2.FBX
+[2017.05.18-11.45.31:515][301]LogFbx: FBX Scene Loaded Succesfully
+[2017.05.18-11.45.31:519][301]LogFbx: SortedLinks :(0) Root
+[2017.05.18-11.45.31:519][301]LogFbx: SortedLinks :(1) pelvis
+[2017.05.18-11.45.31:519][301]LogFbx: SortedLinks :(2) spine_01
+[2017.05.18-11.45.31:519][301]LogFbx: SortedLinks :(3) coat_l_01
+[2017.05.18-11.45.31:519][301]LogFbx: SortedLinks :(4) coat_l_02
+[2017.05.18-11.45.31:519][301]LogFbx: SortedLinks :(5) coat_l_03
+[2017.05.18-11.45.31:519][301]LogFbx: SortedLinks :(6) coat_l_04
+[2017.05.18-11.45.31:519][301]LogFbx: SortedLinks :(7) coat_l_05
+[2017.05.18-11.45.31:519][301]LogFbx: SortedLinks :(8) coat_l_06
+[2017.05.18-11.45.31:519][301]LogFbx: SortedLinks :(9) coat_l_07
+[2017.05.18-11.45.31:519][301]LogFbx: SortedLinks :(10) coat_r_01
+[2017.05.18-11.45.31:519][301]LogFbx: SortedLinks :(11) coat_r_02
+[2017.05.18-11.45.31:519][301]LogFbx: SortedLinks :(12) coat_r_03
+[2017.05.18-11.45.31:519][301]LogFbx: SortedLinks :(13) coat_r_04
+[2017.05.18-11.45.31:519][301]LogFbx: SortedLinks :(14) coat_r_05
+[2017.05.18-11.45.31:519][301]LogFbx: SortedLinks :(15) coat_r_06
+[2017.05.18-11.45.31:519][301]LogFbx: SortedLinks :(16) coat_r_07
+[2017.05.18-11.45.31:519][301]LogFbx: SortedLinks :(17) coat_strap_l_01
+[2017.05.18-11.45.31:519][301]LogFbx: SortedLinks :(18) coat_strap_l_02
+[2017.05.18-11.45.31:519][301]LogFbx: SortedLinks :(19) coat_strap_l_03
+[2017.05.18-11.45.31:519][301]LogFbx: SortedLinks :(20) coat_strap_l_04
+[2017.05.18-11.45.31:519][301]LogFbx: SortedLinks :(21) coat_strap_l_05
+[2017.05.18-11.45.31:519][301]LogFbx: SortedLinks :(22) coat_strap_l_06
+[2017.05.18-11.45.31:519][301]LogFbx: SortedLinks :(23) coat_strap_r_01
+[2017.05.18-11.45.31:519][301]LogFbx: SortedLinks :(24) coat_strap_r_02
+[2017.05.18-11.45.31:519][301]LogFbx: SortedLinks :(25) coat_strap_r_03
+[2017.05.18-11.45.31:519][301]LogFbx: SortedLinks :(26) coat_strap_r_04
+[2017.05.18-11.45.31:519][301]LogFbx: SortedLinks :(27) coat_strap_r_05
+[2017.05.18-11.45.31:519][301]LogFbx: SortedLinks :(28) coat_strap_r_06
+[2017.05.18-11.45.31:519][301]LogFbx: SortedLinks :(29) spine_02
+[2017.05.18-11.45.31:519][301]LogFbx: SortedLinks :(30) spine_03
+[2017.05.18-11.45.31:519][301]LogFbx: SortedLinks :(31) clavicle_l
+[2017.05.18-11.45.31:519][301]LogFbx: SortedLinks :(32) upperarm_l
+[2017.05.18-11.45.31:519][301]LogFbx: SortedLinks :(33) lowerarm_l
+[2017.05.18-11.45.31:519][301]LogFbx: SortedLinks :(34) hand_l
+[2017.05.18-11.45.31:519][301]LogFbx: SortedLinks :(35) index_01_l
+[2017.05.18-11.45.31:519][301]LogFbx: SortedLinks :(36) index_02_l
+[2017.05.18-11.45.31:519][301]LogFbx: SortedLinks :(37) index_03_l
+[2017.05.18-11.45.31:519][301]LogFbx: SortedLinks :(38) middle_01_l
+[2017.05.18-11.45.31:519][301]LogFbx: SortedLinks :(39) middle_02_l
+[2017.05.18-11.45.31:519][301]LogFbx: SortedLinks :(40) middle_03_l
+[2017.05.18-11.45.31:519][301]LogFbx: SortedLinks :(41) pinky_01_l
+[2017.05.18-11.45.31:519][301]LogFbx: SortedLinks :(42) pinky_02_l
+[2017.05.18-11.45.31:519][301]LogFbx: SortedLinks :(43) pinky_03_l
+[2017.05.18-11.45.31:519][301]LogFbx: SortedLinks :(44) ring_01_l
+[2017.05.18-11.45.31:519][301]LogFbx: SortedLinks :(45) ring_02_l
+[2017.05.18-11.45.31:519][301]LogFbx: SortedLinks :(46) ring_03_l
+[2017.05.18-11.45.31:519][301]LogFbx: SortedLinks :(47) thumb_01_l
+[2017.05.18-11.45.31:519][301]LogFbx: SortedLinks :(48) thumb_02_l
+[2017.05.18-11.45.31:519][301]LogFbx: SortedLinks :(49) thumb_03_l
+[2017.05.18-11.45.31:519][301]LogFbx: SortedLinks :(50) lowerarm_twist_01_l
+[2017.05.18-11.45.31:519][301]LogFbx: SortedLinks :(51) upperarm_twist_01_l
+[2017.05.18-11.45.31:519][301]LogFbx: SortedLinks :(52) clavicle_r
+[2017.05.18-11.45.31:519][301]LogFbx: SortedLinks :(53) upperarm_r
+[2017.05.18-11.45.31:519][301]LogFbx: SortedLinks :(54) lowerarm_r
+[2017.05.18-11.45.31:519][301]LogFbx: SortedLinks :(55) hand_r
+[2017.05.18-11.45.31:519][301]LogFbx: SortedLinks :(56) index_01_r
+[2017.05.18-11.45.31:519][301]LogFbx: SortedLinks :(57) index_02_r
+[2017.05.18-11.45.31:519][301]LogFbx: SortedLinks :(58) index_03_r
+[2017.05.18-11.45.31:519][301]LogFbx: SortedLinks :(59) middle_01_r
+[2017.05.18-11.45.31:519][301]LogFbx: SortedLinks :(60) middle_02_r
+[2017.05.18-11.45.31:519][301]LogFbx: SortedLinks :(61) middle_03_r
+[2017.05.18-11.45.31:519][301]LogFbx: SortedLinks :(62) pinky_01_r
+[2017.05.18-11.45.31:519][301]LogFbx: SortedLinks :(63) pinky_02_r
+[2017.05.18-11.45.31:519][301]LogFbx: SortedLinks :(64) pinky_03_r
+[2017.05.18-11.45.31:519][301]LogFbx: SortedLinks :(65) ring_01_r
+[2017.05.18-11.45.31:519][301]LogFbx: SortedLinks :(66) ring_02_r
+[2017.05.18-11.45.31:519][301]LogFbx: SortedLinks :(67) ring_03_r
+[2017.05.18-11.45.31:519][301]LogFbx: SortedLinks :(68) thumb_01_r
+[2017.05.18-11.45.31:519][301]LogFbx: SortedLinks :(69) thumb_02_r
+[2017.05.18-11.45.31:519][301]LogFbx: SortedLinks :(70) thumb_03_r
+[2017.05.18-11.45.31:519][301]LogFbx: SortedLinks :(71) lowerarm_twist_01_r
+[2017.05.18-11.45.31:519][301]LogFbx: SortedLinks :(72) upperarm_twist_01_r
+[2017.05.18-11.45.31:519][301]LogFbx: SortedLinks :(73) neck_01
+[2017.05.18-11.45.31:519][301]LogFbx: SortedLinks :(74) head
+[2017.05.18-11.45.31:519][301]LogFbx: SortedLinks :(75) thigh_l
+[2017.05.18-11.45.31:519][301]LogFbx: SortedLinks :(76) calf_l
+[2017.05.18-11.45.31:519][301]LogFbx: SortedLinks :(77) foot_l
+[2017.05.18-11.45.31:519][301]LogFbx: SortedLinks :(78) ball_l
+[2017.05.18-11.45.31:519][301]LogFbx: SortedLinks :(79) calf_twist_01_l
+[2017.05.18-11.45.31:519][301]LogFbx: SortedLinks :(80) thigh_twist_01_l
+[2017.05.18-11.45.31:519][301]LogFbx: SortedLinks :(81) thigh_r
+[2017.05.18-11.45.31:519][301]LogFbx: SortedLinks :(82) calf_r
+[2017.05.18-11.45.31:519][301]LogFbx: SortedLinks :(83) foot_r
+[2017.05.18-11.45.31:519][301]LogFbx: SortedLinks :(84) ball_r
+[2017.05.18-11.45.31:519][301]LogFbx: SortedLinks :(85) calf_twist_01_r
+[2017.05.18-11.45.31:519][301]LogFbx: SortedLinks :(86) thigh_twist_01_r
+[2017.05.18-11.45.31:520][301]LogFbx: Parsing AnimStack Unreal Matinee Take
+[2017.05.18-11.45.31:522][301]LogLinker: '/Game/MontageExample_Punch_2' 파일을 찾을 수 없습니다.
+[2017.05.18-11.45.31:522][301]LogLinker: '/Game/MontageExample_Punch_2' 파일을 찾을 수 없습니다.
+[2017.05.18-11.45.31:618][301]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MontageExample_Punch_2.MontageExample_Punch_2
+[2017.05.18-11.45.31:625][301]FBXImport:Warning: 경고 임포트된 애니메이션에는 있으나 SK_Mannequin_Skeleton 스켈레톤 애셋에는 없는 본은 다음과 같습니다. 이 본의 애니메이션은 임포트되지 않습니다: 
+
+ coat_l_01  
+coat_l_02  
+coat_l_03  
+coat_l_04  
+coat_l_05  
+coat_l_06  
+coat_l_07  
+coat_r_01  
+coat_r_02  
+coat_r_03  
+coat_r_04  
+coat_r_05  
+coat_r_06  
+coat_r_07  
+coat_strap_l_01  
+coat_strap_l_02  
+coat_strap_l_03  
+coat_strap_l_04  
+coat_strap_l_05  
+coat_strap_l_06  
+coat_strap_r_01  
+coat_strap_r_02  
+coat_strap_r_03  
+coat_strap_r_04  
+coat_strap_r_05  
+coat_strap_r_06  
+ 
+[2017.05.18-11.45.31:634][301]LogFactory: FactoryCreateFile: AnimSequence with FbxFactory (0 0 ../../../../../../Users/13-720900/Desktop/2017-Game-Engine-master/Labs/Resources/AnimationProject/MontageExample_Start.FBX)
+[2017.05.18-11.45.31:643][301]LogFbx: Loading FBX Scene from ../../../../../../Users/13-720900/Desktop/2017-Game-Engine-master/Labs/Resources/AnimationProject/MontageExample_Start.FBX
+[2017.05.18-11.45.31:671][301]LogFbx: FBX Scene Loaded Succesfully
+[2017.05.18-11.45.31:675][301]LogFbx: SortedLinks :(0) Root
+[2017.05.18-11.45.31:675][301]LogFbx: SortedLinks :(1) pelvis
+[2017.05.18-11.45.31:675][301]LogFbx: SortedLinks :(2) spine_01
+[2017.05.18-11.45.31:675][301]LogFbx: SortedLinks :(3) coat_l_01
+[2017.05.18-11.45.31:675][301]LogFbx: SortedLinks :(4) coat_l_02
+[2017.05.18-11.45.31:675][301]LogFbx: SortedLinks :(5) coat_l_03
+[2017.05.18-11.45.31:675][301]LogFbx: SortedLinks :(6) coat_l_04
+[2017.05.18-11.45.31:675][301]LogFbx: SortedLinks :(7) coat_l_05
+[2017.05.18-11.45.31:675][301]LogFbx: SortedLinks :(8) coat_l_06
+[2017.05.18-11.45.31:675][301]LogFbx: SortedLinks :(9) coat_l_07
+[2017.05.18-11.45.31:675][301]LogFbx: SortedLinks :(10) coat_r_01
+[2017.05.18-11.45.31:675][301]LogFbx: SortedLinks :(11) coat_r_02
+[2017.05.18-11.45.31:675][301]LogFbx: SortedLinks :(12) coat_r_03
+[2017.05.18-11.45.31:675][301]LogFbx: SortedLinks :(13) coat_r_04
+[2017.05.18-11.45.31:675][301]LogFbx: SortedLinks :(14) coat_r_05
+[2017.05.18-11.45.31:675][301]LogFbx: SortedLinks :(15) coat_r_06
+[2017.05.18-11.45.31:675][301]LogFbx: SortedLinks :(16) coat_r_07
+[2017.05.18-11.45.31:675][301]LogFbx: SortedLinks :(17) coat_strap_l_01
+[2017.05.18-11.45.31:675][301]LogFbx: SortedLinks :(18) coat_strap_l_02
+[2017.05.18-11.45.31:675][301]LogFbx: SortedLinks :(19) coat_strap_l_03
+[2017.05.18-11.45.31:675][301]LogFbx: SortedLinks :(20) coat_strap_l_04
+[2017.05.18-11.45.31:675][301]LogFbx: SortedLinks :(21) coat_strap_l_05
+[2017.05.18-11.45.31:675][301]LogFbx: SortedLinks :(22) coat_strap_l_06
+[2017.05.18-11.45.31:675][301]LogFbx: SortedLinks :(23) coat_strap_r_01
+[2017.05.18-11.45.31:675][301]LogFbx: SortedLinks :(24) coat_strap_r_02
+[2017.05.18-11.45.31:675][301]LogFbx: SortedLinks :(25) coat_strap_r_03
+[2017.05.18-11.45.31:675][301]LogFbx: SortedLinks :(26) coat_strap_r_04
+[2017.05.18-11.45.31:675][301]LogFbx: SortedLinks :(27) coat_strap_r_05
+[2017.05.18-11.45.31:675][301]LogFbx: SortedLinks :(28) coat_strap_r_06
+[2017.05.18-11.45.31:675][301]LogFbx: SortedLinks :(29) spine_02
+[2017.05.18-11.45.31:675][301]LogFbx: SortedLinks :(30) spine_03
+[2017.05.18-11.45.31:675][301]LogFbx: SortedLinks :(31) clavicle_l
+[2017.05.18-11.45.31:675][301]LogFbx: SortedLinks :(32) upperarm_l
+[2017.05.18-11.45.31:675][301]LogFbx: SortedLinks :(33) lowerarm_l
+[2017.05.18-11.45.31:675][301]LogFbx: SortedLinks :(34) hand_l
+[2017.05.18-11.45.31:675][301]LogFbx: SortedLinks :(35) index_01_l
+[2017.05.18-11.45.31:675][301]LogFbx: SortedLinks :(36) index_02_l
+[2017.05.18-11.45.31:675][301]LogFbx: SortedLinks :(37) index_03_l
+[2017.05.18-11.45.31:675][301]LogFbx: SortedLinks :(38) middle_01_l
+[2017.05.18-11.45.31:675][301]LogFbx: SortedLinks :(39) middle_02_l
+[2017.05.18-11.45.31:675][301]LogFbx: SortedLinks :(40) middle_03_l
+[2017.05.18-11.45.31:675][301]LogFbx: SortedLinks :(41) pinky_01_l
+[2017.05.18-11.45.31:675][301]LogFbx: SortedLinks :(42) pinky_02_l
+[2017.05.18-11.45.31:675][301]LogFbx: SortedLinks :(43) pinky_03_l
+[2017.05.18-11.45.31:675][301]LogFbx: SortedLinks :(44) ring_01_l
+[2017.05.18-11.45.31:675][301]LogFbx: SortedLinks :(45) ring_02_l
+[2017.05.18-11.45.31:675][301]LogFbx: SortedLinks :(46) ring_03_l
+[2017.05.18-11.45.31:675][301]LogFbx: SortedLinks :(47) thumb_01_l
+[2017.05.18-11.45.31:675][301]LogFbx: SortedLinks :(48) thumb_02_l
+[2017.05.18-11.45.31:675][301]LogFbx: SortedLinks :(49) thumb_03_l
+[2017.05.18-11.45.31:675][301]LogFbx: SortedLinks :(50) lowerarm_twist_01_l
+[2017.05.18-11.45.31:675][301]LogFbx: SortedLinks :(51) upperarm_twist_01_l
+[2017.05.18-11.45.31:675][301]LogFbx: SortedLinks :(52) clavicle_r
+[2017.05.18-11.45.31:675][301]LogFbx: SortedLinks :(53) upperarm_r
+[2017.05.18-11.45.31:675][301]LogFbx: SortedLinks :(54) lowerarm_r
+[2017.05.18-11.45.31:675][301]LogFbx: SortedLinks :(55) hand_r
+[2017.05.18-11.45.31:675][301]LogFbx: SortedLinks :(56) index_01_r
+[2017.05.18-11.45.31:675][301]LogFbx: SortedLinks :(57) index_02_r
+[2017.05.18-11.45.31:675][301]LogFbx: SortedLinks :(58) index_03_r
+[2017.05.18-11.45.31:675][301]LogFbx: SortedLinks :(59) middle_01_r
+[2017.05.18-11.45.31:675][301]LogFbx: SortedLinks :(60) middle_02_r
+[2017.05.18-11.45.31:675][301]LogFbx: SortedLinks :(61) middle_03_r
+[2017.05.18-11.45.31:675][301]LogFbx: SortedLinks :(62) pinky_01_r
+[2017.05.18-11.45.31:675][301]LogFbx: SortedLinks :(63) pinky_02_r
+[2017.05.18-11.45.31:675][301]LogFbx: SortedLinks :(64) pinky_03_r
+[2017.05.18-11.45.31:675][301]LogFbx: SortedLinks :(65) ring_01_r
+[2017.05.18-11.45.31:675][301]LogFbx: SortedLinks :(66) ring_02_r
+[2017.05.18-11.45.31:675][301]LogFbx: SortedLinks :(67) ring_03_r
+[2017.05.18-11.45.31:675][301]LogFbx: SortedLinks :(68) thumb_01_r
+[2017.05.18-11.45.31:675][301]LogFbx: SortedLinks :(69) thumb_02_r
+[2017.05.18-11.45.31:675][301]LogFbx: SortedLinks :(70) thumb_03_r
+[2017.05.18-11.45.31:675][301]LogFbx: SortedLinks :(71) lowerarm_twist_01_r
+[2017.05.18-11.45.31:675][301]LogFbx: SortedLinks :(72) upperarm_twist_01_r
+[2017.05.18-11.45.31:675][301]LogFbx: SortedLinks :(73) neck_01
+[2017.05.18-11.45.31:675][301]LogFbx: SortedLinks :(74) head
+[2017.05.18-11.45.31:675][301]LogFbx: SortedLinks :(75) thigh_l
+[2017.05.18-11.45.31:675][301]LogFbx: SortedLinks :(76) calf_l
+[2017.05.18-11.45.31:675][301]LogFbx: SortedLinks :(77) foot_l
+[2017.05.18-11.45.31:675][301]LogFbx: SortedLinks :(78) ball_l
+[2017.05.18-11.45.31:675][301]LogFbx: SortedLinks :(79) calf_twist_01_l
+[2017.05.18-11.45.31:675][301]LogFbx: SortedLinks :(80) thigh_twist_01_l
+[2017.05.18-11.45.31:675][301]LogFbx: SortedLinks :(81) thigh_r
+[2017.05.18-11.45.31:675][301]LogFbx: SortedLinks :(82) calf_r
+[2017.05.18-11.45.31:675][301]LogFbx: SortedLinks :(83) foot_r
+[2017.05.18-11.45.31:675][301]LogFbx: SortedLinks :(84) ball_r
+[2017.05.18-11.45.31:675][301]LogFbx: SortedLinks :(85) calf_twist_01_r
+[2017.05.18-11.45.31:675][301]LogFbx: SortedLinks :(86) thigh_twist_01_r
+[2017.05.18-11.45.31:676][301]LogFbx: Parsing AnimStack Unreal Matinee Take
+[2017.05.18-11.45.31:678][301]LogLinker: '/Game/MontageExample_Start' 파일을 찾을 수 없습니다.
+[2017.05.18-11.45.31:678][301]LogLinker: '/Game/MontageExample_Start' 파일을 찾을 수 없습니다.
+[2017.05.18-11.45.31:751][301]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MontageExample_Start.MontageExample_Start
+[2017.05.18-11.45.31:757][301]FBXImport:Warning: 경고 임포트된 애니메이션에는 있으나 SK_Mannequin_Skeleton 스켈레톤 애셋에는 없는 본은 다음과 같습니다. 이 본의 애니메이션은 임포트되지 않습니다: 
+
+ coat_l_01  
+coat_l_02  
+coat_l_03  
+coat_l_04  
+coat_l_05  
+coat_l_06  
+coat_l_07  
+coat_r_01  
+coat_r_02  
+coat_r_03  
+coat_r_04  
+coat_r_05  
+coat_r_06  
+coat_r_07  
+coat_strap_l_01  
+coat_strap_l_02  
+coat_strap_l_03  
+coat_strap_l_04  
+coat_strap_l_05  
+coat_strap_l_06  
+coat_strap_r_01  
+coat_strap_r_02  
+coat_strap_r_03  
+coat_strap_r_04  
+coat_strap_r_05  
+coat_strap_r_06  
+ 
+[2017.05.18-11.45.31:767][301]LogFactory: FactoryCreateFile: AnimSequence with FbxFactory (0 0 ../../../../../../Users/13-720900/Desktop/2017-Game-Engine-master/Labs/Resources/AnimationProject/ThirdPersonIdle.FBX)
+[2017.05.18-11.45.31:777][301]LogFbx: Loading FBX Scene from ../../../../../../Users/13-720900/Desktop/2017-Game-Engine-master/Labs/Resources/AnimationProject/ThirdPersonIdle.FBX
+[2017.05.18-11.45.31:800][301]LogFbx: FBX Scene Loaded Succesfully
+[2017.05.18-11.45.31:804][301]LogFbx: SortedLinks :(0) root
+[2017.05.18-11.45.31:804][301]LogFbx: SortedLinks :(1) pelvis
+[2017.05.18-11.45.31:804][301]LogFbx: SortedLinks :(2) spine_01
+[2017.05.18-11.45.31:804][301]LogFbx: SortedLinks :(3) spine_02
+[2017.05.18-11.45.31:804][301]LogFbx: SortedLinks :(4) spine_03
+[2017.05.18-11.45.31:804][301]LogFbx: SortedLinks :(5) clavicle_l
+[2017.05.18-11.45.31:804][301]LogFbx: SortedLinks :(6) upperarm_l
+[2017.05.18-11.45.31:804][301]LogFbx: SortedLinks :(7) lowerarm_l
+[2017.05.18-11.45.31:804][301]LogFbx: SortedLinks :(8) hand_l
+[2017.05.18-11.45.31:804][301]LogFbx: SortedLinks :(9) index_01_l
+[2017.05.18-11.45.31:804][301]LogFbx: SortedLinks :(10) index_02_l
+[2017.05.18-11.45.31:804][301]LogFbx: SortedLinks :(11) index_03_l
+[2017.05.18-11.45.31:804][301]LogFbx: SortedLinks :(12) middle_01_l
+[2017.05.18-11.45.31:804][301]LogFbx: SortedLinks :(13) middle_02_l
+[2017.05.18-11.45.31:804][301]LogFbx: SortedLinks :(14) middle_03_l
+[2017.05.18-11.45.31:804][301]LogFbx: SortedLinks :(15) pinky_01_l
+[2017.05.18-11.45.31:804][301]LogFbx: SortedLinks :(16) pinky_02_l
+[2017.05.18-11.45.31:804][301]LogFbx: SortedLinks :(17) pinky_03_l
+[2017.05.18-11.45.31:804][301]LogFbx: SortedLinks :(18) ring_01_l
+[2017.05.18-11.45.31:804][301]LogFbx: SortedLinks :(19) ring_02_l
+[2017.05.18-11.45.31:804][301]LogFbx: SortedLinks :(20) ring_03_l
+[2017.05.18-11.45.31:804][301]LogFbx: SortedLinks :(21) thumb_01_l
+[2017.05.18-11.45.31:804][301]LogFbx: SortedLinks :(22) thumb_02_l
+[2017.05.18-11.45.31:804][301]LogFbx: SortedLinks :(23) thumb_03_l
+[2017.05.18-11.45.31:804][301]LogFbx: SortedLinks :(24) lowerarm_twist_01_l
+[2017.05.18-11.45.31:804][301]LogFbx: SortedLinks :(25) upperarm_twist_01_l
+[2017.05.18-11.45.31:804][301]LogFbx: SortedLinks :(26) clavicle_r
+[2017.05.18-11.45.31:804][301]LogFbx: SortedLinks :(27) upperarm_r
+[2017.05.18-11.45.31:804][301]LogFbx: SortedLinks :(28) lowerarm_r
+[2017.05.18-11.45.31:804][301]LogFbx: SortedLinks :(29) hand_r
+[2017.05.18-11.45.31:804][301]LogFbx: SortedLinks :(30) index_01_r
+[2017.05.18-11.45.31:804][301]LogFbx: SortedLinks :(31) index_02_r
+[2017.05.18-11.45.31:804][301]LogFbx: SortedLinks :(32) index_03_r
+[2017.05.18-11.45.31:804][301]LogFbx: SortedLinks :(33) middle_01_r
+[2017.05.18-11.45.31:804][301]LogFbx: SortedLinks :(34) middle_02_r
+[2017.05.18-11.45.31:804][301]LogFbx: SortedLinks :(35) middle_03_r
+[2017.05.18-11.45.31:804][301]LogFbx: SortedLinks :(36) pinky_01_r
+[2017.05.18-11.45.31:804][301]LogFbx: SortedLinks :(37) pinky_02_r
+[2017.05.18-11.45.31:804][301]LogFbx: SortedLinks :(38) pinky_03_r
+[2017.05.18-11.45.31:804][301]LogFbx: SortedLinks :(39) ring_01_r
+[2017.05.18-11.45.31:804][301]LogFbx: SortedLinks :(40) ring_02_r
+[2017.05.18-11.45.31:804][301]LogFbx: SortedLinks :(41) ring_03_r
+[2017.05.18-11.45.31:804][301]LogFbx: SortedLinks :(42) thumb_01_r
+[2017.05.18-11.45.31:804][301]LogFbx: SortedLinks :(43) thumb_02_r
+[2017.05.18-11.45.31:804][301]LogFbx: SortedLinks :(44) thumb_03_r
+[2017.05.18-11.45.31:804][301]LogFbx: SortedLinks :(45) lowerarm_twist_01_r
+[2017.05.18-11.45.31:804][301]LogFbx: SortedLinks :(46) upperarm_twist_01_r
+[2017.05.18-11.45.31:804][301]LogFbx: SortedLinks :(47) neck_01
+[2017.05.18-11.45.31:804][301]LogFbx: SortedLinks :(48) head
+[2017.05.18-11.45.31:804][301]LogFbx: SortedLinks :(49) thigh_l
+[2017.05.18-11.45.31:804][301]LogFbx: SortedLinks :(50) calf_l
+[2017.05.18-11.45.31:804][301]LogFbx: SortedLinks :(51) calf_twist_01_l
+[2017.05.18-11.45.31:804][301]LogFbx: SortedLinks :(52) foot_l
+[2017.05.18-11.45.31:804][301]LogFbx: SortedLinks :(53) ball_l
+[2017.05.18-11.45.31:804][301]LogFbx: SortedLinks :(54) thigh_twist_01_l
+[2017.05.18-11.45.31:804][301]LogFbx: SortedLinks :(55) thigh_r
+[2017.05.18-11.45.31:804][301]LogFbx: SortedLinks :(56) calf_r
+[2017.05.18-11.45.31:804][301]LogFbx: SortedLinks :(57) calf_twist_01_r
+[2017.05.18-11.45.31:804][301]LogFbx: SortedLinks :(58) foot_r
+[2017.05.18-11.45.31:804][301]LogFbx: SortedLinks :(59) ball_r
+[2017.05.18-11.45.31:804][301]LogFbx: SortedLinks :(60) thigh_twist_01_r
+[2017.05.18-11.45.31:804][301]LogFbx: SortedLinks :(61) ik_foot_root
+[2017.05.18-11.45.31:804][301]LogFbx: SortedLinks :(62) ik_foot_l
+[2017.05.18-11.45.31:804][301]LogFbx: SortedLinks :(63) ik_foot_r
+[2017.05.18-11.45.31:804][301]LogFbx: SortedLinks :(64) ik_hand_root
+[2017.05.18-11.45.31:804][301]LogFbx: SortedLinks :(65) ik_hand_gun
+[2017.05.18-11.45.31:804][301]LogFbx: SortedLinks :(66) ik_hand_l
+[2017.05.18-11.45.31:804][301]LogFbx: SortedLinks :(67) ik_hand_r
+[2017.05.18-11.45.31:805][301]LogFbx: Parsing AnimStack Unreal Take
+[2017.05.18-11.45.31:808][301]LogLinker: '/Game/ThirdPersonIdle' 파일을 찾을 수 없습니다.
+[2017.05.18-11.45.31:808][301]LogLinker: '/Game/ThirdPersonIdle' 파일을 찾을 수 없습니다.
+[2017.05.18-11.45.32:145][301]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonIdle.ThirdPersonIdle
+[2017.05.18-11.45.32:163][301]LogFactory: FactoryCreateFile: AnimSequence with FbxFactory (0 0 ../../../../../../Users/13-720900/Desktop/2017-Game-Engine-master/Labs/Resources/AnimationProject/ThirdPersonJump_End.FBX)
+[2017.05.18-11.45.32:172][301]LogFbx: Loading FBX Scene from ../../../../../../Users/13-720900/Desktop/2017-Game-Engine-master/Labs/Resources/AnimationProject/ThirdPersonJump_End.FBX
+[2017.05.18-11.45.32:196][301]LogFbx: FBX Scene Loaded Succesfully
+[2017.05.18-11.45.32:199][301]LogFbx: SortedLinks :(0) root
+[2017.05.18-11.45.32:199][301]LogFbx: SortedLinks :(1) pelvis
+[2017.05.18-11.45.32:199][301]LogFbx: SortedLinks :(2) spine_01
+[2017.05.18-11.45.32:199][301]LogFbx: SortedLinks :(3) spine_02
+[2017.05.18-11.45.32:199][301]LogFbx: SortedLinks :(4) spine_03
+[2017.05.18-11.45.32:199][301]LogFbx: SortedLinks :(5) clavicle_l
+[2017.05.18-11.45.32:199][301]LogFbx: SortedLinks :(6) upperarm_l
+[2017.05.18-11.45.32:199][301]LogFbx: SortedLinks :(7) lowerarm_l
+[2017.05.18-11.45.32:199][301]LogFbx: SortedLinks :(8) hand_l
+[2017.05.18-11.45.32:199][301]LogFbx: SortedLinks :(9) index_01_l
+[2017.05.18-11.45.32:199][301]LogFbx: SortedLinks :(10) index_02_l
+[2017.05.18-11.45.32:199][301]LogFbx: SortedLinks :(11) index_03_l
+[2017.05.18-11.45.32:199][301]LogFbx: SortedLinks :(12) middle_01_l
+[2017.05.18-11.45.32:199][301]LogFbx: SortedLinks :(13) middle_02_l
+[2017.05.18-11.45.32:199][301]LogFbx: SortedLinks :(14) middle_03_l
+[2017.05.18-11.45.32:199][301]LogFbx: SortedLinks :(15) pinky_01_l
+[2017.05.18-11.45.32:199][301]LogFbx: SortedLinks :(16) pinky_02_l
+[2017.05.18-11.45.32:199][301]LogFbx: SortedLinks :(17) pinky_03_l
+[2017.05.18-11.45.32:199][301]LogFbx: SortedLinks :(18) ring_01_l
+[2017.05.18-11.45.32:199][301]LogFbx: SortedLinks :(19) ring_02_l
+[2017.05.18-11.45.32:199][301]LogFbx: SortedLinks :(20) ring_03_l
+[2017.05.18-11.45.32:199][301]LogFbx: SortedLinks :(21) thumb_01_l
+[2017.05.18-11.45.32:199][301]LogFbx: SortedLinks :(22) thumb_02_l
+[2017.05.18-11.45.32:199][301]LogFbx: SortedLinks :(23) thumb_03_l
+[2017.05.18-11.45.32:199][301]LogFbx: SortedLinks :(24) lowerarm_twist_01_l
+[2017.05.18-11.45.32:199][301]LogFbx: SortedLinks :(25) upperarm_twist_01_l
+[2017.05.18-11.45.32:199][301]LogFbx: SortedLinks :(26) clavicle_r
+[2017.05.18-11.45.32:199][301]LogFbx: SortedLinks :(27) upperarm_r
+[2017.05.18-11.45.32:199][301]LogFbx: SortedLinks :(28) lowerarm_r
+[2017.05.18-11.45.32:199][301]LogFbx: SortedLinks :(29) hand_r
+[2017.05.18-11.45.32:199][301]LogFbx: SortedLinks :(30) index_01_r
+[2017.05.18-11.45.32:199][301]LogFbx: SortedLinks :(31) index_02_r
+[2017.05.18-11.45.32:199][301]LogFbx: SortedLinks :(32) index_03_r
+[2017.05.18-11.45.32:199][301]LogFbx: SortedLinks :(33) middle_01_r
+[2017.05.18-11.45.32:199][301]LogFbx: SortedLinks :(34) middle_02_r
+[2017.05.18-11.45.32:199][301]LogFbx: SortedLinks :(35) middle_03_r
+[2017.05.18-11.45.32:199][301]LogFbx: SortedLinks :(36) pinky_01_r
+[2017.05.18-11.45.32:200][301]LogFbx: SortedLinks :(37) pinky_02_r
+[2017.05.18-11.45.32:200][301]LogFbx: SortedLinks :(38) pinky_03_r
+[2017.05.18-11.45.32:200][301]LogFbx: SortedLinks :(39) ring_01_r
+[2017.05.18-11.45.32:200][301]LogFbx: SortedLinks :(40) ring_02_r
+[2017.05.18-11.45.32:200][301]LogFbx: SortedLinks :(41) ring_03_r
+[2017.05.18-11.45.32:200][301]LogFbx: SortedLinks :(42) thumb_01_r
+[2017.05.18-11.45.32:200][301]LogFbx: SortedLinks :(43) thumb_02_r
+[2017.05.18-11.45.32:200][301]LogFbx: SortedLinks :(44) thumb_03_r
+[2017.05.18-11.45.32:200][301]LogFbx: SortedLinks :(45) lowerarm_twist_01_r
+[2017.05.18-11.45.32:200][301]LogFbx: SortedLinks :(46) upperarm_twist_01_r
+[2017.05.18-11.45.32:200][301]LogFbx: SortedLinks :(47) neck_01
+[2017.05.18-11.45.32:200][301]LogFbx: SortedLinks :(48) head
+[2017.05.18-11.45.32:200][301]LogFbx: SortedLinks :(49) thigh_l
+[2017.05.18-11.45.32:200][301]LogFbx: SortedLinks :(50) calf_l
+[2017.05.18-11.45.32:200][301]LogFbx: SortedLinks :(51) calf_twist_01_l
+[2017.05.18-11.45.32:200][301]LogFbx: SortedLinks :(52) foot_l
+[2017.05.18-11.45.32:200][301]LogFbx: SortedLinks :(53) ball_l
+[2017.05.18-11.45.32:200][301]LogFbx: SortedLinks :(54) thigh_twist_01_l
+[2017.05.18-11.45.32:200][301]LogFbx: SortedLinks :(55) thigh_r
+[2017.05.18-11.45.32:200][301]LogFbx: SortedLinks :(56) calf_r
+[2017.05.18-11.45.32:200][301]LogFbx: SortedLinks :(57) calf_twist_01_r
+[2017.05.18-11.45.32:200][301]LogFbx: SortedLinks :(58) foot_r
+[2017.05.18-11.45.32:200][301]LogFbx: SortedLinks :(59) ball_r
+[2017.05.18-11.45.32:200][301]LogFbx: SortedLinks :(60) thigh_twist_01_r
+[2017.05.18-11.45.32:200][301]LogFbx: SortedLinks :(61) ik_foot_root
+[2017.05.18-11.45.32:200][301]LogFbx: SortedLinks :(62) ik_foot_l
+[2017.05.18-11.45.32:200][301]LogFbx: SortedLinks :(63) ik_foot_r
+[2017.05.18-11.45.32:200][301]LogFbx: SortedLinks :(64) ik_hand_root
+[2017.05.18-11.45.32:200][301]LogFbx: SortedLinks :(65) ik_hand_gun
+[2017.05.18-11.45.32:200][301]LogFbx: SortedLinks :(66) ik_hand_l
+[2017.05.18-11.45.32:200][301]LogFbx: SortedLinks :(67) ik_hand_r
+[2017.05.18-11.45.32:201][301]LogFbx: Parsing AnimStack Unreal Take
+[2017.05.18-11.45.32:203][301]LogLinker: '/Game/ThirdPersonJump_End' 파일을 찾을 수 없습니다.
+[2017.05.18-11.45.32:203][301]LogLinker: '/Game/ThirdPersonJump_End' 파일을 찾을 수 없습니다.
+[2017.05.18-11.45.32:265][301]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonJump_End.ThirdPersonJump_End
+[2017.05.18-11.45.32:279][301]LogFactory: FactoryCreateFile: AnimSequence with FbxFactory (0 0 ../../../../../../Users/13-720900/Desktop/2017-Game-Engine-master/Labs/Resources/AnimationProject/ThirdPersonJump_Loop.FBX)
+[2017.05.18-11.45.32:289][301]LogFbx: Loading FBX Scene from ../../../../../../Users/13-720900/Desktop/2017-Game-Engine-master/Labs/Resources/AnimationProject/ThirdPersonJump_Loop.FBX
+[2017.05.18-11.45.32:312][301]LogFbx: FBX Scene Loaded Succesfully
+[2017.05.18-11.45.32:316][301]LogFbx: SortedLinks :(0) root
+[2017.05.18-11.45.32:316][301]LogFbx: SortedLinks :(1) pelvis
+[2017.05.18-11.45.32:316][301]LogFbx: SortedLinks :(2) spine_01
+[2017.05.18-11.45.32:316][301]LogFbx: SortedLinks :(3) spine_02
+[2017.05.18-11.45.32:316][301]LogFbx: SortedLinks :(4) spine_03
+[2017.05.18-11.45.32:316][301]LogFbx: SortedLinks :(5) clavicle_l
+[2017.05.18-11.45.32:316][301]LogFbx: SortedLinks :(6) upperarm_l
+[2017.05.18-11.45.32:316][301]LogFbx: SortedLinks :(7) lowerarm_l
+[2017.05.18-11.45.32:316][301]LogFbx: SortedLinks :(8) hand_l
+[2017.05.18-11.45.32:316][301]LogFbx: SortedLinks :(9) index_01_l
+[2017.05.18-11.45.32:316][301]LogFbx: SortedLinks :(10) index_02_l
+[2017.05.18-11.45.32:316][301]LogFbx: SortedLinks :(11) index_03_l
+[2017.05.18-11.45.32:316][301]LogFbx: SortedLinks :(12) middle_01_l
+[2017.05.18-11.45.32:316][301]LogFbx: SortedLinks :(13) middle_02_l
+[2017.05.18-11.45.32:316][301]LogFbx: SortedLinks :(14) middle_03_l
+[2017.05.18-11.45.32:316][301]LogFbx: SortedLinks :(15) pinky_01_l
+[2017.05.18-11.45.32:316][301]LogFbx: SortedLinks :(16) pinky_02_l
+[2017.05.18-11.45.32:316][301]LogFbx: SortedLinks :(17) pinky_03_l
+[2017.05.18-11.45.32:316][301]LogFbx: SortedLinks :(18) ring_01_l
+[2017.05.18-11.45.32:316][301]LogFbx: SortedLinks :(19) ring_02_l
+[2017.05.18-11.45.32:316][301]LogFbx: SortedLinks :(20) ring_03_l
+[2017.05.18-11.45.32:316][301]LogFbx: SortedLinks :(21) thumb_01_l
+[2017.05.18-11.45.32:316][301]LogFbx: SortedLinks :(22) thumb_02_l
+[2017.05.18-11.45.32:316][301]LogFbx: SortedLinks :(23) thumb_03_l
+[2017.05.18-11.45.32:316][301]LogFbx: SortedLinks :(24) lowerarm_twist_01_l
+[2017.05.18-11.45.32:316][301]LogFbx: SortedLinks :(25) upperarm_twist_01_l
+[2017.05.18-11.45.32:316][301]LogFbx: SortedLinks :(26) clavicle_r
+[2017.05.18-11.45.32:316][301]LogFbx: SortedLinks :(27) upperarm_r
+[2017.05.18-11.45.32:316][301]LogFbx: SortedLinks :(28) lowerarm_r
+[2017.05.18-11.45.32:316][301]LogFbx: SortedLinks :(29) hand_r
+[2017.05.18-11.45.32:316][301]LogFbx: SortedLinks :(30) index_01_r
+[2017.05.18-11.45.32:316][301]LogFbx: SortedLinks :(31) index_02_r
+[2017.05.18-11.45.32:316][301]LogFbx: SortedLinks :(32) index_03_r
+[2017.05.18-11.45.32:316][301]LogFbx: SortedLinks :(33) middle_01_r
+[2017.05.18-11.45.32:316][301]LogFbx: SortedLinks :(34) middle_02_r
+[2017.05.18-11.45.32:316][301]LogFbx: SortedLinks :(35) middle_03_r
+[2017.05.18-11.45.32:316][301]LogFbx: SortedLinks :(36) pinky_01_r
+[2017.05.18-11.45.32:316][301]LogFbx: SortedLinks :(37) pinky_02_r
+[2017.05.18-11.45.32:316][301]LogFbx: SortedLinks :(38) pinky_03_r
+[2017.05.18-11.45.32:316][301]LogFbx: SortedLinks :(39) ring_01_r
+[2017.05.18-11.45.32:316][301]LogFbx: SortedLinks :(40) ring_02_r
+[2017.05.18-11.45.32:316][301]LogFbx: SortedLinks :(41) ring_03_r
+[2017.05.18-11.45.32:316][301]LogFbx: SortedLinks :(42) thumb_01_r
+[2017.05.18-11.45.32:316][301]LogFbx: SortedLinks :(43) thumb_02_r
+[2017.05.18-11.45.32:316][301]LogFbx: SortedLinks :(44) thumb_03_r
+[2017.05.18-11.45.32:316][301]LogFbx: SortedLinks :(45) lowerarm_twist_01_r
+[2017.05.18-11.45.32:316][301]LogFbx: SortedLinks :(46) upperarm_twist_01_r
+[2017.05.18-11.45.32:316][301]LogFbx: SortedLinks :(47) neck_01
+[2017.05.18-11.45.32:316][301]LogFbx: SortedLinks :(48) head
+[2017.05.18-11.45.32:316][301]LogFbx: SortedLinks :(49) thigh_l
+[2017.05.18-11.45.32:316][301]LogFbx: SortedLinks :(50) calf_l
+[2017.05.18-11.45.32:316][301]LogFbx: SortedLinks :(51) calf_twist_01_l
+[2017.05.18-11.45.32:316][301]LogFbx: SortedLinks :(52) foot_l
+[2017.05.18-11.45.32:316][301]LogFbx: SortedLinks :(53) ball_l
+[2017.05.18-11.45.32:316][301]LogFbx: SortedLinks :(54) thigh_twist_01_l
+[2017.05.18-11.45.32:316][301]LogFbx: SortedLinks :(55) thigh_r
+[2017.05.18-11.45.32:316][301]LogFbx: SortedLinks :(56) calf_r
+[2017.05.18-11.45.32:316][301]LogFbx: SortedLinks :(57) calf_twist_01_r
+[2017.05.18-11.45.32:316][301]LogFbx: SortedLinks :(58) foot_r
+[2017.05.18-11.45.32:316][301]LogFbx: SortedLinks :(59) ball_r
+[2017.05.18-11.45.32:316][301]LogFbx: SortedLinks :(60) thigh_twist_01_r
+[2017.05.18-11.45.32:316][301]LogFbx: SortedLinks :(61) ik_foot_root
+[2017.05.18-11.45.32:316][301]LogFbx: SortedLinks :(62) ik_foot_l
+[2017.05.18-11.45.32:316][301]LogFbx: SortedLinks :(63) ik_foot_r
+[2017.05.18-11.45.32:316][301]LogFbx: SortedLinks :(64) ik_hand_root
+[2017.05.18-11.45.32:316][301]LogFbx: SortedLinks :(65) ik_hand_gun
+[2017.05.18-11.45.32:316][301]LogFbx: SortedLinks :(66) ik_hand_l
+[2017.05.18-11.45.32:316][301]LogFbx: SortedLinks :(67) ik_hand_r
+[2017.05.18-11.45.32:317][301]LogFbx: Parsing AnimStack Unreal Take
+[2017.05.18-11.45.32:319][301]LogLinker: '/Game/ThirdPersonJump_Loop' 파일을 찾을 수 없습니다.
+[2017.05.18-11.45.32:319][301]LogLinker: '/Game/ThirdPersonJump_Loop' 파일을 찾을 수 없습니다.
+[2017.05.18-11.45.32:438][301]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonJump_Loop.ThirdPersonJump_Loop
+[2017.05.18-11.45.32:451][301]LogFactory: FactoryCreateFile: AnimSequence with FbxFactory (0 0 ../../../../../../Users/13-720900/Desktop/2017-Game-Engine-master/Labs/Resources/AnimationProject/ThirdPersonJump_Start.FBX)
+[2017.05.18-11.45.32:460][301]LogFbx: Loading FBX Scene from ../../../../../../Users/13-720900/Desktop/2017-Game-Engine-master/Labs/Resources/AnimationProject/ThirdPersonJump_Start.FBX
+[2017.05.18-11.45.32:484][301]LogFbx: FBX Scene Loaded Succesfully
+[2017.05.18-11.45.32:488][301]LogFbx: SortedLinks :(0) root
+[2017.05.18-11.45.32:488][301]LogFbx: SortedLinks :(1) pelvis
+[2017.05.18-11.45.32:488][301]LogFbx: SortedLinks :(2) spine_01
+[2017.05.18-11.45.32:488][301]LogFbx: SortedLinks :(3) spine_02
+[2017.05.18-11.45.32:488][301]LogFbx: SortedLinks :(4) spine_03
+[2017.05.18-11.45.32:488][301]LogFbx: SortedLinks :(5) clavicle_l
+[2017.05.18-11.45.32:488][301]LogFbx: SortedLinks :(6) upperarm_l
+[2017.05.18-11.45.32:488][301]LogFbx: SortedLinks :(7) lowerarm_l
+[2017.05.18-11.45.32:488][301]LogFbx: SortedLinks :(8) hand_l
+[2017.05.18-11.45.32:488][301]LogFbx: SortedLinks :(9) index_01_l
+[2017.05.18-11.45.32:488][301]LogFbx: SortedLinks :(10) index_02_l
+[2017.05.18-11.45.32:488][301]LogFbx: SortedLinks :(11) index_03_l
+[2017.05.18-11.45.32:488][301]LogFbx: SortedLinks :(12) middle_01_l
+[2017.05.18-11.45.32:488][301]LogFbx: SortedLinks :(13) middle_02_l
+[2017.05.18-11.45.32:488][301]LogFbx: SortedLinks :(14) middle_03_l
+[2017.05.18-11.45.32:488][301]LogFbx: SortedLinks :(15) pinky_01_l
+[2017.05.18-11.45.32:488][301]LogFbx: SortedLinks :(16) pinky_02_l
+[2017.05.18-11.45.32:488][301]LogFbx: SortedLinks :(17) pinky_03_l
+[2017.05.18-11.45.32:488][301]LogFbx: SortedLinks :(18) ring_01_l
+[2017.05.18-11.45.32:488][301]LogFbx: SortedLinks :(19) ring_02_l
+[2017.05.18-11.45.32:488][301]LogFbx: SortedLinks :(20) ring_03_l
+[2017.05.18-11.45.32:488][301]LogFbx: SortedLinks :(21) thumb_01_l
+[2017.05.18-11.45.32:488][301]LogFbx: SortedLinks :(22) thumb_02_l
+[2017.05.18-11.45.32:488][301]LogFbx: SortedLinks :(23) thumb_03_l
+[2017.05.18-11.45.32:488][301]LogFbx: SortedLinks :(24) lowerarm_twist_01_l
+[2017.05.18-11.45.32:488][301]LogFbx: SortedLinks :(25) upperarm_twist_01_l
+[2017.05.18-11.45.32:488][301]LogFbx: SortedLinks :(26) clavicle_r
+[2017.05.18-11.45.32:488][301]LogFbx: SortedLinks :(27) upperarm_r
+[2017.05.18-11.45.32:488][301]LogFbx: SortedLinks :(28) lowerarm_r
+[2017.05.18-11.45.32:488][301]LogFbx: SortedLinks :(29) hand_r
+[2017.05.18-11.45.32:488][301]LogFbx: SortedLinks :(30) index_01_r
+[2017.05.18-11.45.32:488][301]LogFbx: SortedLinks :(31) index_02_r
+[2017.05.18-11.45.32:488][301]LogFbx: SortedLinks :(32) index_03_r
+[2017.05.18-11.45.32:488][301]LogFbx: SortedLinks :(33) middle_01_r
+[2017.05.18-11.45.32:488][301]LogFbx: SortedLinks :(34) middle_02_r
+[2017.05.18-11.45.32:488][301]LogFbx: SortedLinks :(35) middle_03_r
+[2017.05.18-11.45.32:488][301]LogFbx: SortedLinks :(36) pinky_01_r
+[2017.05.18-11.45.32:488][301]LogFbx: SortedLinks :(37) pinky_02_r
+[2017.05.18-11.45.32:488][301]LogFbx: SortedLinks :(38) pinky_03_r
+[2017.05.18-11.45.32:488][301]LogFbx: SortedLinks :(39) ring_01_r
+[2017.05.18-11.45.32:488][301]LogFbx: SortedLinks :(40) ring_02_r
+[2017.05.18-11.45.32:488][301]LogFbx: SortedLinks :(41) ring_03_r
+[2017.05.18-11.45.32:488][301]LogFbx: SortedLinks :(42) thumb_01_r
+[2017.05.18-11.45.32:488][301]LogFbx: SortedLinks :(43) thumb_02_r
+[2017.05.18-11.45.32:488][301]LogFbx: SortedLinks :(44) thumb_03_r
+[2017.05.18-11.45.32:488][301]LogFbx: SortedLinks :(45) lowerarm_twist_01_r
+[2017.05.18-11.45.32:488][301]LogFbx: SortedLinks :(46) upperarm_twist_01_r
+[2017.05.18-11.45.32:488][301]LogFbx: SortedLinks :(47) neck_01
+[2017.05.18-11.45.32:488][301]LogFbx: SortedLinks :(48) head
+[2017.05.18-11.45.32:488][301]LogFbx: SortedLinks :(49) thigh_l
+[2017.05.18-11.45.32:488][301]LogFbx: SortedLinks :(50) calf_l
+[2017.05.18-11.45.32:488][301]LogFbx: SortedLinks :(51) calf_twist_01_l
+[2017.05.18-11.45.32:488][301]LogFbx: SortedLinks :(52) foot_l
+[2017.05.18-11.45.32:488][301]LogFbx: SortedLinks :(53) ball_l
+[2017.05.18-11.45.32:488][301]LogFbx: SortedLinks :(54) thigh_twist_01_l
+[2017.05.18-11.45.32:488][301]LogFbx: SortedLinks :(55) thigh_r
+[2017.05.18-11.45.32:488][301]LogFbx: SortedLinks :(56) calf_r
+[2017.05.18-11.45.32:488][301]LogFbx: SortedLinks :(57) calf_twist_01_r
+[2017.05.18-11.45.32:488][301]LogFbx: SortedLinks :(58) foot_r
+[2017.05.18-11.45.32:488][301]LogFbx: SortedLinks :(59) ball_r
+[2017.05.18-11.45.32:488][301]LogFbx: SortedLinks :(60) thigh_twist_01_r
+[2017.05.18-11.45.32:488][301]LogFbx: SortedLinks :(61) ik_foot_root
+[2017.05.18-11.45.32:488][301]LogFbx: SortedLinks :(62) ik_foot_l
+[2017.05.18-11.45.32:488][301]LogFbx: SortedLinks :(63) ik_foot_r
+[2017.05.18-11.45.32:488][301]LogFbx: SortedLinks :(64) ik_hand_root
+[2017.05.18-11.45.32:488][301]LogFbx: SortedLinks :(65) ik_hand_gun
+[2017.05.18-11.45.32:488][301]LogFbx: SortedLinks :(66) ik_hand_l
+[2017.05.18-11.45.32:488][301]LogFbx: SortedLinks :(67) ik_hand_r
+[2017.05.18-11.45.32:489][301]LogFbx: Parsing AnimStack Unreal Take
+[2017.05.18-11.45.32:491][301]LogLinker: '/Game/ThirdPersonJump_Start' 파일을 찾을 수 없습니다.
+[2017.05.18-11.45.32:491][301]LogLinker: '/Game/ThirdPersonJump_Start' 파일을 찾을 수 없습니다.
+[2017.05.18-11.45.32:582][301]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonJump_Start.ThirdPersonJump_Start
+[2017.05.18-11.45.32:596][301]LogFactory: FactoryCreateFile: AnimSequence with FbxFactory (0 0 ../../../../../../Users/13-720900/Desktop/2017-Game-Engine-master/Labs/Resources/AnimationProject/ThirdPersonRun.FBX)
+[2017.05.18-11.45.32:607][301]LogFbx: Loading FBX Scene from ../../../../../../Users/13-720900/Desktop/2017-Game-Engine-master/Labs/Resources/AnimationProject/ThirdPersonRun.FBX
+[2017.05.18-11.45.32:631][301]LogFbx: FBX Scene Loaded Succesfully
+[2017.05.18-11.45.32:634][301]LogFbx: SortedLinks :(0) root
+[2017.05.18-11.45.32:634][301]LogFbx: SortedLinks :(1) pelvis
+[2017.05.18-11.45.32:634][301]LogFbx: SortedLinks :(2) spine_01
+[2017.05.18-11.45.32:634][301]LogFbx: SortedLinks :(3) spine_02
+[2017.05.18-11.45.32:634][301]LogFbx: SortedLinks :(4) spine_03
+[2017.05.18-11.45.32:634][301]LogFbx: SortedLinks :(5) clavicle_l
+[2017.05.18-11.45.32:634][301]LogFbx: SortedLinks :(6) upperarm_l
+[2017.05.18-11.45.32:634][301]LogFbx: SortedLinks :(7) lowerarm_l
+[2017.05.18-11.45.32:634][301]LogFbx: SortedLinks :(8) hand_l
+[2017.05.18-11.45.32:634][301]LogFbx: SortedLinks :(9) index_01_l
+[2017.05.18-11.45.32:634][301]LogFbx: SortedLinks :(10) index_02_l
+[2017.05.18-11.45.32:634][301]LogFbx: SortedLinks :(11) index_03_l
+[2017.05.18-11.45.32:634][301]LogFbx: SortedLinks :(12) middle_01_l
+[2017.05.18-11.45.32:634][301]LogFbx: SortedLinks :(13) middle_02_l
+[2017.05.18-11.45.32:634][301]LogFbx: SortedLinks :(14) middle_03_l
+[2017.05.18-11.45.32:634][301]LogFbx: SortedLinks :(15) pinky_01_l
+[2017.05.18-11.45.32:634][301]LogFbx: SortedLinks :(16) pinky_02_l
+[2017.05.18-11.45.32:634][301]LogFbx: SortedLinks :(17) pinky_03_l
+[2017.05.18-11.45.32:634][301]LogFbx: SortedLinks :(18) ring_01_l
+[2017.05.18-11.45.32:634][301]LogFbx: SortedLinks :(19) ring_02_l
+[2017.05.18-11.45.32:634][301]LogFbx: SortedLinks :(20) ring_03_l
+[2017.05.18-11.45.32:634][301]LogFbx: SortedLinks :(21) thumb_01_l
+[2017.05.18-11.45.32:634][301]LogFbx: SortedLinks :(22) thumb_02_l
+[2017.05.18-11.45.32:634][301]LogFbx: SortedLinks :(23) thumb_03_l
+[2017.05.18-11.45.32:634][301]LogFbx: SortedLinks :(24) lowerarm_twist_01_l
+[2017.05.18-11.45.32:634][301]LogFbx: SortedLinks :(25) upperarm_twist_01_l
+[2017.05.18-11.45.32:634][301]LogFbx: SortedLinks :(26) clavicle_r
+[2017.05.18-11.45.32:634][301]LogFbx: SortedLinks :(27) upperarm_r
+[2017.05.18-11.45.32:634][301]LogFbx: SortedLinks :(28) lowerarm_r
+[2017.05.18-11.45.32:634][301]LogFbx: SortedLinks :(29) hand_r
+[2017.05.18-11.45.32:634][301]LogFbx: SortedLinks :(30) index_01_r
+[2017.05.18-11.45.32:634][301]LogFbx: SortedLinks :(31) index_02_r
+[2017.05.18-11.45.32:634][301]LogFbx: SortedLinks :(32) index_03_r
+[2017.05.18-11.45.32:634][301]LogFbx: SortedLinks :(33) middle_01_r
+[2017.05.18-11.45.32:634][301]LogFbx: SortedLinks :(34) middle_02_r
+[2017.05.18-11.45.32:634][301]LogFbx: SortedLinks :(35) middle_03_r
+[2017.05.18-11.45.32:634][301]LogFbx: SortedLinks :(36) pinky_01_r
+[2017.05.18-11.45.32:634][301]LogFbx: SortedLinks :(37) pinky_02_r
+[2017.05.18-11.45.32:634][301]LogFbx: SortedLinks :(38) pinky_03_r
+[2017.05.18-11.45.32:634][301]LogFbx: SortedLinks :(39) ring_01_r
+[2017.05.18-11.45.32:634][301]LogFbx: SortedLinks :(40) ring_02_r
+[2017.05.18-11.45.32:634][301]LogFbx: SortedLinks :(41) ring_03_r
+[2017.05.18-11.45.32:634][301]LogFbx: SortedLinks :(42) thumb_01_r
+[2017.05.18-11.45.32:634][301]LogFbx: SortedLinks :(43) thumb_02_r
+[2017.05.18-11.45.32:634][301]LogFbx: SortedLinks :(44) thumb_03_r
+[2017.05.18-11.45.32:634][301]LogFbx: SortedLinks :(45) lowerarm_twist_01_r
+[2017.05.18-11.45.32:634][301]LogFbx: SortedLinks :(46) upperarm_twist_01_r
+[2017.05.18-11.45.32:634][301]LogFbx: SortedLinks :(47) neck_01
+[2017.05.18-11.45.32:634][301]LogFbx: SortedLinks :(48) head
+[2017.05.18-11.45.32:634][301]LogFbx: SortedLinks :(49) thigh_l
+[2017.05.18-11.45.32:634][301]LogFbx: SortedLinks :(50) calf_l
+[2017.05.18-11.45.32:634][301]LogFbx: SortedLinks :(51) calf_twist_01_l
+[2017.05.18-11.45.32:634][301]LogFbx: SortedLinks :(52) foot_l
+[2017.05.18-11.45.32:634][301]LogFbx: SortedLinks :(53) ball_l
+[2017.05.18-11.45.32:634][301]LogFbx: SortedLinks :(54) thigh_twist_01_l
+[2017.05.18-11.45.32:634][301]LogFbx: SortedLinks :(55) thigh_r
+[2017.05.18-11.45.32:634][301]LogFbx: SortedLinks :(56) calf_r
+[2017.05.18-11.45.32:634][301]LogFbx: SortedLinks :(57) calf_twist_01_r
+[2017.05.18-11.45.32:634][301]LogFbx: SortedLinks :(58) foot_r
+[2017.05.18-11.45.32:634][301]LogFbx: SortedLinks :(59) ball_r
+[2017.05.18-11.45.32:634][301]LogFbx: SortedLinks :(60) thigh_twist_01_r
+[2017.05.18-11.45.32:634][301]LogFbx: SortedLinks :(61) ik_foot_root
+[2017.05.18-11.45.32:634][301]LogFbx: SortedLinks :(62) ik_foot_l
+[2017.05.18-11.45.32:634][301]LogFbx: SortedLinks :(63) ik_foot_r
+[2017.05.18-11.45.32:635][301]LogFbx: SortedLinks :(64) ik_hand_root
+[2017.05.18-11.45.32:635][301]LogFbx: SortedLinks :(65) ik_hand_gun
+[2017.05.18-11.45.32:635][301]LogFbx: SortedLinks :(66) ik_hand_l
+[2017.05.18-11.45.32:635][301]LogFbx: SortedLinks :(67) ik_hand_r
+[2017.05.18-11.45.32:635][301]LogFbx: Parsing AnimStack Unreal Take
+[2017.05.18-11.45.32:637][301]LogLinker: '/Game/ThirdPersonRun' 파일을 찾을 수 없습니다.
+[2017.05.18-11.45.32:637][301]LogLinker: '/Game/ThirdPersonRun' 파일을 찾을 수 없습니다.
+[2017.05.18-11.45.32:748][301]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonRun.ThirdPersonRun
+[2017.05.18-11.45.32:763][301]LogFactory: FactoryCreateFile: AnimSequence with FbxFactory (0 0 ../../../../../../Users/13-720900/Desktop/2017-Game-Engine-master/Labs/Resources/AnimationProject/ThirdPersonWalk.FBX)
+[2017.05.18-11.45.32:772][301]LogFbx: Loading FBX Scene from ../../../../../../Users/13-720900/Desktop/2017-Game-Engine-master/Labs/Resources/AnimationProject/ThirdPersonWalk.FBX
+[2017.05.18-11.45.32:796][301]LogFbx: FBX Scene Loaded Succesfully
+[2017.05.18-11.45.32:799][301]LogFbx: SortedLinks :(0) root
+[2017.05.18-11.45.32:799][301]LogFbx: SortedLinks :(1) pelvis
+[2017.05.18-11.45.32:799][301]LogFbx: SortedLinks :(2) spine_01
+[2017.05.18-11.45.32:799][301]LogFbx: SortedLinks :(3) spine_02
+[2017.05.18-11.45.32:799][301]LogFbx: SortedLinks :(4) spine_03
+[2017.05.18-11.45.32:799][301]LogFbx: SortedLinks :(5) clavicle_l
+[2017.05.18-11.45.32:799][301]LogFbx: SortedLinks :(6) upperarm_l
+[2017.05.18-11.45.32:799][301]LogFbx: SortedLinks :(7) lowerarm_l
+[2017.05.18-11.45.32:799][301]LogFbx: SortedLinks :(8) hand_l
+[2017.05.18-11.45.32:799][301]LogFbx: SortedLinks :(9) index_01_l
+[2017.05.18-11.45.32:799][301]LogFbx: SortedLinks :(10) index_02_l
+[2017.05.18-11.45.32:799][301]LogFbx: SortedLinks :(11) index_03_l
+[2017.05.18-11.45.32:799][301]LogFbx: SortedLinks :(12) middle_01_l
+[2017.05.18-11.45.32:800][301]LogFbx: SortedLinks :(13) middle_02_l
+[2017.05.18-11.45.32:800][301]LogFbx: SortedLinks :(14) middle_03_l
+[2017.05.18-11.45.32:800][301]LogFbx: SortedLinks :(15) pinky_01_l
+[2017.05.18-11.45.32:800][301]LogFbx: SortedLinks :(16) pinky_02_l
+[2017.05.18-11.45.32:800][301]LogFbx: SortedLinks :(17) pinky_03_l
+[2017.05.18-11.45.32:800][301]LogFbx: SortedLinks :(18) ring_01_l
+[2017.05.18-11.45.32:800][301]LogFbx: SortedLinks :(19) ring_02_l
+[2017.05.18-11.45.32:800][301]LogFbx: SortedLinks :(20) ring_03_l
+[2017.05.18-11.45.32:800][301]LogFbx: SortedLinks :(21) thumb_01_l
+[2017.05.18-11.45.32:800][301]LogFbx: SortedLinks :(22) thumb_02_l
+[2017.05.18-11.45.32:800][301]LogFbx: SortedLinks :(23) thumb_03_l
+[2017.05.18-11.45.32:800][301]LogFbx: SortedLinks :(24) lowerarm_twist_01_l
+[2017.05.18-11.45.32:800][301]LogFbx: SortedLinks :(25) upperarm_twist_01_l
+[2017.05.18-11.45.32:800][301]LogFbx: SortedLinks :(26) clavicle_r
+[2017.05.18-11.45.32:800][301]LogFbx: SortedLinks :(27) upperarm_r
+[2017.05.18-11.45.32:800][301]LogFbx: SortedLinks :(28) lowerarm_r
+[2017.05.18-11.45.32:800][301]LogFbx: SortedLinks :(29) hand_r
+[2017.05.18-11.45.32:800][301]LogFbx: SortedLinks :(30) index_01_r
+[2017.05.18-11.45.32:800][301]LogFbx: SortedLinks :(31) index_02_r
+[2017.05.18-11.45.32:800][301]LogFbx: SortedLinks :(32) index_03_r
+[2017.05.18-11.45.32:800][301]LogFbx: SortedLinks :(33) middle_01_r
+[2017.05.18-11.45.32:800][301]LogFbx: SortedLinks :(34) middle_02_r
+[2017.05.18-11.45.32:800][301]LogFbx: SortedLinks :(35) middle_03_r
+[2017.05.18-11.45.32:800][301]LogFbx: SortedLinks :(36) pinky_01_r
+[2017.05.18-11.45.32:800][301]LogFbx: SortedLinks :(37) pinky_02_r
+[2017.05.18-11.45.32:800][301]LogFbx: SortedLinks :(38) pinky_03_r
+[2017.05.18-11.45.32:800][301]LogFbx: SortedLinks :(39) ring_01_r
+[2017.05.18-11.45.32:800][301]LogFbx: SortedLinks :(40) ring_02_r
+[2017.05.18-11.45.32:800][301]LogFbx: SortedLinks :(41) ring_03_r
+[2017.05.18-11.45.32:800][301]LogFbx: SortedLinks :(42) thumb_01_r
+[2017.05.18-11.45.32:800][301]LogFbx: SortedLinks :(43) thumb_02_r
+[2017.05.18-11.45.32:800][301]LogFbx: SortedLinks :(44) thumb_03_r
+[2017.05.18-11.45.32:800][301]LogFbx: SortedLinks :(45) lowerarm_twist_01_r
+[2017.05.18-11.45.32:800][301]LogFbx: SortedLinks :(46) upperarm_twist_01_r
+[2017.05.18-11.45.32:800][301]LogFbx: SortedLinks :(47) neck_01
+[2017.05.18-11.45.32:800][301]LogFbx: SortedLinks :(48) head
+[2017.05.18-11.45.32:800][301]LogFbx: SortedLinks :(49) thigh_l
+[2017.05.18-11.45.32:800][301]LogFbx: SortedLinks :(50) calf_l
+[2017.05.18-11.45.32:800][301]LogFbx: SortedLinks :(51) calf_twist_01_l
+[2017.05.18-11.45.32:800][301]LogFbx: SortedLinks :(52) foot_l
+[2017.05.18-11.45.32:800][301]LogFbx: SortedLinks :(53) ball_l
+[2017.05.18-11.45.32:800][301]LogFbx: SortedLinks :(54) thigh_twist_01_l
+[2017.05.18-11.45.32:800][301]LogFbx: SortedLinks :(55) thigh_r
+[2017.05.18-11.45.32:800][301]LogFbx: SortedLinks :(56) calf_r
+[2017.05.18-11.45.32:800][301]LogFbx: SortedLinks :(57) calf_twist_01_r
+[2017.05.18-11.45.32:800][301]LogFbx: SortedLinks :(58) foot_r
+[2017.05.18-11.45.32:800][301]LogFbx: SortedLinks :(59) ball_r
+[2017.05.18-11.45.32:800][301]LogFbx: SortedLinks :(60) thigh_twist_01_r
+[2017.05.18-11.45.32:800][301]LogFbx: SortedLinks :(61) ik_foot_root
+[2017.05.18-11.45.32:800][301]LogFbx: SortedLinks :(62) ik_foot_l
+[2017.05.18-11.45.32:800][301]LogFbx: SortedLinks :(63) ik_foot_r
+[2017.05.18-11.45.32:800][301]LogFbx: SortedLinks :(64) ik_hand_root
+[2017.05.18-11.45.32:800][301]LogFbx: SortedLinks :(65) ik_hand_gun
+[2017.05.18-11.45.32:800][301]LogFbx: SortedLinks :(66) ik_hand_l
+[2017.05.18-11.45.32:800][301]LogFbx: SortedLinks :(67) ik_hand_r
+[2017.05.18-11.45.32:800][301]LogFbx: Parsing AnimStack Unreal Take
+[2017.05.18-11.45.32:802][301]LogLinker: '/Game/ThirdPersonWalk' 파일을 찾을 수 없습니다.
+[2017.05.18-11.45.32:802][301]LogLinker: '/Game/ThirdPersonWalk' 파일을 찾을 수 없습니다.
+[2017.05.18-11.45.32:955][301]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonWalk.ThirdPersonWalk
+[2017.05.18-11.45.32:973][301]LogTemp:Display: Finished compile of shader map 0x0000018702B3BC80
+[2017.05.18-11.45.32:973][301]LogTemp:Display: Shader map M_UE4Man_Body complete, GameThreadShaderMap 0x0000018702B3BC80, marking material M_UE4Man_Body as finished
+[2017.05.18-11.45.32:973][301]LogTemp:Display: Marking material as finished 0x0000018747C57700
+[2017.05.18-11.45.32:979][301]LogTemp:Display: Finished compile of shader map 0x0000018702E98800
+[2017.05.18-11.45.32:979][301]LogTemp:Display: Shader map Fbx_Default_Material_1 complete, GameThreadShaderMap 0x0000018702E98800, marking material Fbx_Default_Material_1 as finished
+[2017.05.18-11.45.32:979][301]LogTemp:Display: Marking material as finished 0x0000018747ED9480
+[2017.05.18-11.45.35:390][503]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonWalk" FILE="E:/Unreal Project/LabProject02/Content/ThirdPersonWalk.uasset" SILENT=true
+[2017.05.18-11.45.35:401][503]LogSavePackage: Save=9.47ms
+[2017.05.18-11.45.35:401][503]LogSavePackage: Moving 'E:/Unreal Project/LabProject02/Saved/ThirdPersonWalk5AD6E3D74432C863E0B40E87FE7023CB.tmp' to 'E:/Unreal Project/LabProject02/Content/ThirdPersonWalk.uasset'
+[2017.05.18-11.45.35:403][503]LogSavePackage:Display: Finished SavePackage E:/Unreal Project/LabProject02/Content/ThirdPersonWalk.uasset
+[2017.05.18-11.45.35:418][503]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonRun" FILE="E:/Unreal Project/LabProject02/Content/ThirdPersonRun.uasset" SILENT=true
+[2017.05.18-11.45.35:428][503]LogSavePackage: Save=9.45ms
+[2017.05.18-11.45.35:428][503]LogSavePackage: Moving 'E:/Unreal Project/LabProject02/Saved/ThirdPersonRun82BED8784B4E03EC28EDD9B2F8604ACC.tmp' to 'E:/Unreal Project/LabProject02/Content/ThirdPersonRun.uasset'
+[2017.05.18-11.45.35:430][503]LogSavePackage:Display: Finished SavePackage E:/Unreal Project/LabProject02/Content/ThirdPersonRun.uasset
+[2017.05.18-11.45.35:445][503]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonJump_Start" FILE="E:/Unreal Project/LabProject02/Content/ThirdPersonJump_Start.uasset" SILENT=true
+[2017.05.18-11.45.35:455][503]LogSavePackage: Save=9.26ms
+[2017.05.18-11.45.35:455][503]LogSavePackage: Moving 'E:/Unreal Project/LabProject02/Saved/ThirdPersonJump_Start5E4558D54E85D8B10E07E39AD71BA42E.tmp' to 'E:/Unreal Project/LabProject02/Content/ThirdPersonJump_Start.uasset'
+[2017.05.18-11.45.35:457][503]LogSavePackage:Display: Finished SavePackage E:/Unreal Project/LabProject02/Content/ThirdPersonJump_Start.uasset
+[2017.05.18-11.45.35:472][503]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonJump_Loop" FILE="E:/Unreal Project/LabProject02/Content/ThirdPersonJump_Loop.uasset" SILENT=true
+[2017.05.18-11.45.35:483][503]LogSavePackage: Save=9.42ms
+[2017.05.18-11.45.35:483][503]LogSavePackage: Moving 'E:/Unreal Project/LabProject02/Saved/ThirdPersonJump_Loop85CECBDD4729E1B16C804E9191132DDE.tmp' to 'E:/Unreal Project/LabProject02/Content/ThirdPersonJump_Loop.uasset'
+[2017.05.18-11.45.35:484][503]LogSavePackage:Display: Finished SavePackage E:/Unreal Project/LabProject02/Content/ThirdPersonJump_Loop.uasset
+[2017.05.18-11.45.35:500][503]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonJump_End" FILE="E:/Unreal Project/LabProject02/Content/ThirdPersonJump_End.uasset" SILENT=true
+[2017.05.18-11.45.35:510][503]LogSavePackage: Save=9.45ms
+[2017.05.18-11.45.35:510][503]LogSavePackage: Moving 'E:/Unreal Project/LabProject02/Saved/ThirdPersonJump_End53E32806437CB324366E898CB11EFF67.tmp' to 'E:/Unreal Project/LabProject02/Content/ThirdPersonJump_End.uasset'
+[2017.05.18-11.45.35:512][503]LogSavePackage:Display: Finished SavePackage E:/Unreal Project/LabProject02/Content/ThirdPersonJump_End.uasset
+[2017.05.18-11.45.35:527][503]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonIdle" FILE="E:/Unreal Project/LabProject02/Content/ThirdPersonIdle.uasset" SILENT=true
+[2017.05.18-11.45.35:538][503]LogSavePackage: Save=9.82ms
+[2017.05.18-11.45.35:538][503]LogSavePackage: Moving 'E:/Unreal Project/LabProject02/Saved/ThirdPersonIdle31BA41DF4585BDF5D318CFA5966A37F2.tmp' to 'E:/Unreal Project/LabProject02/Content/ThirdPersonIdle.uasset'
+[2017.05.18-11.45.35:540][503]LogSavePackage:Display: Finished SavePackage E:/Unreal Project/LabProject02/Content/ThirdPersonIdle.uasset
+[2017.05.18-11.45.35:555][503]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MontageExample_Start" FILE="E:/Unreal Project/LabProject02/Content/MontageExample_Start.uasset" SILENT=true
+[2017.05.18-11.45.35:566][503]LogSavePackage: Save=9.41ms
+[2017.05.18-11.45.35:566][503]LogSavePackage: Moving 'E:/Unreal Project/LabProject02/Saved/MontageExample_StartD40921284B6FADAF34616AA71762F5BA.tmp' to 'E:/Unreal Project/LabProject02/Content/MontageExample_Start.uasset'
+[2017.05.18-11.45.35:567][503]LogSavePackage:Display: Finished SavePackage E:/Unreal Project/LabProject02/Content/MontageExample_Start.uasset
+[2017.05.18-11.45.35:583][503]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MontageExample_Punch_2" FILE="E:/Unreal Project/LabProject02/Content/MontageExample_Punch_2.uasset" SILENT=true
+[2017.05.18-11.45.35:593][503]LogSavePackage: Save=9.26ms
+[2017.05.18-11.45.35:593][503]LogSavePackage: Moving 'E:/Unreal Project/LabProject02/Saved/MontageExample_Punch_25168F18E48DAF126CB04ABB9146A54E4.tmp' to 'E:/Unreal Project/LabProject02/Content/MontageExample_Punch_2.uasset'
+[2017.05.18-11.45.35:595][503]LogSavePackage:Display: Finished SavePackage E:/Unreal Project/LabProject02/Content/MontageExample_Punch_2.uasset
+[2017.05.18-11.45.35:610][503]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MontageExample_Punch_1" FILE="E:/Unreal Project/LabProject02/Content/MontageExample_Punch_1.uasset" SILENT=true
+[2017.05.18-11.45.35:621][503]LogSavePackage: Save=9.28ms
+[2017.05.18-11.45.35:621][503]LogSavePackage: Moving 'E:/Unreal Project/LabProject02/Saved/MontageExample_Punch_1594BF7804289439958E8FC9632051687.tmp' to 'E:/Unreal Project/LabProject02/Content/MontageExample_Punch_1.uasset'
+[2017.05.18-11.45.35:622][503]LogSavePackage:Display: Finished SavePackage E:/Unreal Project/LabProject02/Content/MontageExample_Punch_1.uasset
+[2017.05.18-11.45.35:638][503]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MontageExample_End_2" FILE="E:/Unreal Project/LabProject02/Content/MontageExample_End_2.uasset" SILENT=true
+[2017.05.18-11.45.35:648][503]LogSavePackage: Save=9.39ms
+[2017.05.18-11.45.35:649][503]LogSavePackage: Moving 'E:/Unreal Project/LabProject02/Saved/MontageExample_End_23BF64413481F43AC1492C785A12404DF.tmp' to 'E:/Unreal Project/LabProject02/Content/MontageExample_End_2.uasset'
+[2017.05.18-11.45.35:650][503]LogSavePackage:Display: Finished SavePackage E:/Unreal Project/LabProject02/Content/MontageExample_End_2.uasset
+[2017.05.18-11.45.35:665][503]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MontageExample_End_1" FILE="E:/Unreal Project/LabProject02/Content/MontageExample_End_1.uasset" SILENT=true
+[2017.05.18-11.45.35:676][503]LogSavePackage: Save=9.75ms
+[2017.05.18-11.45.35:676][503]LogSavePackage: Moving 'E:/Unreal Project/LabProject02/Saved/MontageExample_End_140F46DE84BCFF05781D272AF148A4F81.tmp' to 'E:/Unreal Project/LabProject02/Content/MontageExample_End_1.uasset'
+[2017.05.18-11.45.35:677][503]LogSavePackage:Display: Finished SavePackage E:/Unreal Project/LabProject02/Content/MontageExample_End_1.uasset
+[2017.05.18-11.45.35:680][503]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SK_Mannequin_Skeleton" FILE="E:/Unreal Project/LabProject02/Content/SK_Mannequin_Skeleton.uasset" SILENT=true
+[2017.05.18-11.45.35:682][503]LogSavePackage: Save=1.68ms
+[2017.05.18-11.45.35:682][503]LogSavePackage: Moving 'E:/Unreal Project/LabProject02/Saved/SK_Mannequin_SkeletonC930A9CD4173E92B0E4D0D8840221143.tmp' to 'E:/Unreal Project/LabProject02/Content/SK_Mannequin_Skeleton.uasset'
+[2017.05.18-11.45.35:684][503]LogSavePackage:Display: Finished SavePackage E:/Unreal Project/LabProject02/Content/SK_Mannequin_Skeleton.uasset
+[2017.05.18-11.45.35:686][503]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SK_Mannequin_PhysicsAsset" FILE="E:/Unreal Project/LabProject02/Content/SK_Mannequin_PhysicsAsset.uasset" SILENT=true
+[2017.05.18-11.45.35:700][503]LogSavePackage: Save=10.78ms
+[2017.05.18-11.45.35:700][503]LogSavePackage: Moving 'E:/Unreal Project/LabProject02/Saved/SK_Mannequin_PhysicsAsset95B9648E40E5BF1C3F333C82C925358D.tmp' to 'E:/Unreal Project/LabProject02/Content/SK_Mannequin_PhysicsAsset.uasset'
+[2017.05.18-11.45.35:702][503]LogSavePackage:Display: Finished SavePackage E:/Unreal Project/LabProject02/Content/SK_Mannequin_PhysicsAsset.uasset
+[2017.05.18-11.45.35:720][503]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fbx_Default_Material_1" FILE="E:/Unreal Project/LabProject02/Content/Fbx_Default_Material_1.uasset" SILENT=true
+[2017.05.18-11.45.35:731][503]LogSavePackage: Save=9.84ms
+[2017.05.18-11.45.35:731][503]LogSavePackage: Moving 'E:/Unreal Project/LabProject02/Saved/Fbx_Default_Material_19FA52B654D6974E915B36AB455002423.tmp' to 'E:/Unreal Project/LabProject02/Content/Fbx_Default_Material_1.uasset'
+[2017.05.18-11.45.35:733][503]LogSavePackage:Display: Finished SavePackage E:/Unreal Project/LabProject02/Content/Fbx_Default_Material_1.uasset
+[2017.05.18-11.45.35:751][503]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/M_UE4Man_Body" FILE="E:/Unreal Project/LabProject02/Content/M_UE4Man_Body.uasset" SILENT=true
+[2017.05.18-11.45.35:762][503]LogSavePackage: Save=9.11ms
+[2017.05.18-11.45.35:762][503]LogSavePackage: Moving 'E:/Unreal Project/LabProject02/Saved/M_UE4Man_Body720D9F9542B7346071C4CD92AB477035.tmp' to 'E:/Unreal Project/LabProject02/Content/M_UE4Man_Body.uasset'
+[2017.05.18-11.45.35:763][503]LogSavePackage:Display: Finished SavePackage E:/Unreal Project/LabProject02/Content/M_UE4Man_Body.uasset
+[2017.05.18-11.45.35:779][503]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SK_Mannequin" FILE="E:/Unreal Project/LabProject02/Content/SK_Mannequin.uasset" SILENT=true
+[2017.05.18-11.45.35:830][503]LogSavePackage: Save=50.68ms
+[2017.05.18-11.45.35:830][503]LogSavePackage: Moving 'E:/Unreal Project/LabProject02/Saved/SK_Mannequin603B03664DFEEB13862A55B1C1FAA7ED.tmp' to 'E:/Unreal Project/LabProject02/Content/SK_Mannequin.uasset'
+[2017.05.18-11.45.35:832][503]LogSavePackage:Display: Finished SavePackage E:/Unreal Project/LabProject02/Content/SK_Mannequin.uasset
+[2017.05.18-11.46.04:568][  8]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0012 seconds. Added 112 classes and 0 folders.
+[2017.05.18-11.46.05:246][  8]LogRenderer: Reallocating scene render targets to support 1208x712 NumSamples 1 (Frame:28053).
+[2017.05.18-11.47.02:159][696]LogRenderer: Reallocating scene render targets to support 1212x712 NumSamples 1 (Frame:30870).
+[2017.05.18-11.47.02:513][730]LogRenderer: Reallocating scene render targets to support 1220x712 NumSamples 1 (Frame:30874).
+[2017.05.18-11.47.02:577][731]LogRenderer: Reallocating scene render targets to support 1224x712 NumSamples 1 (Frame:30876).
+[2017.05.18-11.47.08:626][399]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.05.18-11.47.09:408][402]LogTemp:Display: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.LabProject02
+
+[2017.05.18-11.47.09:408][402]LogTemp:Display: CWD: C:\Program Files\Epic Games\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2017.05.18-11.47.09:408][402]LogTemp:Display: Initial Dir: C:\Program Files\Epic Games\UE_4.15
+
+[2017.05.18-11.47.09:408][402]LogTemp:Display: Env CWD: C:\Program Files\Epic Games\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2017.05.18-11.47.09:408][402]LogTemp:Display: BranchPath = ???ؼ?/C/Program Files/Epic Games/UE_4.15/Engine/Binaries --- GameBranchPath = ???ؼ?/C/Program Files/Epic Games/UE_4.15/Engine/Binaries
+
+[2017.05.18-11.47.09:423][403]LogTemp:Display: IPP ERROR: Application exception: System.IO.DirectoryNotFoundException: 'C:\Users\13-720900\AppData\Local\Apple Computer\MobileDevice\Provisioning Profiles' ?????? ?Ϻθ? ã?? ?? ?????ϴ?.
+
+[2017.05.18-11.47.09:423][403]LogTemp:Display:    ??ġ: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+
+[2017.05.18-11.47.09:423][403]LogTemp:Display:    ??ġ: System.IO.FileSystemEnumerableIterator`1.CommonInit()
+
+[2017.05.18-11.47.09:423][403]LogTemp:Display:    ??ġ: System.IO.Directory.EnumerateFiles(String path, String searchPattern)
+
+[2017.05.18-11.47.09:423][403]LogTemp:Display:    ??ġ: iPhonePackager.CodeSignatureBuilder.FindProvisions(String CFBundleIdentifier)
+
+[2017.05.18-11.47.09:423][403]LogTemp:Display:    ??ġ: iPhonePackager.Program.Main(String[] args)
+
+[2017.05.18-11.47.11:524][644]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.05.18-11.49.41:521][570]LogSlate: Took 0.000284 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.05.18-11.50.39:034][758]LogEditorTransaction: Undo 컴포넌트 변경
+[2017.05.18-11.50.58:420][477]LogSlate: Took 0.000338 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.05.18-11.51.31:184][109]LogLinker: '/Game/Hero/MyHero' 파일을 찾을 수 없습니다.
+[2017.05.18-11.51.31:184][109]LogLinker: '/Game/Hero/MyHero' 파일을 찾을 수 없습니다.
+[2017.05.18-11.53.32:826][142]Cmd: OBJ SAVEPACKAGE PACKAGE="/Temp/Untitled_1" FILE="E:/Unreal Project/LabProject02/Saved/Autosaves/Temp/Untitled_1_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.05.18-11.53.32:847][142]LogSavePackage: Save=21.04ms
+[2017.05.18-11.53.32:847][142]LogSavePackage: Moving 'E:/Unreal Project/LabProject02/Saved/Untitled_1_Auto2A1C391EC45A1BF7A4718FDB6B112C259.tmp' to 'E:/Unreal Project/LabProject02/Saved/Autosaves/Temp/Untitled_1_Auto2.umap'
+[2017.05.18-11.53.32:848][142]LogSavePackage:Display: Finished SavePackage E:/Unreal Project/LabProject02/Saved/Autosaves/Temp/Untitled_1_Auto2.umap
+[2017.05.18-11.53.32:849][142]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.048
+[2017.05.18-11.53.32:849][142]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.048
+[2017.05.18-11.53.32:851][142]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/MyGameMode] ([1] browsable assets)...
+[2017.05.18-11.53.32:851][142]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyGameMode]
+[2017.05.18-11.53.32:851][142]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyGameMode" FILE="E:/Unreal Project/LabProject02/Saved/Autosaves/Game/MyGameMode_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.05.18-11.53.32:860][142]LogSavePackage: Save=7.17ms
+[2017.05.18-11.53.32:860][142]LogSavePackage: Moving 'E:/Unreal Project/LabProject02/Saved/MyGameMode_Auto24E6F3DD14FCAFCE80AA23F8B8058DD8C.tmp' to 'E:/Unreal Project/LabProject02/Saved/Autosaves/Game/MyGameMode_Auto2.uasset'
+[2017.05.18-11.53.32:861][142]LogSavePackage:Display: Finished SavePackage E:/Unreal Project/LabProject02/Saved/Autosaves/Game/MyGameMode_Auto2.uasset
+[2017.05.18-11.53.32:861][142]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Player/HeroBP] ([1] browsable assets)...
+[2017.05.18-11.53.32:876][142]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Player/HeroBP.HeroBP]
+[2017.05.18-11.53.32:876][142]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player/HeroBP]
+[2017.05.18-11.53.32:876][142]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/HeroBP" FILE="E:/Unreal Project/LabProject02/Saved/Autosaves/Game/Player/HeroBP_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.05.18-11.53.32:902][142]LogSavePackage: Save=24.01ms
+[2017.05.18-11.53.32:902][142]LogSavePackage: Moving 'E:/Unreal Project/LabProject02/Saved/HeroBP_Auto27CD2231B435965F358DC16A036E72CB9.tmp' to 'E:/Unreal Project/LabProject02/Saved/Autosaves/Game/Player/HeroBP_Auto2.uasset'
+[2017.05.18-11.53.32:903][142]LogSavePackage:Display: Finished SavePackage E:/Unreal Project/LabProject02/Saved/Autosaves/Game/Player/HeroBP_Auto2.uasset
+[2017.05.18-11.53.32:903][142]LogFileHelpers: Auto-saving content packages took 0.052
+[2017.05.18-11.57.12:251][986]BlueprintLog: New page: HeroBP 컴파일
+[2017.05.18-11.57.36:051][159]BlueprintLog: New page: HeroBP 컴파일
+[2017.05.18-11.57.37:180][241]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/HeroBP" FILE="E:/Unreal Project/LabProject02/Content/Player/HeroBP.uasset" SILENT=true
+[2017.05.18-11.57.37:208][241]LogSavePackage: Save=27.02ms
+[2017.05.18-11.57.37:208][241]LogSavePackage: Moving 'E:/Unreal Project/LabProject02/Saved/HeroBPDDBAAAE14D2B57FC228E1889E7649AB6.tmp' to 'E:/Unreal Project/LabProject02/Content/Player/HeroBP.uasset'
+[2017.05.18-11.57.37:209][241]LogSavePackage:Display: Finished SavePackage E:/Unreal Project/LabProject02/Content/Player/HeroBP.uasset
+[2017.05.18-12.09.26:101][ 53]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.05.18-12.10.17:640][395]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.028
+[2017.05.18-12.10.17:642][395]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/MyGameMode] ([1] browsable assets)...
+[2017.05.18-12.10.17:642][395]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyGameMode]
+[2017.05.18-12.10.17:642][395]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyGameMode" FILE="E:/Unreal Project/LabProject02/Saved/Autosaves/Game/MyGameMode_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2017.05.18-12.10.17:654][395]LogSavePackage: Save=10.11ms
+[2017.05.18-12.10.17:654][395]LogSavePackage: Moving 'E:/Unreal Project/LabProject02/Saved/MyGameMode_Auto375D9B67F4B86A0E1C7E0028ADFEA5ECA.tmp' to 'E:/Unreal Project/LabProject02/Saved/Autosaves/Game/MyGameMode_Auto3.uasset'
+[2017.05.18-12.10.17:656][395]LogSavePackage:Display: Finished SavePackage E:/Unreal Project/LabProject02/Saved/Autosaves/Game/MyGameMode_Auto3.uasset
+[2017.05.18-12.10.17:657][395]LogFileHelpers: Auto-saving content packages took 0.015
+[2017.05.18-13.02.02:141][424]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.05.18-13.02.02:153][424]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-13.02.02:154][424]PIE: New page: PIE 세션: Untitled_1 (2017. 5. 19. 오전 7:02:02)
+[2017.05.18-13.02.02:154][424]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2017.05.18-13.02.02:157][424]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003318s)
+[2017.05.18-13.02.02:160][424]LogAIModule: Creating AISystem for world Untitled_1
+[2017.05.18-13.02.02:160][424]LogPlayLevel: PIE: World Init took: (0.002676s)
+[2017.05.18-13.02.02:160][424]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.006284s)
+[2017.05.18-13.02.02:180][424]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.18-13.02.02:191][424]LogInit: FAudioDevice initialized.
+[2017.05.18-13.02.02:238][424]LogLoad: Game class is 'MyGameMode_C'
+[2017.05.18-13.02.02:240][424]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2017.05.18-22.02.02
+[2017.05.18-13.02.02:241][424]LogWorld: Bringing up level for play took: 0.001066
+[2017.05.18-13.02.02:317][424]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0010 seconds. Added 11 classes and 0 folders.
+[2017.05.18-13.02.02:319][424]PIE: 정보 /Temp/UEDPIE_0_Untitled_1 에 대한 에디터에서 플레이 시작 시간: -0.661
+[2017.05.18-13.03.46:645][350]BlueprintLog: New page: HeroBP 컴파일
+[2017.05.18-13.03.47:412][383]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/HeroBP" FILE="E:/Unreal Project/LabProject02/Content/Player/HeroBP.uasset" SILENT=true
+[2017.05.18-13.03.47:442][383]LogSavePackage: Save=26.68ms
+[2017.05.18-13.03.47:442][383]LogSavePackage: Moving 'E:/Unreal Project/LabProject02/Saved/HeroBP402748A4427CD79ACAC0428D87B05D08.tmp' to 'E:/Unreal Project/LabProject02/Content/Player/HeroBP.uasset'
+[2017.05.18-13.03.47:444][383]LogSavePackage:Display: Finished SavePackage E:/Unreal Project/LabProject02/Content/Player/HeroBP.uasset
+[2017.05.18-13.03.51:777][794]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.05.18-13.03.51:787][794]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-13.03.51:787][794]PIE: New page: PIE 세션: Untitled_1 (2017. 5. 19. 오전 7:03:51)
+[2017.05.18-13.03.51:787][794]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2017.05.18-13.03.51:790][794]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002922s)
+[2017.05.18-13.03.51:791][794]LogAIModule: Creating AISystem for world Untitled_1
+[2017.05.18-13.03.51:791][794]LogPlayLevel: PIE: World Init took: (0.001437s)
+[2017.05.18-13.03.51:791][794]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.004536s)
+[2017.05.18-13.03.51:809][794]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.18-13.03.51:819][794]LogInit: FAudioDevice initialized.
+[2017.05.18-13.03.51:850][794]LogLoad: Game class is 'MyGameMode_C'
+[2017.05.18-13.03.51:852][794]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2017.05.18-22.03.51
+[2017.05.18-13.03.51:852][794]LogWorld: Bringing up level for play took: 0.000751
+[2017.05.18-13.03.51:853][794]PIE: 정보 /Temp/UEDPIE_0_Untitled_1 에 대한 에디터에서 플레이 시작 시간: 0.874
+[2017.05.18-13.04.30:239][899]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.025
+[2017.05.18-13.04.30:241][899]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Player/HeroBP] ([1] browsable assets)...
+[2017.05.18-13.04.30:293][899]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Player/HeroBP.HeroBP]
+[2017.05.18-13.04.30:293][899]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player/HeroBP]
+[2017.05.18-13.04.30:293][899]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/HeroBP" FILE="E:/Unreal Project/LabProject02/Saved/Autosaves/Game/Player/HeroBP_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2017.05.18-13.04.30:338][899]LogSavePackage: Save=43.20ms
+[2017.05.18-13.04.30:338][899]LogSavePackage: Moving 'E:/Unreal Project/LabProject02/Saved/HeroBP_Auto41B870D144C3FD57E06292CB93E73F069.tmp' to 'E:/Unreal Project/LabProject02/Saved/Autosaves/Game/Player/HeroBP_Auto4.uasset'
+[2017.05.18-13.04.30:339][899]LogSavePackage:Display: Finished SavePackage E:/Unreal Project/LabProject02/Saved/Autosaves/Game/Player/HeroBP_Auto4.uasset
+[2017.05.18-13.04.30:340][899]LogFileHelpers: Auto-saving content packages took 0.099
+[2017.05.18-13.06.22:151][ 57]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.05.18-13.06.22:163][ 57]BlueprintLog: New page: 플레이 전 자동 컴파일
+[2017.05.18-13.06.22:163][ 57]LogPlayLevel: [PlayLevel] Compiling HeroBP before play...
+[2017.05.18-13.06.22:383][ 57]LogPlayLevel: PlayLevel: Blueprint regeneration took 220 ms (1 blueprints)
+[2017.05.18-13.06.22:383][ 57]PIE: New page: PIE 세션: Untitled_1 (2017. 5. 19. 오전 7:06:22)
+[2017.05.18-13.06.22:383][ 57]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2017.05.18-13.06.22:385][ 57]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001526s)
+[2017.05.18-13.06.22:386][ 57]LogAIModule: Creating AISystem for world Untitled_1
+[2017.05.18-13.06.22:386][ 57]LogPlayLevel: PIE: World Init took: (0.001029s)
+[2017.05.18-13.06.22:386][ 57]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.002720s)
+[2017.05.18-13.06.22:403][ 57]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.18-13.06.22:413][ 57]LogInit: FAudioDevice initialized.
+[2017.05.18-13.06.22:442][ 57]LogLoad: Game class is 'MyGameMode_C'
+[2017.05.18-13.06.22:444][ 57]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2017.05.18-22.06.22
+[2017.05.18-13.06.22:444][ 57]LogWorld: Bringing up level for play took: 0.000914
+[2017.05.18-13.06.22:445][ 57]PIE: 정보 /Temp/UEDPIE_0_Untitled_1 에 대한 에디터에서 플레이 시작 시간: -0.534
+[2017.05.18-13.06.40:968][878]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyGameMode" FILE="E:/Unreal Project/LabProject02/Content/MyGameMode.uasset" SILENT=true
+[2017.05.18-13.06.40:978][878]LogSavePackage: Save=7.79ms
+[2017.05.18-13.06.40:978][878]LogSavePackage: Moving 'E:/Unreal Project/LabProject02/Saved/MyGameModeE9A6ADCF4AB3AB3675EC249136C2BF5D.tmp' to 'E:/Unreal Project/LabProject02/Content/MyGameMode.uasset'
+[2017.05.18-13.06.40:980][878]LogSavePackage:Display: Finished SavePackage E:/Unreal Project/LabProject02/Content/MyGameMode.uasset
+[2017.05.18-13.06.41:361][914]BlueprintLog: New page: MyGameMode 컴파일
+[2017.05.18-13.06.42:350][977]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/HeroBP" FILE="E:/Unreal Project/LabProject02/Content/Player/HeroBP.uasset" SILENT=true
+[2017.05.18-13.06.42:378][977]LogSavePackage: Save=26.36ms
+[2017.05.18-13.06.42:378][977]LogSavePackage: Moving 'E:/Unreal Project/LabProject02/Saved/HeroBPA6A3683B43CC034BBBBD11B62FD770F8.tmp' to 'E:/Unreal Project/LabProject02/Content/Player/HeroBP.uasset'
+[2017.05.18-13.06.42:379][977]LogSavePackage:Display: Finished SavePackage E:/Unreal Project/LabProject02/Content/Player/HeroBP.uasset
+[2017.05.18-13.06.42:749][  7]BlueprintLog: New page: HeroBP 컴파일
+[2017.05.18-13.06.45:627][235]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.05.18-13.06.50:303][746]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.05.18-13.06.50:993][749]LogTemp:Display: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.LabProject02
+
+[2017.05.18-13.06.50:993][749]LogTemp:Display: CWD: C:\Program Files\Epic Games\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2017.05.18-13.06.50:993][749]LogTemp:Display: Initial Dir: C:\Program Files\Epic Games\UE_4.15
+
+[2017.05.18-13.06.50:993][749]LogTemp:Display: Env CWD: C:\Program Files\Epic Games\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2017.05.18-13.06.50:996][749]LogTemp:Display: BranchPath = ???ؼ?/C/Program Files/Epic Games/UE_4.15/Engine/Binaries --- GameBranchPath = ???ؼ?/C/Program Files/Epic Games/UE_4.15/Engine/Binaries
+
+[2017.05.18-13.06.51:032][752]LogTemp:Display: IPP ERROR: Application exception: System.IO.DirectoryNotFoundException: 'C:\Users\13-720900\AppData\Local\Apple Computer\MobileDevice\Provisioning Profiles' ?????? ?Ϻθ? ã?? ?? ?????ϴ?.
+
+[2017.05.18-13.06.51:033][752]LogTemp:Display:    ??ġ: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+
+[2017.05.18-13.06.51:033][752]LogTemp:Display:    ??ġ: System.IO.FileSystemEnumerableIterator`1.CommonInit()
+
+[2017.05.18-13.06.51:033][752]LogTemp:Display:    ??ġ: System.IO.Directory.EnumerateFiles(String path, String searchPattern)
+
+[2017.05.18-13.06.51:033][752]LogTemp:Display:    ??ġ: iPhonePackager.CodeSignatureBuilder.FindProvisions(String CFBundleIdentifier)
+
+[2017.05.18-13.06.51:033][752]LogTemp:Display:    ??ġ: iPhonePackager.Program.Main(String[] args)
+
+[2017.05.18-13.06.53:419][ 22]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.05.18-13.08.02:867][ 55]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2017.05.18-13.08.04:245][218]Cmd: DELETE
+[2017.05.18-13.08.04:245][218]Cmd: ACTOR DELETE
+[2017.05.18-13.08.04:246][218]LogEditorActor: Deleted Actor: PlayerStart
+[2017.05.18-13.08.04:262][218]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2017.05.18-13.08.13:369][201]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.05.18-13.08.13:378][201]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-13.08.13:378][201]PIE: New page: PIE 세션: Untitled_1 (2017. 5. 19. 오전 7:08:13)
+[2017.05.18-13.08.13:378][201]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2017.05.18-13.08.13:379][201]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001360s)
+[2017.05.18-13.08.13:380][201]LogAIModule: Creating AISystem for world Untitled_1
+[2017.05.18-13.08.13:380][201]LogPlayLevel: PIE: World Init took: (0.000709s)
+[2017.05.18-13.08.13:380][201]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.002258s)
+[2017.05.18-13.08.13:395][201]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.18-13.08.13:405][201]LogInit: FAudioDevice initialized.
+[2017.05.18-13.08.13:434][201]LogLoad: Game class is 'MyGameMode_C'
+[2017.05.18-13.08.13:436][201]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2017.05.18-22.08.13
+[2017.05.18-13.08.13:436][201]LogWorld: Bringing up level for play took: 0.001000
+[2017.05.18-13.08.13:438][201]PIE: 정보 /Temp/UEDPIE_0_Untitled_1 에 대한 에디터에서 플레이 시작 시간: 0.458
+[2017.05.18-13.09.05:848][267]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.05.18-13.09.34:372][427]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.05.18-13.09.34:518][427]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_12:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.05.18-13.09.34:556][427]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_12:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2017.05.18-13.10.55:976][517]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_14:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) Already registered. Aborting.
+[2017.05.18-13.10.56:013][517]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_14:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) - call TermArticulated first.
+[2017.05.18-13.11.36:266][743]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimPreviewInstance_0' or package '/Engine/Transient'.
+[2017.05.18-13.11.36:266][743]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimPreviewInstance_4' or package '/Engine/Transient'.
+[2017.05.18-13.11.36:266][743]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DebugSkelMeshComponent_2' or package '/Engine/Transient'.
+[2017.05.18-13.11.36:278][743]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'CharacterMesh0' or package '/Engine/Transient'.
+[2017.05.18-13.11.36:278][743]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'CharacterMesh0' or package '/Engine/Transient'.
+[2017.05.18-13.11.36:278][743]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'CharacterMesh0' or package '/Engine/Transient'.
+[2017.05.18-13.11.36:278][743]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'CharacterMesh0' or package '/Engine/Transient'.
+[2017.05.18-13.11.36:279][743]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimPreviewInstance_2' or package '/Engine/Transient'.
+[2017.05.18-13.11.36:279][743]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DebugSkelMeshComponent_0' or package '/Engine/Transient'.
+[2017.05.18-13.11.36:279][743]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'CharacterMesh0' or package '/Engine/Transient'.
+[2017.05.18-13.11.36:279][743]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'CharacterMesh0' or package '/Engine/Transient'.
+[2017.05.18-13.11.36:279][743]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimPreviewInstance_5' or package '/Engine/Transient'.
+[2017.05.18-13.11.36:279][743]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DebugSkelMeshComponent_3' or package '/Engine/Transient'.
+[2017.05.18-13.11.36:279][743]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimPreviewInstance_1' or package '/Engine/Transient'.
+[2017.05.18-13.11.36:279][743]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'CharacterMesh0' or package '/Engine/Transient'.
+[2017.05.18-13.11.36:279][743]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'CharacterMesh0' or package '/Engine/Transient'.
+[2017.05.18-13.11.36:279][743]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'CharacterMesh0' or package '/Engine/Transient'.
+[2017.05.18-13.11.36:279][743]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'CharacterMesh0' or package '/Engine/Transient'.
+[2017.05.18-13.11.36:279][743]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'CharacterMesh0' or package '/Engine/Transient'.
+[2017.05.18-13.11.37:602][743]LogTemp:Display: Removed shader map 0x000001870263A080 from material 0x0000018747ED9480
+[2017.05.18-13.11.37:602][743]LogTemp:Display: Removed shader map 0x0000018700858100 from material 0x0000018747C57700
+[2017.05.18-13.11.44:690][ 69]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimPreviewInstance_4' or package '/Engine/Transient'.
+[2017.05.18-13.11.44:690][ 69]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimPreviewInstance_2' or package '/Engine/Transient'.
+[2017.05.18-13.11.46:935][262]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/HeroBP" FILE="E:/Unreal Project/LabProject02/Content/Player/HeroBP.uasset" SILENT=true
+[2017.05.18-13.11.46:964][262]LogSavePackage: Save=26.85ms
+[2017.05.18-13.11.46:964][262]LogSavePackage: Moving 'E:/Unreal Project/LabProject02/Saved/HeroBP03B1B6964A65E7FC880AF6958369DC86.tmp' to 'E:/Unreal Project/LabProject02/Content/Player/HeroBP.uasset'
+[2017.05.18-13.11.46:966][262]LogSavePackage:Display: Finished SavePackage E:/Unreal Project/LabProject02/Content/Player/HeroBP.uasset
+[2017.05.18-13.11.53:096][768]LogLinker:Warning: '/Game/FPWeapon/Mesh/SK_FPGun' 파일을 찾을 수 없습니다.
+[2017.05.18-13.11.53:096][768]LogLinker:Warning: '/Game/FPWeapon/Mesh/SK_FPGun' 파일을 찾을 수 없습니다.
+[2017.05.18-13.11.53:097][768]LogUObjectGlobals:Warning: 'Object /Game/FPWeapon/Mesh/SK_FPGun.SK_FPGun' 오브젝트를 찾는 데 실패했습니다.
+[2017.05.18-13.11.53:108][768]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_17:PersistentLevel.Actor_2.DebugSkelMeshComponent_4) Already registered. Aborting.
+[2017.05.18-13.11.53:138][768]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_17:PersistentLevel.Actor_2.DebugSkelMeshComponent_4) - call TermArticulated first.
+[2017.05.18-13.12.30:152][372]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/HeroAnimLocomotion" FILE="E:/Unreal Project/LabProject02/Content/Player/HeroAnimLocomotion.uasset" SILENT=true
+[2017.05.18-13.12.30:162][372]LogSavePackage: Save=8.70ms
+[2017.05.18-13.12.30:162][372]LogSavePackage: Moving 'E:/Unreal Project/LabProject02/Saved/HeroAnimLocomotion4C6CD3334BD783DAA37B4F8A85FF653B.tmp' to 'E:/Unreal Project/LabProject02/Content/Player/HeroAnimLocomotion.uasset'
+[2017.05.18-13.12.30:164][372]LogSavePackage:Display: Finished SavePackage E:/Unreal Project/LabProject02/Content/Player/HeroAnimLocomotion.uasset
+[2017.05.18-13.14.05:075][968]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/HeroAnimLocomotion" FILE="E:/Unreal Project/LabProject02/Content/Player/HeroAnimLocomotion.uasset" SILENT=true
+[2017.05.18-13.14.05:081][968]LogSavePackage: Save=2.65ms
+[2017.05.18-13.14.05:081][968]LogSavePackage: Moving 'E:/Unreal Project/LabProject02/Saved/HeroAnimLocomotionEDDB846F45C4E57149DEAC81DD472528.tmp' to 'E:/Unreal Project/LabProject02/Content/Player/HeroAnimLocomotion.uasset'
+[2017.05.18-13.14.05:083][968]LogSavePackage:Display: Finished SavePackage E:/Unreal Project/LabProject02/Content/Player/HeroAnimLocomotion.uasset
+[2017.05.18-13.14.59:695][410]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.05.18-13.15.25:121][ 74]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_22:PersistentLevel.Actor_3.DebugSkelMeshComponent_6) Already registered. Aborting.
+[2017.05.18-13.15.25:331][ 74]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_22:PersistentLevel.Actor_3.DebugSkelMeshComponent_6) - call TermArticulated first.
+[2017.05.18-13.15.41:144][402]LogSlate: Took 0.000307 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.05.18-13.16.02:147][ 69]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.05.18-13.16.08:924][587]BlueprintLog: New page: HeroBP 컴파일
+[2017.05.18-13.16.16:908][175]BlueprintLog: New page: HeroAnimBluePrint 컴파일
+[2017.05.18-13.17.47:574][735]Cmd: OBJ SAVEPACKAGE PACKAGE="/Temp/Untitled_1" FILE="E:/Unreal Project/LabProject02/Saved/Autosaves/Temp/Untitled_1_Auto5.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.05.18-13.17.47:596][735]LogSavePackage: Save=21.48ms
+[2017.05.18-13.17.47:596][735]LogSavePackage: Moving 'E:/Unreal Project/LabProject02/Saved/Untitled_1_Auto59A8981774EEEA9CFC1E31BBE0431E149.tmp' to 'E:/Unreal Project/LabProject02/Saved/Autosaves/Temp/Untitled_1_Auto5.umap'
+[2017.05.18-13.17.47:597][735]LogSavePackage:Display: Finished SavePackage E:/Unreal Project/LabProject02/Saved/Autosaves/Temp/Untitled_1_Auto5.umap
+[2017.05.18-13.17.47:598][735]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.042
+[2017.05.18-13.17.47:598][735]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.042
+[2017.05.18-13.17.47:600][735]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Player/HeroAnimLocomotion] ([1] browsable assets)...
+[2017.05.18-13.17.47:614][735]OBJ SavePackage:     Rendered thumbnail for [BlendSpace /Game/Player/HeroAnimLocomotion.HeroAnimLocomotion]
+[2017.05.18-13.17.47:614][735]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player/HeroAnimLocomotion]
+[2017.05.18-13.17.47:614][735]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/HeroAnimLocomotion" FILE="E:/Unreal Project/LabProject02/Saved/Autosaves/Game/Player/HeroAnimLocomotion_Auto5.uasset" SILENT=false AUTOSAVING=true
+[2017.05.18-13.17.47:626][735]LogSavePackage: Save=9.69ms
+[2017.05.18-13.17.47:626][735]LogSavePackage: Moving 'E:/Unreal Project/LabProject02/Saved/HeroAnimLocomotion_Auto5E4D55A3E4AF6B42BF6AD55955A04992A.tmp' to 'E:/Unreal Project/LabProject02/Saved/Autosaves/Game/Player/HeroAnimLocomotion_Auto5.uasset'
+[2017.05.18-13.17.47:627][735]LogSavePackage:Display: Finished SavePackage E:/Unreal Project/LabProject02/Saved/Autosaves/Game/Player/HeroAnimLocomotion_Auto5.uasset
+[2017.05.18-13.17.47:627][735]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Player/HeroAnimBluePrint] ([1] browsable assets)...
+[2017.05.18-13.17.47:641][735]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Player/HeroAnimBluePrint.HeroAnimBluePrint]
+[2017.05.18-13.17.47:641][735]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player/HeroAnimBluePrint]
+[2017.05.18-13.17.47:641][735]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/HeroAnimBluePrint" FILE="E:/Unreal Project/LabProject02/Saved/Autosaves/Game/Player/HeroAnimBluePrint_Auto5.uasset" SILENT=false AUTOSAVING=true
+[2017.05.18-13.17.47:658][735]LogSavePackage: Save=15.60ms
+[2017.05.18-13.17.47:658][735]LogSavePackage: Moving 'E:/Unreal Project/LabProject02/Saved/HeroAnimBluePrint_Auto5B02197D54EF5C3E5528D548576F762DA.tmp' to 'E:/Unreal Project/LabProject02/Saved/Autosaves/Game/Player/HeroAnimBluePrint_Auto5.uasset'
+[2017.05.18-13.17.47:659][735]LogSavePackage:Display: Finished SavePackage E:/Unreal Project/LabProject02/Saved/Autosaves/Game/Player/HeroAnimBluePrint_Auto5.uasset
+[2017.05.18-13.17.47:659][735]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Player/HeroBP] ([1] browsable assets)...
+[2017.05.18-13.17.47:682][735]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Player/HeroBP.HeroBP]
+[2017.05.18-13.17.47:682][735]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player/HeroBP]
+[2017.05.18-13.17.47:682][735]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/HeroBP" FILE="E:/Unreal Project/LabProject02/Saved/Autosaves/Game/Player/HeroBP_Auto5.uasset" SILENT=false AUTOSAVING=true
+[2017.05.18-13.17.47:710][735]LogSavePackage: Save=25.88ms
+[2017.05.18-13.17.47:710][735]LogSavePackage: Moving 'E:/Unreal Project/LabProject02/Saved/HeroBP_Auto5A398FE29490E42795E9C13BC09FDCFE2.tmp' to 'E:/Unreal Project/LabProject02/Saved/Autosaves/Game/Player/HeroBP_Auto5.uasset'
+[2017.05.18-13.17.47:711][735]LogSavePackage:Display: Finished SavePackage E:/Unreal Project/LabProject02/Saved/Autosaves/Game/Player/HeroBP_Auto5.uasset
+[2017.05.18-13.17.47:712][735]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/NewBlendSpace" FILE="E:/Unreal Project/LabProject02/Saved/Autosaves/Game/Player/NewBlendSpace_Auto5.uasset" SILENT=false AUTOSAVING=true
+[2017.05.18-13.17.47:713][735]LogSavePackage: Save=0.88ms
+[2017.05.18-13.17.47:713][735]LogSavePackage: Moving 'E:/Unreal Project/LabProject02/Saved/NewBlendSpace_Auto5FE00469A4C3597B2FCF2BBBA33DD801F.tmp' to 'E:/Unreal Project/LabProject02/Saved/Autosaves/Game/Player/NewBlendSpace_Auto5.uasset'
+[2017.05.18-13.17.47:714][735]LogSavePackage:Display: Finished SavePackage E:/Unreal Project/LabProject02/Saved/Autosaves/Game/Player/NewBlendSpace_Auto5.uasset
+[2017.05.18-13.17.47:715][735]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton] ([1] browsable assets)...
+[2017.05.18-13.17.47:715][735]OBJ SavePackage: Finished generating thumbnails for package [/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton]
+[2017.05.18-13.17.47:719][735]LogSavePackage: Save=1.76ms
+[2017.05.18-13.17.47:719][735]LogSavePackage: Moving 'E:/Unreal Project/LabProject02/Saved/UE4_Mannequin_Skeleton_Auto59249AE924B2D528E1ACD40B89528D505.tmp' to 'E:/Unreal Project/LabProject02/Saved/Autosaves/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton_Auto5.uasset'
+[2017.05.18-13.17.47:720][735]LogSavePackage:Display: Finished SavePackage E:/Unreal Project/LabProject02/Saved/Autosaves/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton_Auto5.uasset
+[2017.05.18-13.17.47:720][735]LogFileHelpers: Auto-saving content packages took 0.121
+[2017.05.18-13.17.49:002][834]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/HeroBP" FILE="E:/Unreal Project/LabProject02/Content/Player/HeroBP.uasset" SILENT=true
+[2017.05.18-13.17.49:023][834]LogSavePackage: Save=19.85ms
+[2017.05.18-13.17.49:023][834]LogSavePackage: Moving 'E:/Unreal Project/LabProject02/Saved/HeroBP19CC4D7C4D4C18262E25F5AAB42AD90F.tmp' to 'E:/Unreal Project/LabProject02/Content/Player/HeroBP.uasset'
+[2017.05.18-13.17.49:025][834]LogSavePackage:Display: Finished SavePackage E:/Unreal Project/LabProject02/Content/Player/HeroBP.uasset
+[2017.05.18-13.17.49:043][834]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/HeroAnimBluePrint" FILE="E:/Unreal Project/LabProject02/Content/Player/HeroAnimBluePrint.uasset" SILENT=true
+[2017.05.18-13.17.49:060][834]LogSavePackage: Save=15.63ms
+[2017.05.18-13.17.49:060][834]LogSavePackage: Moving 'E:/Unreal Project/LabProject02/Saved/HeroAnimBluePrintC6DD9A694BD965DAF31C0BBDF4501EDC.tmp' to 'E:/Unreal Project/LabProject02/Content/Player/HeroAnimBluePrint.uasset'
+[2017.05.18-13.17.49:062][834]LogSavePackage:Display: Finished SavePackage E:/Unreal Project/LabProject02/Content/Player/HeroAnimBluePrint.uasset
+[2017.05.18-13.17.49:065][834]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/HeroAnimLocomotion" FILE="E:/Unreal Project/LabProject02/Content/Player/HeroAnimLocomotion.uasset" SILENT=true
+[2017.05.18-13.17.49:069][834]LogSavePackage: Save=2.56ms
+[2017.05.18-13.17.49:069][834]LogSavePackage: Moving 'E:/Unreal Project/LabProject02/Saved/HeroAnimLocomotion3604DAAA4EF267697DCD4D8229B517CD.tmp' to 'E:/Unreal Project/LabProject02/Content/Player/HeroAnimLocomotion.uasset'
+[2017.05.18-13.17.49:071][834]LogSavePackage:Display: Finished SavePackage E:/Unreal Project/LabProject02/Content/Player/HeroAnimLocomotion.uasset
+[2017.05.18-13.18.45:319][943]BlueprintLog: New page: HeroAnimBluePrint 컴파일
+[2017.05.18-13.18.46:140][992]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/HeroAnimBluePrint" FILE="E:/Unreal Project/LabProject02/Content/Player/HeroAnimBluePrint.uasset" SILENT=true
+[2017.05.18-13.18.46:160][992]LogSavePackage: Save=17.75ms
+[2017.05.18-13.18.46:160][992]LogSavePackage: Moving 'E:/Unreal Project/LabProject02/Saved/HeroAnimBluePrint7AF9CEC04174F127B04386A45F54A080.tmp' to 'E:/Unreal Project/LabProject02/Content/Player/HeroAnimBluePrint.uasset'
+[2017.05.18-13.18.46:162][992]LogSavePackage:Display: Finished SavePackage E:/Unreal Project/LabProject02/Content/Player/HeroAnimBluePrint.uasset
+[2017.05.18-13.18.47:963][162]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.05.18-13.18.47:973][162]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-13.18.47:973][162]PIE: New page: PIE 세션: Untitled_1 (2017. 5. 19. 오전 7:18:47)
+[2017.05.18-13.18.47:973][162]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2017.05.18-13.18.47:975][162]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001938s)
+[2017.05.18-13.18.47:976][162]LogAIModule: Creating AISystem for world Untitled_1
+[2017.05.18-13.18.47:976][162]LogPlayLevel: PIE: World Init took: (0.000985s)
+[2017.05.18-13.18.47:976][162]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.003169s)
+[2017.05.18-13.18.47:995][162]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.18-13.18.48:006][162]LogInit: FAudioDevice initialized.
+[2017.05.18-13.18.48:037][162]LogLoad: Game class is 'MyGameMode_C'
+[2017.05.18-13.18.48:040][162]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2017.05.18-22.18.48
+[2017.05.18-13.18.48:040][162]LogWorld: Bringing up level for play took: 0.001351
+[2017.05.18-13.18.48:043][162]PIE: 정보 /Temp/UEDPIE_0_Untitled_1 에 대한 에디터에서 플레이 시작 시간: 1.063
+[2017.05.18-13.24.05:877][535]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.05.18-13.24.05:888][535]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-13.24.05:888][535]PIE: New page: PIE 세션: Untitled_1 (2017. 5. 19. 오전 7:24:05)
+[2017.05.18-13.24.05:888][535]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2017.05.18-13.24.05:890][535]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001673s)
+[2017.05.18-13.24.05:891][535]LogAIModule: Creating AISystem for world Untitled_1
+[2017.05.18-13.24.05:891][535]LogPlayLevel: PIE: World Init took: (0.001052s)
+[2017.05.18-13.24.05:891][535]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.002968s)
+[2017.05.18-13.24.05:911][535]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.18-13.24.05:921][535]LogInit: FAudioDevice initialized.
+[2017.05.18-13.24.05:953][535]LogLoad: Game class is 'MyGameMode_C'
+[2017.05.18-13.24.05:955][535]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2017.05.18-22.24.05
+[2017.05.18-13.24.05:955][535]LogWorld: Bringing up level for play took: 0.000840
+[2017.05.18-13.24.05:956][535]PIE: 정보 /Temp/UEDPIE_0_Untitled_1 에 대한 에디터에서 플레이 시작 시간: 0.977
+[2017.05.18-13.24.35:672][280]BlueprintLog: New page: HeroBP 컴파일
+[2017.05.18-13.25.53:036][339]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.05.18-13.25.53:267][339]LogLinker: '/Game/Hero/HeroBP' 파일을 찾을 수 없습니다.
+[2017.05.18-13.25.53:267][339]LogLinker: '/Game/Hero/HeroBP' 파일을 찾을 수 없습니다.
+[2017.05.18-13.25.56:554][633]BlueprintLog: New page: HeroBP 컴파일
+[2017.05.18-13.25.57:251][677]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/HeroBP" FILE="E:/Unreal Project/LabProject02/Content/Player/HeroBP.uasset" SILENT=true
+[2017.05.18-13.25.57:282][677]LogSavePackage: Save=27.79ms
+[2017.05.18-13.25.57:282][677]LogSavePackage: Moving 'E:/Unreal Project/LabProject02/Saved/HeroBPDD997BF14D8DE09C66B823807518E057.tmp' to 'E:/Unreal Project/LabProject02/Content/Player/HeroBP.uasset'
+[2017.05.18-13.25.57:284][677]LogSavePackage:Display: Finished SavePackage E:/Unreal Project/LabProject02/Content/Player/HeroBP.uasset
+[2017.05.18-13.26.03:413][289]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.05.18-13.26.03:422][289]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-13.26.03:422][289]PIE: New page: PIE 세션: Untitled_1 (2017. 5. 19. 오전 7:26:03)
+[2017.05.18-13.26.03:423][289]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2017.05.18-13.26.03:424][289]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001612s)
+[2017.05.18-13.26.03:425][289]LogAIModule: Creating AISystem for world Untitled_1
+[2017.05.18-13.26.03:425][289]LogPlayLevel: PIE: World Init took: (0.001013s)
+[2017.05.18-13.26.03:425][289]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.002851s)
+[2017.05.18-13.26.03:443][289]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.18-13.26.03:453][289]LogInit: FAudioDevice initialized.
+[2017.05.18-13.26.03:492][289]LogLoad: Game class is 'MyGameMode_C'
+[2017.05.18-13.26.03:495][289]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2017.05.18-22.26.03
+[2017.05.18-13.26.03:496][289]LogWorld: Bringing up level for play took: 0.001847
+[2017.05.18-13.26.03:500][289]PIE: 정보 /Temp/UEDPIE_0_Untitled_1 에 대한 에디터에서 플레이 시작 시간: 0.52
+[2017.05.18-13.28.29:795][825]BlueprintLog: New page: GunBP 컴파일
+[2017.05.18-13.28.30:752][871]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/GunBP" FILE="E:/Unreal Project/LabProject02/Content/Player/GunBP.uasset" SILENT=true
+[2017.05.18-13.28.30:769][871]LogSavePackage: Save=16.03ms
+[2017.05.18-13.28.30:769][871]LogSavePackage: Moving 'E:/Unreal Project/LabProject02/Saved/GunBP7F10457247FA6789072868A290BCC60C.tmp' to 'E:/Unreal Project/LabProject02/Content/Player/GunBP.uasset'
+[2017.05.18-13.28.30:771][871]LogSavePackage:Display: Finished SavePackage E:/Unreal Project/LabProject02/Content/Player/GunBP.uasset
+[2017.05.18-13.29.09:915][687]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.016
+[2017.05.18-13.29.09:916][687]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Player/HeroBP] ([1] browsable assets)...
+[2017.05.18-13.29.09:916][687]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player/HeroBP]
+[2017.05.18-13.29.09:916][687]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/HeroBP" FILE="E:/Unreal Project/LabProject02/Saved/Autosaves/Game/Player/HeroBP_Auto6.uasset" SILENT=false AUTOSAVING=true
+[2017.05.18-13.29.09:939][687]LogSavePackage: Save=21.62ms
+[2017.05.18-13.29.09:940][687]LogSavePackage: Moving 'E:/Unreal Project/LabProject02/Saved/HeroBP_Auto649AF99B5416D7A5E3DF6B3B42606EFB9.tmp' to 'E:/Unreal Project/LabProject02/Saved/Autosaves/Game/Player/HeroBP_Auto6.uasset'
+[2017.05.18-13.29.09:940][687]LogSavePackage:Display: Finished SavePackage E:/Unreal Project/LabProject02/Saved/Autosaves/Game/Player/HeroBP_Auto6.uasset
+[2017.05.18-13.29.09:940][687]LogFileHelpers: Auto-saving content packages took 0.025
+[2017.05.18-13.29.17:293][328]LogLinker: '/Game/Gun/GunBP' 파일을 찾을 수 없습니다.
+[2017.05.18-13.29.17:293][328]LogLinker: '/Game/Gun/GunBP' 파일을 찾을 수 없습니다.
+[2017.05.18-13.29.17:293][328]LogLinker: '/Game/Gun/BulletBP' 파일을 찾을 수 없습니다.
+[2017.05.18-13.29.17:294][328]LogLinker: '/Game/Gun/BulletBP' 파일을 찾을 수 없습니다.
+[2017.05.18-13.29.17:298][328]LogBlueprint:Warning: [GunBP] 'FirePoint' variable not found. Base class was probably changed.
+[2017.05.18-13.29.17:298][328]LogBlueprint:Warning: [GunBP] 'Timer' variable not found. Base class was probably changed.
+[2017.05.18-13.29.17:298][328]LogBlueprint:Warning: [GunBP] 'Timer' variable not found. Base class was probably changed.
+[2017.05.18-13.29.27:894][262]BlueprintLog: New page: GunBP 컴파일
+[2017.05.18-13.29.27:902][262]LogBlueprint:Error: [Compiler GunBP] 오류  SpawnActor NONE  스폰 노드에는 반드시  Class  지정이 되어 있어야 합니다.
+[2017.05.18-13.29.28:162][262]BlueprintEditorCompileResults:Error: 오류  SpawnActor NONE  스폰 노드에는 반드시  Class  지정이 되어 있어야 합니다.
+[2017.05.18-13.29.28:163][262]LogBlueprint:Warning: [Compiler GunBP] 경고 [0107.90] GunBP 컴파일에 실패했습니다. 치명적 문제 1 회, 경고 0 회, [소요시간 268 ms] (/Game/Player/GunBP.GunBP)
+[2017.05.18-13.29.31:084][505]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.05.18-13.30.40:655][ 54]BlueprintLog: New page: BulletBP 컴파일
+[2017.05.18-13.30.41:340][ 81]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/BulletBP" FILE="E:/Unreal Project/LabProject02/Content/Player/BulletBP.uasset" SILENT=true
+[2017.05.18-13.30.41:356][ 81]LogSavePackage: Save=14.86ms
+[2017.05.18-13.30.41:356][ 81]LogSavePackage: Moving 'E:/Unreal Project/LabProject02/Saved/BulletBPE2CC6D5E4233C5FDC965598A41521BCF.tmp' to 'E:/Unreal Project/LabProject02/Content/Player/BulletBP.uasset'
+[2017.05.18-13.30.41:358][ 81]LogSavePackage:Display: Finished SavePackage E:/Unreal Project/LabProject02/Content/Player/BulletBP.uasset
+[2017.05.18-13.30.48:812][724]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.05.18-13.30.54:466][226]BlueprintLog: New page: GunBP 컴파일
+[2017.05.18-13.30.55:647][319]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/GunBP" FILE="E:/Unreal Project/LabProject02/Content/Player/GunBP.uasset" SILENT=true
+[2017.05.18-13.30.55:670][319]LogSavePackage: Save=20.12ms
+[2017.05.18-13.30.55:670][319]LogSavePackage: Moving 'E:/Unreal Project/LabProject02/Saved/GunBPB0DB477242E5840E41FB46BA570DA7E6.tmp' to 'E:/Unreal Project/LabProject02/Content/Player/GunBP.uasset'
+[2017.05.18-13.30.55:672][319]LogSavePackage:Display: Finished SavePackage E:/Unreal Project/LabProject02/Content/Player/GunBP.uasset
